@@ -1,2 +1,41 @@
-$color_1: red;
-$color_2: blue;
+//colors
+$textColor: #2d3436;
+$mainBackgroundColor: #ffffff;
+$promoFigure: #ffeaa7;
+$promoStrongWord: #e84393;
+
+//mixins
+@mixin fonts($weight, $size, $height) {
+  font-weight: $weight;
+  font-size: $size;
+  line-height: $height;
+  opacity: 1;
+}
+
+//font-templates
+%text__regular {
+  @include fonts(400, 18px, 32px) //font-weight: 400;
+    //font-size: 18px;
+    //line-height: 32px;
+;
+}
+
+%title__main {
+  @include fonts(800, 96px, 104px) //font-weight: 800;
+    //font-size: 96px;
+    //line-height: 104px;
+;
+}
+
+%title__block_large {
+  @include fonts(900, 64px, 77px) //font-weight: 900;
+    //font-size: 64px;
+    //line-height: 77px;
+;
+}
+
+//templates
+%paddings__block {
+  padding: 80px 135px;
+  box-sizing: border-box;
+}

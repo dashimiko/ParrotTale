@@ -1,0 +1,17 @@
+@import '../../commonStyles/commonStyles.scss';
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  //justify-content: center;
+  color: $textColor;
+  background-color: $mainBackgroundColor;
+  overflow: hidden;
+}
+
+.App__container {
+  max-width: 1440px;
+  width: 100%;
+}
