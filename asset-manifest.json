@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/rainbow/static/css/main.f69e31a7.css",
+    "main.js": "/rainbow/static/js/main.44ed4edf.js",
+    "index.html": "/rainbow/index.html",
+    "main.f69e31a7.css.map": "/rainbow/static/css/main.f69e31a7.css.map",
+    "main.44ed4edf.js.map": "/rainbow/static/js/main.44ed4edf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f69e31a7.css",
+    "static/js/main.44ed4edf.js"
+  ]
+}
