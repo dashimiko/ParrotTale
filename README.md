@@ -1,3 +1,3 @@
-# template for creative landing page
+# creative and colorful landing page
 
-💫 скоро здесь будет красивоo 💫
+💫 скоро здесь будет красиво 💫
