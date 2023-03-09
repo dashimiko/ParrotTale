@@ -1,6 +1,7 @@
 {
-  "name": "landing-template",
+  "name": "rainbow",
   "version": "0.1.0",
+  "homepage": "https://dashimiko.github.io/rainbow",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -18,8 +19,8 @@
     "lint": "eslint src",
     "eject": "react-scripts eject",
     "prepare": "husky install",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build"
   },
   "eslintConfig": {
     "extends": [
