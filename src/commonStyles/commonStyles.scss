@@ -2,7 +2,8 @@
 $textColor: #2d3436;
 $mainBackgroundColor: #ffffff;
 $promoFigure: #ffeaa7;
-$promoStrongWord: #e84393;
+$promoStrongWord: #d63031;
+//#e84393 pink;
 
 //mixins
 @mixin fonts($weight, $size, $height) {
@@ -12,29 +13,23 @@ $promoStrongWord: #e84393;
   opacity: 1;
 }
 
-//font-templates
+//здесь будет миксин для картинок
+//шаблон для кнопок ссылок
+
+//font templates
 %text__regular {
-  @include fonts(400, 18px, 32px) //font-weight: 400;
-    //font-size: 18px;
-    //line-height: 32px;
-;
+  @include fonts(400, 18px, 32px);
 }
 
 %title__main {
-  @include fonts(800, 96px, 104px) //font-weight: 800;
-    //font-size: 96px;
-    //line-height: 104px;
-;
+  @include fonts(800, 96px, 104px);
 }
 
 %title__block_large {
-  @include fonts(900, 64px, 77px) //font-weight: 900;
-    //font-size: 64px;
-    //line-height: 77px;
-;
+  @include fonts(900, 64px, 77px);
 }
 
-//templates
+//padding and margin templates
 %paddings__block {
   padding: 80px 135px;
   box-sizing: border-box;
