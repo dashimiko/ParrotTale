@@ -1,0 +1,66 @@
+$color: #111;
+//$primary: #ffeaa7;
+$primary: #6c5ce7;
+
+.link {
+  text-decoration: none;
+  color: $color;
+}
+
+.explore-button {
+  position: relative;
+  padding: 19px 22px;
+  transition: all 0.2s ease;
+  margin: auto;
+  &::before {
+    content: '';
+    position: absolute;
+    top: 18%;
+    left: 3px;
+    display: block;
+    border-radius: 28px;
+    background: rgba($primary, 0.5);
+    width: 56px;
+    height: 56px;
+    transition: all 0.3s ease;
+  }
+  span {
+    position: relative;
+    font-size: 32px;
+    //font-size: 16px;
+    line-height: 48px;
+    font-weight: 700;
+    //font-weight: 900;
+    //letter-spacing: 0.25em;
+    letter-spacing: -0.5px;
+    //text-transform: uppercase;
+    vertical-align: middle;
+  }
+  svg {
+    position: relative;
+    top: 3px;
+    margin-left: 10px;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: $color;
+    stroke-width: 2;
+    transform: translateX(-5px);
+    transition: all 0.3s ease;
+  }
+
+  &:hover {
+    color: white;
+    &:before {
+      width: 100%;
+      background: rgba($primary, 1);
+    }
+    svg {
+      transform: translateX(30px);
+      stroke: white;
+    }
+    &:active {
+      transform: scale(0.96);
+    }
+  }
+}

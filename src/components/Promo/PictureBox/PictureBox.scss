@@ -1,0 +1,143 @@
+@import '../../../commonStyles/commonStyles.scss';
+
+.pictureBox {
+  margin: 64px 0 0 0;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  opacity: 1;
+  z-index: 2;
+  position: relative;
+}
+
+.pictureBox__fragment_left {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.pictureBox__pic1-headline {
+  @extend %null__item;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: white;
+  position: absolute;
+  top: 18%;
+  left: 7%;
+}
+
+.pictureBox__pic1-descripton {
+  @extend %null__item;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  display: block;
+  color: white;
+  position: absolute;
+  top: 27%;
+  left: 26%;
+}
+
+.pictureBox__pic_1 {
+  @include pictures(270px, 464px);
+}
+
+.pictureBox__text {
+  @extend %text__regular;
+}
+
+.pictureBox__text_left-figure {
+  max-width: 270px;
+  min-height: 102px;
+  margin: 0 0 16px 0;
+}
+
+.pictureBox__button {
+  margin: 30px 0 0;
+  max-width: 270px - 44px;
+  width: 100%;
+}
+
+.pictureBox__fragment_top {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 30px;
+  position: relative;
+}
+
+.pictureBox__pic_2 {
+  flex-grow: 1;
+  @include pictures(470px, 380px);
+}
+
+.pictureBox__pic_3 {
+  flex-grow: 1;
+  @include pictures(170px, 222px);
+}
+
+.pictureBox__pic_4 {
+  flex-grow: 1;
+  @include pictures(170px, 222px);
+}
+
+.pictureBox__figure-box {
+  display: flex;
+  gap: 30px;
+}
+
+.pictureBox__text_top-figure {
+  max-width: 370px;
+  min-height: 78px;
+}
+
+.pictureBox__fragment-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.pictureBox__figure {
+  @extend %null__item;
+}
+
+.pictureBox__pic_5 {
+  flex-grow: 1;
+  @include pictures(270px, 284px);
+}
+
+.pictureBox__pic_6 {
+  flex-grow: 1;
+  @include pictures(370px, 356px);
+}
+
+.pictureBox__pic2-headline {
+  @extend %title__pic-headline;
+  position: absolute;
+  bottom: 20px;
+  left: 5%;
+}
+
+.pictureBox__pic6-headline {
+  position: absolute;
+  top: 20px;
+  left: 39%;
+  @extend %title__pic-headline;
+}
+
+.pictureBox__pic_7 {
+  flex-grow: 1;
+  @include pictures(170px, 222px);
+}
+
+.pictureBox__fragment_bottom {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  position: relative;
+}

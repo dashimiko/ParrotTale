@@ -14,11 +14,28 @@ $promoStrongWord: #d63031;
 }
 
 //здесь будет миксин для картинок
+@mixin pictures($width, $height) {
+  max-width: $width;
+  height: $height;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
 //шаблон для кнопок ссылок
+//шаблон для обнуления
 
 //font templates
 %text__regular {
   @include fonts(400, 18px, 32px);
+}
+
+%null__item {
+  margin: 0;
+  padding: 0;
+}
+
+%text__button {
+  @include fonts(700, 32px, 48px);
 }
 
 %title__main {
@@ -27,6 +44,14 @@ $promoStrongWord: #d63031;
 
 %title__block_large {
   @include fonts(900, 64px, 77px);
+}
+
+%title__pic-headline {
+  text-shadow: 0px 4px 0px #000000;
+  color: white;
+  letter-spacing: -1px;
+  text-align: center;
+  @include fonts(700, 48px, 56px);
 }
 
 //padding and margin templates
