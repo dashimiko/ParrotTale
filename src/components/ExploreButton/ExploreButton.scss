@@ -1,10 +1,11 @@
-$color: #111;
+$color_inactive: #111;
+$color_active: white;
 //$primary: #ffeaa7;
 $primary: #6c5ce7;
 
 .link {
   text-decoration: none;
-  color: $color;
+  color: $color_inactive;
 }
 
 .explore-button {
@@ -27,13 +28,9 @@ $primary: #6c5ce7;
   span {
     position: relative;
     font-size: 32px;
-    //font-size: 16px;
     line-height: 48px;
     font-weight: 700;
-    //font-weight: 900;
-    //letter-spacing: 0.25em;
     letter-spacing: -0.5px;
-    //text-transform: uppercase;
     vertical-align: middle;
   }
   svg {
@@ -43,21 +40,21 @@ $primary: #6c5ce7;
     fill: none;
     stroke-linecap: round;
     stroke-linejoin: round;
-    stroke: $color;
+    stroke: $color_inactive;
     stroke-width: 2;
     transform: translateX(-5px);
     transition: all 0.3s ease;
   }
 
   &:hover {
-    color: white;
+    color: $color_active;
     &:before {
       width: 100%;
       background: rgba($primary, 1);
     }
     svg {
       transform: translateX(30px);
-      stroke: white;
+      stroke: $color_active;
     }
     &:active {
       transform: scale(0.96);

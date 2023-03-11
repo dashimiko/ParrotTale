@@ -2,9 +2,7 @@
 
 .pictureBox {
   margin: 64px 0 0 0;
-  display: flex;
-  flex-direction: row;
-  gap: 30px;
+  @include base-flex(row, 30px);
   opacity: 1;
   z-index: 2;
   position: relative;
@@ -18,9 +16,7 @@
 
 .pictureBox__pic1-headline {
   @extend %null__item;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 32px;
+  @include fonts(700, 18px, 32px);
   text-align: center;
   letter-spacing: 0.2px;
   color: white;
@@ -31,9 +27,7 @@
 
 .pictureBox__pic1-descripton {
   @extend %null__item;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
+  @include fonts(400, 14px, 24px);
   text-align: center;
   letter-spacing: 0.2px;
   display: block;
@@ -64,10 +58,8 @@
 }
 
 .pictureBox__fragment_top {
-  display: flex;
-  flex-direction: row;
+  @include base-flex(row, 30px);
   align-items: flex-end;
-  gap: 30px;
   position: relative;
 }
 
@@ -87,8 +79,7 @@
 }
 
 .pictureBox__figure-box {
-  display: flex;
-  gap: 30px;
+  @include base-flex(row, 30px);
 }
 
 .pictureBox__text_top-figure {
@@ -97,9 +88,7 @@
 }
 
 .pictureBox__fragment-container {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
+  @include base-flex(column, 30px);
 }
 
 .pictureBox__figure {
@@ -131,13 +120,11 @@
 }
 
 .pictureBox__pic_7 {
-  flex-grow: 1;
+  //flex-grow: 1;
   @include pictures(170px, 222px);
 }
 
 .pictureBox__fragment_bottom {
-  display: flex;
-  flex-direction: row;
-  gap: 30px;
+  @include base-flex(row, 30px);
   position: relative;
 }
