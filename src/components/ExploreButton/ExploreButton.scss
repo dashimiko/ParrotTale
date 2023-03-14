@@ -1,7 +1,9 @@
+@import '../../commonStyles/commonStyles.scss';
+
 $color_inactive: #111;
 $color_active: white;
 //$primary: #ffeaa7;
-$primary: #6c5ce7;
+//$primary: #6c5ce7;
 
 .link {
   text-decoration: none;
@@ -20,7 +22,7 @@ $primary: #6c5ce7;
     left: 3px;
     display: block;
     border-radius: 28px;
-    background: rgba($primary, 0.5);
+    background: rgba($violetButton, 0.5);
     width: 56px;
     height: 56px;
     transition: all 0.3s ease;
@@ -50,7 +52,7 @@ $primary: #6c5ce7;
     color: $color_active;
     &:before {
       width: 100%;
-      background: rgba($primary, 1);
+      background: rgba($violetButton, 1);
     }
     svg {
       transform: translateX(30px);
