@@ -1,7 +1,7 @@
+/* eslint-disable import/no-unresolved */
 import { React, useCallback } from 'react';
 import './CelebrationButton.scss';
-// eslint-disable-next-line import/no-unresolved
-import confetti from 'https://cdn.skypack.dev/canvas-confetti@1';
+import { confetti } from 'https://cdn.skypack.dev/canvas-confetti@1';
 
 function CelebrationButton({ buttonText, handleCelebrationButton }) {
   const addedConfetti = useCallback(() => {
