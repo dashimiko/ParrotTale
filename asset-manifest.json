@@ -1,14 +1,21 @@
 {
   "files": {
-    "main.css": "/rainbow/static/css/main.f021eb55.css",
-    "main.js": "/rainbow/static/js/main.b6edaa85.js",
+    "main.css": "/rainbow/static/css/main.895c0e74.css",
+    "main.js": "/rainbow/static/js/main.8e04215b.js",
+    "static/media/firstParrotPic.jpg": "/rainbow/static/media/firstParrotPic.c1964d49a2859593d472.jpg",
+    "static/media/secondParrotPic.jpg": "/rainbow/static/media/secondParrotPic.049184cd4a5ffdc3512f.jpg",
+    "static/media/fiveParrotPic.jpg": "/rainbow/static/media/fiveParrotPic.16fe43826cd909a08b87.jpg",
+    "static/media/sixParrotPic.jpg": "/rainbow/static/media/sixParrotPic.d7c636bf126af06b7453.jpg",
+    "static/media/thirdParrotPic.jpg": "/rainbow/static/media/thirdParrotPic.be57341c95e51dd67d61.jpg",
+    "static/media/sevenParrotPic.jpg": "/rainbow/static/media/sevenParrotPic.3786c0c43a0b094d3db6.jpg",
+    "static/media/fourthParrotPic.jpg": "/rainbow/static/media/fourthParrotPic.d9f53c6e88a2f013dfce.jpg",
     "static/media/dots.svg": "/rainbow/static/media/dots.56fa1fe596574e85aca4.svg",
     "index.html": "/rainbow/index.html",
-    "main.f021eb55.css.map": "/rainbow/static/css/main.f021eb55.css.map",
-    "main.b6edaa85.js.map": "/rainbow/static/js/main.b6edaa85.js.map"
+    "main.895c0e74.css.map": "/rainbow/static/css/main.895c0e74.css.map",
+    "main.8e04215b.js.map": "/rainbow/static/js/main.8e04215b.js.map"
   },
   "entrypoints": [
-    "static/css/main.f021eb55.css",
-    "static/js/main.b6edaa85.js"
+    "static/css/main.895c0e74.css",
+    "static/js/main.8e04215b.js"
   ]
 }
