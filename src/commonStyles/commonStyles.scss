@@ -16,9 +16,10 @@ $promoStrongWord: #d63031;
 //здесь будет миксин для картинок
 @mixin pictures($width, $height) {
   max-width: $width;
-  height: $height;
+  max-height: $height;
   border-radius: 20px;
   object-fit: cover;
+  width: 100%;
 }
 
 //миксин для флексов
