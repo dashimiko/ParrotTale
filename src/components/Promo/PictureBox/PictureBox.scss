@@ -6,6 +6,7 @@
   opacity: 1;
   z-index: 2;
   position: relative;
+  max-width: 1170px;
 }
 
 .pictureBox__fragment_left {
@@ -22,7 +23,7 @@
   color: white;
   position: absolute;
   top: 18%;
-  left: 7%;
+  //left: 7%;
 }
 
 .pictureBox__pic1-descripton {
