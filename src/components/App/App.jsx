@@ -13,6 +13,7 @@ function App() {
           <Routes>
             <Route path="/rainbow" element={<Promo />} />
             <Route path="/ticTacToe" element={<TicTacToe />} />
+            <Route path="*" element={<h3>nothing found</h3>} />
           </Routes>
         </main>
       </div>
