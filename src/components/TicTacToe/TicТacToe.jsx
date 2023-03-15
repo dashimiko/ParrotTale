@@ -1,8 +1,6 @@
 // import React from 'react';
 import { React, useState } from 'react';
 import './TicTacToe.scss';
-// eslint-disable-next-line import/no-unresolved
-
 import Square from './Square/Square';
 import CelebrationButton from '../CelebrationButton/СelebrationButton';
 
