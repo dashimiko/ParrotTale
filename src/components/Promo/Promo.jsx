@@ -19,7 +19,7 @@ function Promo() {
       <nav>
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/rainbow">Home</Link>
           </li>
           <li>
             <Link to="/tictactoe">TicTacToe</Link>
