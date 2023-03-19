@@ -3,7 +3,15 @@
 .promo {
   width: 100%;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   @extend %paddings__block;
+}
+
+.promo__box {
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .promo__text {

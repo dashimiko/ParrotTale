@@ -5,14 +5,14 @@ import './Navigation.scss';
 
 function Navigation() {
   return (
-    <nav className="navigation navigation_state_opened">
-      <ul className="navigation__list navigation__container">
+    <nav className="navigation">
+      <ul className="navigation__list">
         <li className="navigation__item">
           <NavLink
             exact
             to="/rainbow"
-            activeClassName="navigation__link_active navigation__link_menu-active"
-            className="navigation__link navigation__link_main link"
+            activeClassName="navigation__link_active"
+            className="navigation__link"
           >
             Главная
           </NavLink>
@@ -20,8 +20,8 @@ function Navigation() {
         <li className="navigation__item">
           <NavLink
             to="/tictactoe"
-            activeClassName="navigation__link_active navigation__link_menu-active"
-            className="navigation__link link"
+            activeClassName="navigation__link_active"
+            className="navigation__link navigation__link_with-dot"
           >
             TicTacToe
           </NavLink>
@@ -29,8 +29,8 @@ function Navigation() {
         <li className="navigation__item">
           <NavLink
             to="/nothing-here"
-            activeClassName="navigation__link_active navigation__link_menu-active"
-            className="navigation__link link"
+            activeClassName="navigation__link_active"
+            className="navigation__link navigation__link_with-dot"
           >
             Nothing Here
           </NavLink>

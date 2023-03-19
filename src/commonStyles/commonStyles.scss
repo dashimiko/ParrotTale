@@ -4,6 +4,7 @@ $mainBackgroundColor: #ffffff;
 $promoFigure: #ffeaa7;
 $promoStrongWord: #d63031;
 $violetButton: #6c5ce7;
+$yellowDetails: #fdcb6e;
 //#e84393 pink;
 
 //mixins
@@ -67,4 +68,9 @@ $violetButton: #6c5ce7;
 %paddings__block {
   padding: 80px 135px;
   box-sizing: border-box;
+}
+
+%links {
+  text-decoration: none;
+  cursor: pointer;
 }

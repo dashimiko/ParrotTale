@@ -5,6 +5,7 @@ import './App.scss';
 import Promo from '../Promo/Promo';
 import TicTacToe from '../TicTacToe/TicТacToe';
 import NotFound from '../NotFound/NotFound';
+import Header from '../Header/Header';
 
 function App() {
   return (
@@ -12,7 +13,18 @@ function App() {
       <div className="App__container">
         <main>
           <Routes>
-            <Route path="/rainbow" element={<Promo />} />
+            <Route
+              path="/rainbow"
+              element={
+                <>
+                  <Header />
+                  {/*
+                  <Promo />
+                  */}
+                  <Promo />
+                </>
+              }
+            />
             <Route path="/ticTacToe" element={<TicTacToe />} />
             <Route path="*" element={<NotFound />} />
           </Routes>

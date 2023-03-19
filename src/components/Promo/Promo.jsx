@@ -1,13 +1,11 @@
 import React from 'react';
 import './Promo.scss';
 import PictureBox from './PictureBox/PictureBox';
-import Header from '../Header/Header';
 
 function Promo() {
   return (
-    <>
-      <Header />
-      <section className="promo">
+    <section className="promo">
+      <div className="promo__box">
         <div className="promo__figure rotation" />
         <div className="promo__dots" />
         <div className="promo__title-box">
@@ -18,8 +16,8 @@ function Promo() {
           <h2 className="promo__subtitle">To represent a rainbow</h2>
         </div>
         <PictureBox />
-      </section>
-    </>
+      </div>
+    </section>
   );
 }
 
