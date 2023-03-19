@@ -4,11 +4,7 @@
   list-style: none;
   margin: 0;
   padding: 0;
-  display: flex;
-  gap: 40px;
-}
-
-.navigation__item {
+  @include base-flex(row, 40px);
 }
 
 .navigation__link_with-dot {
@@ -23,6 +19,13 @@
     border-radius: 50%;
     background: $yellowDetails;
   }
+}
+
+.navigation__link_active {
+  @include fonts(700, 18px, 32px);
+  @extend %links;
+  letter-spacing: 0.2px;
+  color: $textColor;
 }
 
 .navigation__link {

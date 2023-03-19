@@ -1,6 +1,7 @@
 @import '../../commonStyles/commonStyles.scss';
 
 .celebration__button {
+  cursor: pointer;
   background-color: $violetButton;
   color: #fff;
   border: 0;

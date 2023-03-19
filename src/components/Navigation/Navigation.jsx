@@ -9,10 +9,10 @@ function Navigation() {
       <ul className="navigation__list">
         <li className="navigation__item">
           <NavLink
-            exact
             to="/rainbow"
-            activeClassName="navigation__link_active"
-            className="navigation__link"
+            className={(navData) =>
+              navData.isActive ? 'navigation__link_active' : 'navigation__link'
+            }
           >
             Главная
           </NavLink>
@@ -20,17 +20,23 @@ function Navigation() {
         <li className="navigation__item">
           <NavLink
             to="/tictactoe"
-            activeClassName="navigation__link_active"
-            className="navigation__link navigation__link_with-dot"
+            className={(navData) =>
+              navData.isActive
+                ? 'navigation__link_active navigation__link_with-dot'
+                : 'navigation__link navigation__link_with-dot'
+            }
           >
             TicTacToe
           </NavLink>
         </li>
         <li className="navigation__item">
           <NavLink
-            to="/nothing-here"
-            activeClassName="navigation__link_active"
-            className="navigation__link navigation__link_with-dot"
+            to="/tictactoe"
+            className={(navData) =>
+              navData.isActive
+                ? 'navigation__link_active navigation__link_with-dot'
+                : 'navigation__link navigation__link_with-dot'
+            }
           >
             Nothing Here
           </NavLink>
