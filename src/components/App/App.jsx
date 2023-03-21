@@ -6,29 +6,38 @@ import Promo from '../Promo/Promo';
 import TicTacToe from '../TicTacToe/TicТacToe';
 import NotFound from '../NotFound/NotFound';
 import Header from '../Header/Header';
+import Footer from '../Footer/Footer';
 
 function App() {
   return (
     <div className="App">
       <div className="App__container">
-        <main>
-          <Routes>
-            <Route
-              path="/rainbow"
-              element={
-                <>
-                  <Header />
-                  {/*
+        <Routes>
+          <Route
+            path="/rainbow"
+            element={
+              <>
+                <Header />
+                <main className="main">
                   <Promo />
-                  */}
-                  <Promo />
-                </>
-              }
-            />
-            <Route path="/ticTacToe" element={<TicTacToe />} />
-            <Route path="*" element={<NotFound />} />
-          </Routes>
-        </main>
+                </main>
+                <Footer />
+              </>
+            }
+          />
+          <Route
+            path="/ticTacToe"
+            element={
+              <>
+                <Header />
+                <main>
+                  <TicTacToe />
+                </main>
+              </>
+            }
+          />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
       </div>
     </div>
   );

@@ -14,7 +14,7 @@ function Navigation() {
               navData.isActive ? 'navigation__link_active' : 'navigation__link'
             }
           >
-            Главная
+            Home
           </NavLink>
         </li>
         <li className="navigation__item">
@@ -31,7 +31,7 @@ function Navigation() {
         </li>
         <li className="navigation__item">
           <NavLink
-            to="/tictactoe"
+            to="/nothing"
             className={(navData) =>
               navData.isActive
                 ? 'navigation__link_active navigation__link_with-dot'

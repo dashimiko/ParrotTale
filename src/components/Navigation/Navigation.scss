@@ -32,4 +32,8 @@
   color: $violetButton;
   @extend %text__regular;
   @extend %links;
+  opacity: 1;
+  &:hover {
+    opacity: 0.8;
+  }
 }

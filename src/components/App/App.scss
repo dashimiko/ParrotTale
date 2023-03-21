@@ -1,14 +1,14 @@
 @import '../../commonStyles/commonStyles.scss';
 
 .App {
-  min-height: 100vh;
+  //min-height: 100vh;
   width: 100%;
   height: 100%;
   padding: 0;
   margin: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  //display: flex;
+  //flex-direction: column;
+  //align-items: center;
   //justify-content: center;
   color: $textColor;
   background-color: $mainBackgroundColor;
@@ -18,4 +18,11 @@
 
 .App__container {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main {
+  flex-grow: 1;
 }

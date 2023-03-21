@@ -8,7 +8,7 @@ import logo from '../../images/logo.svg';
 
 function Header() {
   return (
-    <section className="header">
+    <header className="header">
       <div className="header__box">
         <div className="logo__group">
           <Link to="/rainbow" className="header__link">
@@ -18,7 +18,7 @@ function Header() {
         </div>
         <Navigation />
       </div>
-    </section>
+    </header>
   );
 }
 
