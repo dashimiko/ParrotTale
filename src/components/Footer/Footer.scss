@@ -11,7 +11,8 @@
 }
 
 .footer__content {
-  max-width: 1440px;
+  max-width: 1170px;
+  margin: 0 auto;
   padding: 80px 135px 200px;
   display: flex;
   width: 100%;
@@ -56,6 +57,10 @@
   color: $violetButton;
   letter-spacing: -0.5px;
   text-decoration: none;
+  opacity: 1;
+  &:hover {
+    opacity: 0.8;
+  }
 }
 
 // wave
