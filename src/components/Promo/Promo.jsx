@@ -1,4 +1,3 @@
-import React from 'react';
 import './Promo.scss';
 import PictureBox from './PictureBox/PictureBox';
 

@@ -1,5 +1,5 @@
 /* eslint-disable import/no-unresolved */
-import { React, useCallback } from 'react';
+import { useCallback } from 'react';
 import './CelebrationButton.scss';
 // import {confetti} from 'https://cdn.skypack.dev/canvas-confetti@1';
 

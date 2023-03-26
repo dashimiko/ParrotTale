@@ -60,6 +60,10 @@ $yellowDetails: #fdcb6e;
   @include fonts(800, 12px, 15px);
 }
 
+%text__small {
+  @include fonts(400, 14px, 24px);
+}
+
 %title__pic-headline {
   text-shadow: 0px 4px 0px #000000;
   color: white;

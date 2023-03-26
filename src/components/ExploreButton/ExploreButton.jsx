@@ -1,4 +1,3 @@
-import React from 'react';
 import './ExploreButton.scss';
 
 function ExploreButton({ link, localStyleName }) {

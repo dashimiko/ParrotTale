@@ -1,4 +1,3 @@
-import React from 'react';
 import ExploreButton from '../../ExploreButton/ExploreButton';
 import './PictureBox.scss';
 import parrotPicture from '../../../images/firstParrotPic.jpg';

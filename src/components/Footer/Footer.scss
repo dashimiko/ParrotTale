@@ -39,6 +39,7 @@
   @include base-flex(row, 37px);
   list-style: none;
   @extend %null__item;
+  margin-bottom: 40px;
 }
 
 .footer__social-link {
@@ -60,6 +61,29 @@
   opacity: 1;
   &:hover {
     opacity: 0.8;
+  }
+}
+
+.footer__informaiton-box {
+  @include base-flex(row, 30px);
+  margin-top: 6px;
+  width: 100%;
+}
+
+.footer__informaiton-list {
+  list-style: none;
+  @extend %null__item;
+  @include base-flex(column, 16px);
+}
+
+.footer__informaiton-link {
+  @extend %links;
+  @extend %text__small;
+  color: $textColor;
+  min-width: 170px;
+  display: block;
+  &:hover {
+    color: $violetButton;
   }
 }
 

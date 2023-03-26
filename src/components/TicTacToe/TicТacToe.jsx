@@ -1,5 +1,5 @@
 // import React from 'react';
-import { React, useState } from 'react';
+import { useState } from 'react';
 import './TicTacToe.scss';
 import Square from './Square/Square';
 import CelebrationButton from '../CelebrationButton/СelebrationButton';
