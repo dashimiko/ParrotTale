@@ -1,7 +1,7 @@
 //colors
 $textColor: #2d3436;
 $mainBackgroundColor: #ffffff;
-$promoFigure: #ffeaa7;
+$promoFigure: #fad867;
 $promoStrongWord: #d63031;
 $violetButton: #6c5ce7;
 $yellowDetails: #fdcb6e;
@@ -15,7 +15,7 @@ $yellowDetails: #fdcb6e;
   opacity: 1;
 }
 
-//здесь будет миксин для картинок
+//миксин для картинок главной галереи
 @mixin pictures($width, $height) {
   max-width: $width;
   max-height: $height;
@@ -31,17 +31,9 @@ $yellowDetails: #fdcb6e;
   gap: $gap;
 }
 
-//шаблон для кнопок ссылок
-//шаблон для обнуления
-
 //font templates
 %text__regular {
   @include fonts(400, 18px, 32px);
-}
-
-%null__item {
-  margin: 0;
-  padding: 0;
 }
 
 %text__button {
@@ -83,6 +75,12 @@ $yellowDetails: #fdcb6e;
   box-sizing: border-box;
 }
 
+%null__item {
+  margin: 0;
+  padding: 0;
+}
+
+//link template
 %links {
   text-decoration: none;
   cursor: pointer;
