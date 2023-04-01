@@ -13,10 +13,10 @@ function ContactForm() {
   const handleSubmit = (event) => {
     event.preventDefault();
     emailjs.sendForm(
-      'service_voujwvw',
-      'template_qx9gjqj',
+      process.env.REACT_APP_SERVICE_ID,
+      process.env.REACT_APP_TEMPLATE_ID,
       event.target,
-      'dSaE_BkXJRsh9B75U'
+      process.env.REACT_APP_PUBLIC_KEY
     );
   };
 
