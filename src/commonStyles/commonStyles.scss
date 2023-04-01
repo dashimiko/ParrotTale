@@ -94,3 +94,17 @@ $basicGray: #f0f0f0;
   text-decoration: none;
   cursor: pointer;
 }
+
+//input template and mixin
+
+@mixin inputs($width, $height, $padding) {
+  flex-grow: 1;
+  box-sizing: border-box;
+  height: $height;
+  width: $width;
+  padding: $padding;
+}
+
+%input {
+  @include inputs(270px, 48px, 8px 16px);
+}

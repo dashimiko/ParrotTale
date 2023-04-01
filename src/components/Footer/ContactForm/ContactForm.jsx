@@ -1,4 +1,7 @@
 import { useState } from 'react';
+// eslint-disable-next-line import/no-unresolved
+// eslint-disable-next-line import/no-extraneous-dependencies
+import emailjs from '@emailjs/browser';
 import CelebrationButton from '../../CelebrationButton/СelebrationButton';
 import './ContactForm.scss';
 
@@ -7,18 +10,24 @@ function ContactForm() {
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
 
-  const handleSubmit = () => {
-    console.log(`Name: ${name}\nEmail: ${email}\nMessage: ${message}`);
-    // здесь можно добавить логику для отправки данных
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    emailjs.sendForm(
+      'service_voujwvw',
+      'template_qx9gjqj',
+      event.target,
+      'dSaE_BkXJRsh9B75U'
+    );
   };
 
   return (
-    <form className="contact-form">
+    <form className="contact-form" onSubmit={handleSubmit}>
       <div className="contact-form__box">
         <input
           className="contact-form__input contact-form__name"
           placeholder="Your name"
           type="text"
+          name="name_from"
           id="name-input"
           value={name}
           onChange={(event) => setName(event.target.value)}
@@ -28,6 +37,7 @@ function ContactForm() {
           className="contact-form__input contact-form__email"
           placeholder="E-mail"
           type="email"
+          name="email_from"
           id="email-input"
           value={email}
           onChange={(event) => setEmail(event.target.value)}
@@ -38,6 +48,7 @@ function ContactForm() {
         <textarea
           className="contact-form__input contact-form__text"
           placeholder="Leave your message"
+          name="message_from"
           id="message-input"
           value={message}
           onChange={(event) => setMessage(event.target.value)}
@@ -45,9 +56,11 @@ function ContactForm() {
         />
         <CelebrationButton
           buttonText="SEND"
-          handleCelebrationButton={handleSubmit}
           coordinateX={0.75}
           coordinateY={0.7}
+          handleCelebrationButton={() =>
+            console.log(`Name: ${name}\nEmail: ${email}\nMessage: ${message}`)
+          }
         />
       </div>
     </form>

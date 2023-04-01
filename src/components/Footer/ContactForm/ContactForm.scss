@@ -34,37 +34,14 @@
 }
 
 .contact-form__name {
-  flex-grow: 1;
-  height: 48px;
-  width: 270px;
-  padding: 8px 16px;
-  box-sizing: border-box;
-  position: relative;
-  &::after {
-    content: '';
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    background-image: url('../../../images/icons/icon-user.svg');
-    background-repeat: no-repeat;
-    background-size: contain;
-    right: 0;
-    top: 0;
-  }
+  @extend %input;
 }
 
 .contact-form__email {
-  flex-grow: 1;
-  height: 48px;
-  width: 270px;
-  padding: 8px 16px;
-  box-sizing: border-box;
+  @extend %input;
 }
 
 .contact-form__text {
-  height: 80px;
-  width: 370px;
-  padding: 16px;
-  box-sizing: border-box;
+  @include inputs(370px, 80px, 16px);
   resize: none;
 }
