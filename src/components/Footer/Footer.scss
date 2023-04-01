@@ -26,64 +26,15 @@
   flex-direction: column;
 }
 
-.footer__social-title {
-  display: block;
-  letter-spacing: 2.5px;
-  color: #adadad;
-  text-transform: uppercase;
-  @extend %text__caption;
-  margin-bottom: 10px;
-}
-
-.footer__social-box {
-  @include base-flex(row, 37px);
-  list-style: none;
-  @extend %null__item;
-  margin-bottom: 40px;
-}
-
-.footer__social-link {
-  display: block;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background-color: transparent;
-  &:hover {
-    background: $yellowDetails;
-  }
-}
-
 .footer__email {
   @extend %text__button;
   color: $violetButton;
   letter-spacing: -0.5px;
   text-decoration: none;
   opacity: 1;
+  margin-bottom: 40px;
   &:hover {
     opacity: 0.8;
-  }
-}
-
-.footer__informaiton-box {
-  @include base-flex(row, 30px);
-  margin-top: 6px;
-  width: 100%;
-}
-
-.footer__informaiton-list {
-  list-style: none;
-  @extend %null__item;
-  @include base-flex(column, 16px);
-}
-
-.footer__informaiton-link {
-  @extend %links;
-  @extend %text__small;
-  color: $textColor;
-  min-width: 170px;
-  display: block;
-  &:hover {
-    color: $violetButton;
   }
 }
 

@@ -63,8 +63,10 @@ function TicTacToe() {
   return (
     <section className="tic-tac-toe">
       <CelebrationButton
-        buttonText="new game"
+        buttonText="again"
         handleCelebrationButton={() => handleNewGame()}
+        coordinateX={0.5}
+        coordinateY={0.5}
       />
       <div className="tic-tac-toe__status">{status}</div>
       <div className="tic-tac-toe__square-border">

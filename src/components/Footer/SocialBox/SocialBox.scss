@@ -1,0 +1,28 @@
+@import '../../../commonStyles/commonStyles.scss';
+
+.footer__social-title {
+  display: block;
+  letter-spacing: 2.5px;
+  color: #adadad;
+  text-transform: uppercase;
+  @extend %text__caption;
+  margin-bottom: 10px;
+}
+
+.footer__social-box {
+  @include base-flex(row, 37px);
+  list-style: none;
+  @extend %null__item;
+  margin-bottom: 48px;
+}
+
+.footer__social-link {
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: transparent;
+  &:hover {
+    background: $yellowDetails;
+  }
+}

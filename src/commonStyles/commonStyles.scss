@@ -5,6 +5,7 @@ $promoFigure: #fad867;
 $promoStrongWord: #d63031;
 $violetButton: #6c5ce7;
 $yellowDetails: #fdcb6e;
+$basicGray: #f0f0f0;
 //#e84393 pink;
 
 //mixins
@@ -38,6 +39,14 @@ $yellowDetails: #fdcb6e;
 
 %text__button {
   @include fonts(700, 32px, 48px);
+}
+
+%text__button {
+  @include fonts(700, 32px, 48px);
+}
+
+%text__button_small {
+  @include fonts(700, 24px, 36px);
 }
 
 %title__main {

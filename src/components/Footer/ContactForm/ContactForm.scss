@@ -1,0 +1,70 @@
+@import '../../../commonStyles/commonStyles.scss';
+
+.contact-form {
+  width: 100%;
+  @include base-flex(column, 30px);
+  margin-top: 16px;
+}
+
+.contact-form__box {
+  @include base-flex(row, 30px);
+  width: 100%;
+}
+
+.contact-form__input {
+  font-family: inherit;
+  @extend %text__regular;
+  color: $textColor;
+  background-color: $basicGray;
+  border-radius: 16px;
+  border: none;
+  display: block;
+  &:focus {
+    outline-color: $violetButton;
+    outline-style: solid;
+    outline-width: 2px;
+    color: $violetButton;
+    font-weight: 700;
+  }
+  &::placeholder {
+    font-family: 'Inter';
+    @extend %text__regular;
+    color: $textColor;
+  }
+}
+
+.contact-form__name {
+  flex-grow: 1;
+  height: 48px;
+  width: 270px;
+  padding: 8px 16px;
+  box-sizing: border-box;
+  position: relative;
+  &::after {
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-image: url('../../../images/icons/icon-user.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    right: 0;
+    top: 0;
+  }
+}
+
+.contact-form__email {
+  flex-grow: 1;
+  height: 48px;
+  width: 270px;
+  padding: 8px 16px;
+  box-sizing: border-box;
+}
+
+.contact-form__text {
+  height: 80px;
+  width: 370px;
+  padding: 16px;
+  box-sizing: border-box;
+  resize: none;
+}

@@ -1,23 +1,23 @@
 @import '../../commonStyles/commonStyles.scss';
 
 .celebration__button {
+  box-sizing: border-box;
   cursor: pointer;
   background-color: $violetButton;
   color: #fff;
   border: 0;
-  padding: 0.5em 1.25em;
+  padding: 20px 50px;
   margin: 0 auto;
   z-index: 9;
-  border-radius: 28px;
+  border-radius: 16px;
+  text-align: center;
   position: relative;
   display: flex;
   gap: 0.5em;
-  width: 200px;
-  height: 100px;
-  font-size: 32px;
-  line-height: 32px;
-  font-weight: 700;
-  letter-spacing: -0.5px;
+  width: 170px;
+  height: 80px;
+  @extend %text__button_small;
+  letter-spacing: 0.25px;
   box-shadow: 0px 1.7px 2.2px rgba(0, 0, 0, 0.02),
     0px 4px 5.3px rgba(0, 0, 0, 0.028), 0px 7.5px 10px rgba(0, 0, 0, 0.035),
     0px 13.4px 17.9px rgba(0, 0, 0, 0.042),

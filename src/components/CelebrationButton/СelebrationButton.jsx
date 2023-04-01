@@ -6,13 +6,22 @@ import './CelebrationButton.scss';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import confetti from 'canvas-confetti';
 
-function CelebrationButton({ buttonText, handleCelebrationButton }) {
+function CelebrationButton({
+  buttonText,
+  handleCelebrationButton,
+  coordinateX,
+  coordinateY,
+}) {
   const addedConfetti = useCallback(() => {
     confetti({
       particleCount: 150,
       spread: 60,
+      origin: {
+        x: coordinateX,
+        y: coordinateY,
+      },
     });
-  }, []);
+  }, [coordinateX, coordinateY]);
 
   const onCelebrationButtonClick = () => {
     addedConfetti();
@@ -22,7 +31,7 @@ function CelebrationButton({ buttonText, handleCelebrationButton }) {
   return (
     <button
       className="celebration__button"
-      type="button"
+      type="submit"
       onClick={() => onCelebrationButtonClick()}
     >
       {buttonText}
