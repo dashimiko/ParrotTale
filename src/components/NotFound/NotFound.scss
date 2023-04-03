@@ -1,3 +1,5 @@
+@import '../../commonStyles/commonStyles.scss';
+
 .notfound {
   display: flex;
   flex-direction: column;
@@ -6,25 +8,86 @@
 }
 
 .notfound__title {
-  margin: 246px auto 5px;
-  font-weight: 400;
-  font-size: 140px;
-  line-height: 169px;
+  margin: 146px auto 5px;
+  color: $yellowDetails;
+  @extend %title__main;
 }
 
 .notfound__subtitle {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-  margin: 0 0 184px 0;
+  @extend %title__block_large;
+  margin: 0;
 }
 
 .notfound__link {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 17px;
+  @extend %text__regular;
   text-align: center;
-  color: #000000;
+  color: $textColor;
   border: none;
-  background-color: #ffffff;
+  &:hover {
+    color: $greenDetails;
+  }
+  // background-color: #ffffff;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  padding-top: 0px;
+  margin-right: 80%;
+}
+
+.loro {
+  position: relative;
+  width: 231px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.circ {
+  position: absolute;
+  width: 121px;
+  height: 212px;
+  border-radius: 300px 0 0 300px;
+  background: $greenDetails;
+  margin: 30px 50%;
+}
+
+.circ3 {
+  position: absolute;
+  display: block;
+  width: 80px;
+  height: 45px;
+  border-radius: 0 0 90px 90px;
+  background: #f7a500;
+  margin: 121px 192px;
+}
+
+.circ5 {
+  position: absolute;
+  width: 75px;
+  height: 121px;
+  border-radius: 90px 0 0 90px;
+  background: white;
+  margin: 70px 161px;
+}
+
+.ojo {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  background: #333;
+  border: 3px solid #ff6666;
+  margin: 90px 192px;
+  z-index: 33;
+}
+
+.circ7 {
+  position: absolute;
+  width: 55px;
+  height: 60px;
+  border-radius: 0 192px 0 0;
+  background: #f7ce43;
+  margin: 70px 235px;
 }

@@ -7,6 +7,7 @@ $violetButton: #6c5ce7;
 $yellowDetails: #fdcb6e;
 $basicGray: #f0f0f0;
 //#e84393 pink;
+$greenDetails: #25b1b0;
 
 //mixins
 @mixin fonts($weight, $size, $height) {
@@ -95,7 +96,7 @@ $basicGray: #f0f0f0;
   cursor: pointer;
 }
 
-//input template and mixin
+//input mixin
 
 @mixin inputs($width, $height, $padding) {
   flex-grow: 1;
@@ -105,6 +106,7 @@ $basicGray: #f0f0f0;
   padding: $padding;
 }
 
+//input template
 %input {
   @include inputs(270px, 48px, 8px 16px);
 }

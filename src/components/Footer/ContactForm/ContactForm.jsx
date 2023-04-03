@@ -59,7 +59,8 @@ function ContactForm() {
           coordinateX={0.75}
           coordinateY={0.7}
           handleCelebrationButton={() =>
-            console.log(`Name: ${name}\nEmail: ${email}\nMessage: ${message}`)
+            // eslint-disable-next-line no-console
+            console.log('congrat!')
           }
         />
       </div>
