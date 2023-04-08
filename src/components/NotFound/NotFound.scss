@@ -41,7 +41,7 @@
   position: relative;
   width: 231px;
   height: 300px;
-  margin: 0 auto;
+  margin-right: 120px;
 }
 
 .circ {
@@ -51,6 +51,7 @@
   border-radius: 300px 0 0 300px;
   background: $greenDetails;
   margin: 30px 50%;
+  z-index: 2;
 }
 
 .circ3 {
@@ -60,7 +61,8 @@
   height: 45px;
   border-radius: 0 0 90px 90px;
   background: #f7a500;
-  margin: 121px 192px;
+  margin: 140px 192px;
+  transform: rotate(20deg);
 }
 
 .circ5 {
@@ -70,6 +72,7 @@
   border-radius: 90px 0 0 90px;
   background: white;
   margin: 70px 161px;
+  z-index: 3;
 }
 
 .ojo {
@@ -85,9 +88,72 @@
 
 .circ7 {
   position: absolute;
-  width: 55px;
+  width: 65px;
   height: 60px;
   border-radius: 0 192px 0 0;
   background: #f7ce43;
-  margin: 70px 235px;
+  margin: 70px 215px;
+  transform: rotate(-25deg);
+}
+
+.circ8 {
+  position: absolute;
+  width: 45px;
+  height: 10px;
+  border-radius: 50%;
+  background: #ff6666;
+  margin: 135px 220px;
+  animation: circ8 0.5s infinite linear;
+}
+
+.text-figure {
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  margin: 85px 305px;
+  overflow: hidden;
+  border-radius: 50px;
+  border-style: solid;
+  border-color: $greenDetails;
+  border-width: 3px;
+}
+
+.aaaa {
+  @extend %title__block_large;
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+  white-space: nowrap;
+  animation: aaaa 1.5s infinite linear;
+  &:after {
+    content: 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA';
+  }
+}
+
+.detail {
+  width: 0;
+  height: 0;
+  position: absolute;
+  margin: 125px 285px;
+  border-top: 12px solid transparent;
+  border-right: 24px solid $greenDetails;
+  border-bottom: 12px solid transparent;
+}
+
+@keyframes aaaa {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes circ8 {
+  0% {
+    transform: rotate(-25deg);
+  }
+  100% {
+    transform: rotate(25deg);
+  }
 }
