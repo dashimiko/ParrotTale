@@ -6,6 +6,7 @@ import TicTacToe from '../TicTacToe/TicТacToe';
 import NotFound from '../NotFound/NotFound';
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
+import Benefits from '../Benefits/Benefits';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
                 <Header />
                 <main className="main">
                   <Promo />
+                  <Benefits />
                 </main>
                 <Footer />
               </>

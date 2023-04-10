@@ -103,7 +103,7 @@
   border-radius: 50%;
   background: #ff6666;
   margin: 135px 220px;
-  animation: circ8 0.5s infinite linear;
+  animation: circ8 1s infinite linear;
 }
 
 .text-figure {
@@ -151,9 +151,9 @@
 
 @keyframes circ8 {
   0% {
-    transform: rotate(-25deg);
+    transform: rotate(-15deg);
   }
   100% {
-    transform: rotate(25deg);
+    transform: rotate(10deg);
   }
 }

@@ -58,10 +58,7 @@ function ContactForm() {
           buttonText="SEND"
           coordinateX={0.75}
           coordinateY={0.7}
-          handleCelebrationButton={() =>
-            // eslint-disable-next-line no-console
-            console.log('congrat!')
-          }
+          handleCelebrationButton={() => null}
         />
       </div>
     </form>
