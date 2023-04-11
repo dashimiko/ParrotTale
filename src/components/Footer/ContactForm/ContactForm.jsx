@@ -21,7 +21,7 @@ function ContactForm() {
   };
 
   return (
-    <form className="contact-form" onSubmit={handleSubmit}>
+    <form className="contact-form" onSubmit={handleSubmit} noValidate>
       <div className="contact-form__box">
         <input
           className="contact-form__input contact-form__name"
@@ -30,6 +30,7 @@ function ContactForm() {
           name="name_from"
           id="name-input"
           value={name}
+          autoComplete="off"
           onChange={(event) => setName(event.target.value)}
           required
         />
@@ -40,6 +41,7 @@ function ContactForm() {
           name="email_from"
           id="email-input"
           value={email}
+          autoComplete="off"
           onChange={(event) => setEmail(event.target.value)}
           required
         />
@@ -51,6 +53,7 @@ function ContactForm() {
           name="message_from"
           id="message-input"
           value={message}
+          autoComplete="off"
           onChange={(event) => setMessage(event.target.value)}
           required
         />
