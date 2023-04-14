@@ -24,7 +24,12 @@ function Benefits() {
               Delivering faster and more personalized support with shared
               screens and cool design systems for Figma
             </p>
-            <a href="https://github.com/" className="benefits__link">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://github.com/"
+              className="benefits__link"
+            >
               Learn more
             </a>
           </article>
@@ -37,7 +42,12 @@ function Benefits() {
               Identify qualified customers with easy-to-use live chat messaging
               and AI-based Sales Bot
             </p>
-            <a href="https://github.com/" className="benefits__link">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://github.com/"
+              className="benefits__link"
+            >
               Learn more
             </a>
           </article>
@@ -50,7 +60,12 @@ function Benefits() {
               Delivering faster and more personalized support with shared
               screens and cool design systems for Figma
             </p>
-            <a href="https://github.com/" className="benefits__link">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://github.com/"
+              className="benefits__link"
+            >
               Learn more
             </a>
           </article>
@@ -63,7 +78,12 @@ function Benefits() {
               You can toggle to any icon within Instances and customize outlined
               stroke to more bolder or lighter
             </p>
-            <a href="https://github.com/" className="benefits__link">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://github.com/"
+              className="benefits__link"
+            >
               Learn more
             </a>
           </article>

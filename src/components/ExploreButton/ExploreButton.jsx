@@ -3,6 +3,8 @@ import './ExploreButton.scss';
 function ExploreButton({ link, localStyleName }) {
   return (
     <a
+      target="_blank"
+      rel="noreferrer"
       href={link}
       className={`${localStyleName} pictureBox__button explore-button link`}
     >
