@@ -67,6 +67,10 @@ $greenDetails: #25b1b0;
   @include fonts(400, 14px, 24px);
 }
 
+%text__benefits {
+  @include fonts(400, 24px, 36px);
+}
+
 %title__pic-headline {
   text-shadow: 0px 4px 0px #000000;
   color: white;
