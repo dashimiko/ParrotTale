@@ -1,0 +1,74 @@
+@import '../../commonStyles/commonStyles.scss';
+
+.FAQ__container {
+  background-color: $mainBackgroundColor;
+  width: 100%;
+}
+
+.FAQ__box {
+  width: 100%;
+  box-sizing: border-box;
+  max-width: 1440px;
+  padding: 80px 135px;
+  margin: 0 auto;
+}
+
+.FAQ__title {
+  @extend %title__small;
+  @extend %null__item;
+  margin-bottom: 30px;
+}
+
+.FAQ__accordion-box {
+  border: 3px solid $violetButton;
+  color: black;
+  border-radius: 16px;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  transition: all 0.5s ease-out;
+}
+
+.FAQ__accordion-box_2 {
+  border-color: $accentColorBlue;
+}
+
+.FAQ__accordion-box_3 {
+  border-color: $accentColorPink;
+}
+
+.FAQ__accordion-box_4 {
+  border-color: $accentColorGreen;
+}
+
+.FAQ__question {
+  padding: 0.5em 1.3rem;
+  @extend %text__button_small;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  //transition: height 1s ease;
+  transition: all 0.3s ease-out;
+  &::-webkit-details-marker {
+    display: none;
+  }
+  &::after {
+    content: '\002B';
+    transition: all 0.5s ease-out;
+  }
+}
+
+details[open] summary {
+  margin-bottom: 0.5em;
+  transition: all 0.5s ease-out;
+}
+
+details[open] summary:after {
+  content: '\00D7';
+  transition: all 0.5s ease-out;
+}
+
+details[open] div {
+  padding: 0.5em 1em;
+  @extend %text__regular;
+  transition: all 0.5s ease;
+}

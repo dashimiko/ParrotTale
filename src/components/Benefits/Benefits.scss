@@ -19,10 +19,8 @@
 }
 
 .benefits__title {
-  font-size: 32px;
-  line-height: 48px;
-  font-weight: 700;
   letter-spacing: -0.5px;
+  @extend %title__small;
   @extend %null__item;
 }
 
@@ -51,19 +49,19 @@
 }
 
 .benefits__card-icon_1 {
-  background-color: #e84393;
+  background-color: $accentColorPink;
 }
 
 .benefits__card-icon_2 {
-  background-color: #0984e3;
+  background-color: $accentColorBlue;
 }
 
 .benefits__card-icon_3 {
-  background-color: #6c5ce7;
+  background-color: $violetButton;
 }
 
 .benefits__card-icon_4 {
-  background-color: #00b894;
+  background-color: $accentColorGreen;
 }
 
 .benefits__card-pic {

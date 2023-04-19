@@ -9,6 +9,9 @@ $yellowDetails: #fdcb6e;
 $basicGray: #f0f0f0;
 //#e84393 pink;
 $greenDetails: #25b1b0;
+$accentColorPink: #e84393;
+$accentColorBlue: #0984e3;
+$accentColorGreen: #00b894;
 
 //mixins
 @mixin fonts($weight, $size, $height) {
@@ -69,6 +72,10 @@ $greenDetails: #25b1b0;
 
 %text__benefits {
   @include fonts(400, 24px, 36px);
+}
+
+%title__small {
+  @include fonts(700, 32px, 48px);
 }
 
 %title__pic-headline {
