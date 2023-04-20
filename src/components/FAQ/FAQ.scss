@@ -41,7 +41,7 @@
   display: flex;
   justify-content: space-between;
   //transition: height 1s ease;
-  transition: all 0.3s ease;
+  transition: all 0.5s ease;
   &::-webkit-details-marker {
     display: none;
   }
@@ -49,7 +49,7 @@
     content: '\002B';
     font-size: 36px;
     font-weight: 300;
-    transition: all 0.3s ease;
+    transition: all 0.5s ease;
   }
   &:hover {
     color: $violetDetails;
@@ -59,19 +59,19 @@
 details[open] summary {
   border-radius: 16px;
   margin-bottom: 0.5em;
-  transition: all 0.3s ease;
+  transition: all 0.5s ease;
 }
 
 details[open] summary:after {
-  content: '\00D7';
+  transform: rotate(45deg);
   font-size: 36px;
   font-weight: 300;
-  transition: all 0.3s ease;
+  transition: all 0.5s ease;
 }
 
 details[open] div {
   //padding: 1em 1em;
   padding: 0.5em 1.3em 1.3em 1.3em;
   @extend %text__regular;
-  transition: all 0.3s ease;
+  transition: all 0.5s ease;
 }
