@@ -12,9 +12,7 @@
   border-radius: 16px;
   text-align: center;
   position: relative;
-  display: flex;
   gap: 0.5em;
-  width: 170px;
   height: 80px;
   @extend %text__button_small;
   letter-spacing: 0.25px;

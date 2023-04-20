@@ -23,7 +23,7 @@
   //border-bottom: 3px solid $violetDetails;
   //border-bottom: dotted $violetDetails;
   border-bottom: dotted $yellowDetails;
-  border-width: 8px;
+  border-width: 10px;
   color: $textColor;
   font-size: 1.5rem;
   margin-bottom: 15px;
@@ -47,6 +47,8 @@
   }
   &::after {
     content: '\002B';
+    font-size: 36px;
+    font-weight: 300;
     transition: all 0.3s ease;
   }
   &:hover {
@@ -62,6 +64,8 @@ details[open] summary {
 
 details[open] summary:after {
   content: '\00D7';
+  font-size: 36px;
+  font-weight: 300;
   transition: all 0.3s ease;
 }
 
