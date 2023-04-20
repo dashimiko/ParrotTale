@@ -2,8 +2,6 @@
 
 $color_inactive: #111;
 $color_active: white;
-//$primary: #ffeaa7;
-//$primary: #6c5ce7;
 
 .link {
   text-decoration: none;
@@ -22,7 +20,7 @@ $color_active: white;
     left: 3px;
     display: block;
     border-radius: 28px;
-    background: rgba($violetButton, 0.5);
+    background: rgba($violetDetails, 0.5);
     width: 56px;
     height: 56px;
     transition: all 0.3s ease;
@@ -52,7 +50,7 @@ $color_active: white;
     color: $color_active;
     &:before {
       width: 100%;
-      background: rgba($violetButton, 1);
+      background: rgba($violetDetails, 1);
     }
     svg {
       transform: translateX(30px);

@@ -20,55 +20,71 @@
 }
 
 .FAQ__accordion-box {
-  border: 3px solid $violetButton;
+  border: 3px solid $violetDetails;
   color: black;
   border-radius: 16px;
   font-size: 1.5rem;
-  margin-bottom: 10px;
-  transition: all 0.5s ease-out;
+  margin-bottom: 15px;
+  &:hover {
+    background-color: $violetDetails;
+    color: white;
+  }
 }
 
 .FAQ__accordion-box_2 {
   border-color: $accentColorBlue;
+  &:hover {
+    background-color: $accentColorBlue;
+    color: white;
+  }
 }
 
 .FAQ__accordion-box_3 {
   border-color: $accentColorPink;
+  &:hover {
+    background-color: $accentColorPink;
+    color: white;
+  }
 }
 
 .FAQ__accordion-box_4 {
   border-color: $accentColorGreen;
+  &:hover {
+    background-color: $accentColorGreen;
+    color: white;
+  }
 }
 
 .FAQ__question {
-  padding: 0.5em 1.3rem;
-  @extend %text__button_small;
+  padding: 1.3em 1.3rem;
+  //@extend %text__button_small;
+  @include fonts(700, 18px, 32px);
   list-style: none;
   display: flex;
   justify-content: space-between;
   //transition: height 1s ease;
-  transition: all 0.3s ease-out;
+  transition: all 0.3s ease;
   &::-webkit-details-marker {
     display: none;
   }
   &::after {
     content: '\002B';
-    transition: all 0.5s ease-out;
+    transition: all 0.3s ease;
   }
 }
 
 details[open] summary {
   margin-bottom: 0.5em;
-  transition: all 0.5s ease-out;
+  transition: all 0.3s ease;
 }
 
 details[open] summary:after {
   content: '\00D7';
-  transition: all 0.5s ease-out;
+  transition: all 0.3s ease;
 }
 
 details[open] div {
   padding: 0.5em 1em;
   @extend %text__regular;
-  transition: all 0.5s ease;
+  transition: all 0.3s ease;
 }

@@ -20,10 +20,10 @@
   border: none;
   display: block;
   &:focus {
-    outline-color: $violetButton;
+    outline-color: $violetDetails;
     outline-style: solid;
     outline-width: 2px;
-    color: $violetButton;
+    color: $violetDetails;
     font-weight: 700;
   }
   &::placeholder {

@@ -3,7 +3,7 @@
 .celebration__button {
   box-sizing: border-box;
   cursor: pointer;
-  background-color: $violetButton;
+  background-color: $violetDetails;
   color: #fff;
   border: 0;
   padding: 20px 50px;
@@ -26,6 +26,6 @@
     transform: scale(1.01);
   }
   &:hover {
-    background-color: rgba($violetButton, 0.8);
+    background-color: rgba($violetDetails, 0.8);
   }
 }

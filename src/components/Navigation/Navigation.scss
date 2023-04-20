@@ -26,10 +26,14 @@
   @extend %links;
   letter-spacing: 0.2px;
   color: $textColor;
+  opacity: 1;
+  &:hover {
+    opacity: 0.8;
+  }
 }
 
 .navigation__link {
-  color: $violetButton;
+  color: $violetDetails;
   @extend %text__regular;
   @extend %links;
   opacity: 1;

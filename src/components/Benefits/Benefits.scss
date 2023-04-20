@@ -57,7 +57,7 @@
 }
 
 .benefits__card-icon_3 {
-  background-color: $violetButton;
+  background-color: $violetDetails;
 }
 
 .benefits__card-icon_4 {
@@ -114,10 +114,10 @@
   letter-spacing: 0.2px;
   max-width: 146px;
   @include fonts(700, 18px, 32px);
-  color: $violetButton;
+  color: $violetDetails;
   @extend %links;
   &:hover {
-    background: $violetButton;
+    background: $violetDetails;
     color: white;
   }
 }
