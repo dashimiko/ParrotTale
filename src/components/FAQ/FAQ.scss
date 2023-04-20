@@ -20,45 +20,23 @@
 }
 
 .FAQ__accordion-box {
-  border: 3px solid $violetDetails;
-  color: black;
-  border-radius: 16px;
+  //border-bottom: 3px solid $violetDetails;
+  //border-bottom: dotted $violetDetails;
+  border-bottom: dotted $yellowDetails;
+  border-width: 8px;
+  color: $textColor;
   font-size: 1.5rem;
   margin-bottom: 15px;
-  &:hover {
-    background-color: $violetDetails;
-    color: white;
-  }
-}
-
-.FAQ__accordion-box_2 {
-  border-color: $accentColorBlue;
-  &:hover {
-    background-color: $accentColorBlue;
-    color: white;
-  }
-}
-
-.FAQ__accordion-box_3 {
-  border-color: $accentColorPink;
-  &:hover {
-    background-color: $accentColorPink;
-    color: white;
-  }
-}
-
-.FAQ__accordion-box_4 {
-  border-color: $accentColorGreen;
-  &:hover {
-    background-color: $accentColorGreen;
-    color: white;
-  }
+  box-sizing: border-box;
+  filter: drop-shadow(0px 2px 4px rgba(38, 50, 56, 0.16))
+    drop-shadow(0px 4px 8px rgba(38, 50, 56, 0.08));
 }
 
 .FAQ__question {
-  padding: 1.3em 1.3rem;
+  padding: 1.3em 1.3em;
   //@extend %text__button_small;
   @include fonts(700, 18px, 32px);
+  letter-spacing: 0.2px;
   list-style: none;
   display: flex;
   justify-content: space-between;
@@ -71,9 +49,13 @@
     content: '\002B';
     transition: all 0.3s ease;
   }
+  &:hover {
+    color: $violetDetails;
+  }
 }
 
 details[open] summary {
+  border-radius: 16px;
   margin-bottom: 0.5em;
   transition: all 0.3s ease;
 }
@@ -84,7 +66,8 @@ details[open] summary:after {
 }
 
 details[open] div {
-  padding: 0.5em 1em;
+  //padding: 1em 1em;
+  padding: 0.5em 1.3em 1.3em 1.3em;
   @extend %text__regular;
   transition: all 0.3s ease;
 }
