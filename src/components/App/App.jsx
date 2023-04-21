@@ -39,6 +39,7 @@ function App() {
               </>
             }
           />
+          <Route path="/blog" element={<h2>Blog</h2>} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>

@@ -40,6 +40,18 @@ function Navigation() {
             Nothing Here
           </NavLink>
         </li>
+        <li className="navigation__item">
+          <NavLink
+            to="/blog"
+            className={(navData) =>
+              navData.isActive
+                ? 'navigation__link_active navigation__link_with-dot'
+                : 'navigation__link navigation__link_with-dot'
+            }
+          >
+            blog
+          </NavLink>
+        </li>
       </ul>
     </nav>
   );
