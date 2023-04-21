@@ -11,6 +11,7 @@ function CelebrationButton({
   handleCelebrationButton,
   coordinateX,
   coordinateY,
+  isDisabled,
 }) {
   const addedConfetti = useCallback(() => {
     confetti({
@@ -30,9 +31,12 @@ function CelebrationButton({
 
   return (
     <button
-      className="celebration__button"
+      className={`celebration__button ${
+        isDisabled ? 'celebration__button_disabled' : ''
+      }`}
       type="submit"
       onClick={() => onCelebrationButtonClick()}
+      disabled={isDisabled}
     >
       {buttonText}
     </button>

@@ -45,3 +45,21 @@
   @include inputs(370px, 80px, 16px);
   resize: none;
 }
+
+.contact-form__error {
+  color: $accentColorRed;
+  margin-top: 10px;
+  margin-left: 10px;
+  @extend %text__small;
+  display: block;
+  max-width: 270px;
+  position: absolute;
+  bottom: -25px;
+  left: 0;
+}
+
+.contact-form__name-input,
+.contact-form__email-input,
+.contact-form__message-input {
+  position: relative;
+}

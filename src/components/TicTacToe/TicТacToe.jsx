@@ -67,6 +67,7 @@ function TicTacToe() {
         handleCelebrationButton={() => handleNewGame()}
         coordinateX={0.5}
         coordinateY={0.5}
+        isDisabled={false}
       />
       <div className="tic-tac-toe__status">{status}</div>
       <div className="tic-tac-toe__square-border">
