@@ -1,4 +1,5 @@
 import './Benefits.scss';
+import BenefitCard from './BenefitCard/BenefitCard';
 
 function Benefits() {
   return (
@@ -15,78 +16,38 @@ function Benefits() {
           </p>
         </div>
         <div className="benefits__cardlist">
-          <article className="benefits__card">
-            <div className="benefits__card-icon benefits__card-icon_1">
-              <div className="benefits__card-pic benefits__card-pic_1" />
-            </div>
-            <h3 className="benefits__card-title">Support</h3>
-            <p className="benefits__card-text">
-              Delivering faster and more personalized support with shared
-              screens and cool design systems for Figma
-            </p>
-            <a
-              target="_blank"
-              rel="noreferrer"
-              href="https://github.com/"
-              className="benefits__link"
-            >
-              Learn more
-            </a>
-          </article>
-          <article className="benefits__card">
-            <div className="benefits__card-icon benefits__card-icon_2">
-              <div className="benefits__card-pic benefits__card-pic_2" />
-            </div>
-            <h3 className="benefits__card-title">Sales growth</h3>
-            <p className="benefits__card-text">
-              Identify qualified customers with easy-to-use live chat messaging
-              and AI-based Sales Bot
-            </p>
-            <a
-              target="_blank"
-              rel="noreferrer"
-              href="https://github.com/"
-              className="benefits__link"
-            >
-              Learn more
-            </a>
-          </article>
-          <article className="benefits__card">
-            <div className="benefits__card-icon benefits__card-icon_3">
-              <div className="benefits__card-pic benefits__card-pic_3" />
-            </div>
-            <h3 className="benefits__card-title">Coponents-driven</h3>
-            <p className="benefits__card-text">
-              Delivering faster and more personalized support with shared
-              screens and cool design systems for Figma
-            </p>
-            <a
-              target="_blank"
-              rel="noreferrer"
-              href="https://github.com/"
-              className="benefits__link"
-            >
-              Learn more
-            </a>
-          </article>
-          <article className="benefits__card">
-            <div className="benefits__card-icon benefits__card-icon_4">
-              <div className="benefits__card-pic benefits__card-pic_4" />
-            </div>
-            <h3 className="benefits__card-title">Swap the icon</h3>
-            <p className="benefits__card-text">
-              You can toggle to any icon within Instances and customize outlined
-              stroke to more bolder or lighter
-            </p>
-            <a
-              target="_blank"
-              rel="noreferrer"
-              href="https://github.com/"
-              className="benefits__link"
-            >
-              Learn more
-            </a>
-          </article>
+          <BenefitCard
+            title="Support"
+            text="Delivering faster and more personalized support with shared
+              screens and cool design systems for Figma"
+            link="https://github.com/"
+            iconColor="benefits__card-icon_1"
+            iconPicture="benefits__card-pic_1"
+          />
+          <BenefitCard
+            title="Sales growth"
+            text="Identify qualified customers with easy-to-use live chat messaging
+            and AI-based Sales Bot"
+            link="https://github.com/"
+            iconColor="benefits__card-icon_2"
+            iconPicture="benefits__card-pic_2"
+          />
+          <BenefitCard
+            title="Coponents-driven"
+            text="Delivering faster and more personalized support with shared
+            screens and cool design systems for Figma"
+            link="https://github.com/"
+            iconColor="benefits__card-icon_3"
+            iconPicture="benefits__card-pic_3"
+          />
+          <BenefitCard
+            title="Swap the icon"
+            text="You can toggle to any icon within Instances and customize outlined
+            stroke to more bolder or lighter"
+            link="https://github.com/"
+            iconColor="benefits__card-icon_4"
+            iconPicture="benefits__card-pic_4"
+          />
         </div>
       </div>
     </section>
