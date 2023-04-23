@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.608087dd.css",
-    "main.js": "/static/js/main.4dedc3db.js",
-    "static/media/secondParrotPic.jpg": "/static/media/secondParrotPic.e3ae1ba7c3c337a30f58.jpg",
-    "static/media/sixParrotPic.jpg": "/static/media/sixParrotPic.0be66fa6881a006f6a64.jpg",
-    "static/media/firstParrotPic.jpg": "/static/media/firstParrotPic.1c5f32770a02be27da8a.jpg",
-    "static/media/fiveParrotPic.jpg": "/static/media/fiveParrotPic.906f66988804a339fc37.jpg",
-    "static/media/dots.svg": "/static/media/dots.56fa1fe596574e85aca4.svg",
-    "static/media/icon-phone-call.svg": "/static/media/icon-phone-call.a45a5369a46960813d8a.svg",
-    "static/media/icon-pie-chart.svg": "/static/media/icon-pie-chart.7f8bfa97bc2a45ec2a0e.svg",
-    "static/media/icon-good-job.svg": "/static/media/icon-good-job.985d63237c43611c8bfa.svg",
-    "static/media/icon-zap.svg": "/static/media/icon-zap.81acb6bf4f660cf71d7b.svg",
-    "static/media/icon-instagram.svg": "/static/media/icon-instagram.fef4c4ebf301356b9f91fc8d804aa044.svg",
-    "static/media/logo.svg": "/static/media/logo.33ef57214fc9e7e731d668d792c7cf45.svg",
-    "static/media/Icon-list-gray.svg": "/static/media/Icon-list-gray.65950a737d566ab3c325.svg",
-    "static/media/Icon-list-green.svg": "/static/media/Icon-list-green.0c260ef9a972f638e0f2.svg",
-    "static/media/Icon-list-yellow.svg": "/static/media/Icon-list-yellow.d71ef8d6c8e7777c0264.svg",
-    "static/media/icon-twitter.svg": "/static/media/icon-twitter.6b3c89b9788caec986aae89898581f16.svg",
-    "index.html": "/index.html",
-    "static/media/icon-facebook.svg": "/static/media/icon-facebook.87b988a8ce973102e467f03a37756ae9.svg",
-    "main.608087dd.css.map": "/static/css/main.608087dd.css.map",
-    "main.4dedc3db.js.map": "/static/js/main.4dedc3db.js.map"
+    "main.css": "/rainbow/static/css/main.0d10d44c.css",
+    "main.js": "/rainbow/static/js/main.7ad7f1fb.js",
+    "static/media/secondParrotPic.jpg": "/rainbow/static/media/secondParrotPic.e3ae1ba7c3c337a30f58.jpg",
+    "static/media/sixParrotPic.jpg": "/rainbow/static/media/sixParrotPic.0be66fa6881a006f6a64.jpg",
+    "static/media/firstParrotPic.jpg": "/rainbow/static/media/firstParrotPic.1c5f32770a02be27da8a.jpg",
+    "static/media/fiveParrotPic.jpg": "/rainbow/static/media/fiveParrotPic.906f66988804a339fc37.jpg",
+    "static/media/dots.svg": "/rainbow/static/media/dots.56fa1fe596574e85aca4.svg",
+    "static/media/icon-phone-call.svg": "/rainbow/static/media/icon-phone-call.a45a5369a46960813d8a.svg",
+    "static/media/icon-pie-chart.svg": "/rainbow/static/media/icon-pie-chart.7f8bfa97bc2a45ec2a0e.svg",
+    "static/media/icon-good-job.svg": "/rainbow/static/media/icon-good-job.985d63237c43611c8bfa.svg",
+    "static/media/icon-zap.svg": "/rainbow/static/media/icon-zap.81acb6bf4f660cf71d7b.svg",
+    "static/media/icon-instagram.svg": "/rainbow/static/media/icon-instagram.fef4c4ebf301356b9f91fc8d804aa044.svg",
+    "static/media/logo.svg": "/rainbow/static/media/logo.33ef57214fc9e7e731d668d792c7cf45.svg",
+    "static/media/Icon-list-gray.svg": "/rainbow/static/media/Icon-list-gray.65950a737d566ab3c325.svg",
+    "static/media/Icon-list-green.svg": "/rainbow/static/media/Icon-list-green.0c260ef9a972f638e0f2.svg",
+    "static/media/Icon-list-yellow.svg": "/rainbow/static/media/Icon-list-yellow.d71ef8d6c8e7777c0264.svg",
+    "static/media/icon-twitter.svg": "/rainbow/static/media/icon-twitter.6b3c89b9788caec986aae89898581f16.svg",
+    "index.html": "/rainbow/index.html",
+    "static/media/icon-facebook.svg": "/rainbow/static/media/icon-facebook.87b988a8ce973102e467f03a37756ae9.svg",
+    "main.0d10d44c.css.map": "/rainbow/static/css/main.0d10d44c.css.map",
+    "main.7ad7f1fb.js.map": "/rainbow/static/js/main.7ad7f1fb.js.map"
   },
   "entrypoints": [
-    "static/css/main.608087dd.css",
-    "static/js/main.4dedc3db.js"
+    "static/css/main.0d10d44c.css",
+    "static/js/main.7ad7f1fb.js"
   ]
 }
