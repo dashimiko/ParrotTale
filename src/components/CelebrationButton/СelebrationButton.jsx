@@ -25,8 +25,10 @@ function CelebrationButton({
   }, [coordinateX, coordinateY]);
 
   const onCelebrationButtonClick = () => {
-    addedConfetti();
     handleCelebrationButton();
+    if (handleCelebrationButton() !== 'invalid') {
+      addedConfetti();
+    }
   };
 
   return (

@@ -16,7 +16,7 @@ function ContactForm() {
     register,
     handleSubmit,
     formState: { errors, isValid },
-  } = useForm({ mode: 'onBlur' });
+  } = useForm({ mode: 'onSubmit' });
 
   const onSubmit = (data, e) => {
     e.preventDefault();
@@ -30,6 +30,8 @@ function ContactForm() {
     setEmail('');
     setMessage('');
   };
+
+  const handleConfetti = () => (!isValid ? 'invalid' : null);
 
   return (
     <form className="contact-form" onSubmit={handleSubmit(onSubmit)} noValidate>
@@ -126,11 +128,11 @@ function ContactForm() {
           )}
         </label>
         <CelebrationButton
-          isDisabled={!isValid}
+          isDisabled={false}
           buttonText="SEND"
           coordinateX={0.75}
           coordinateY={0.7}
-          handleCelebrationButton={() => null}
+          handleCelebrationButton={() => handleConfetti()}
         />
       </div>
     </form>
