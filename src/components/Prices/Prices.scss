@@ -1,1 +1,50 @@
 @import '../../commonStyles/commonStyles.scss';
+
+.prices {
+  background-color: $mainBackgroundColor;
+  width: 100%;
+}
+
+.prices__box {
+  width: 100%;
+  box-sizing: border-box;
+  max-width: 1440px;
+  padding: 80px 135px;
+  margin: 0 auto;
+}
+
+.prices__title {
+  text-align: center;
+  @extend %title__block_large;
+  letter-spacing: -1px;
+  @extend %null__item;
+}
+
+.prices__subtitle {
+  text-align: center;
+  @extend %title__small;
+  letter-spacing: -0.5px;
+  color: $lightGray;
+  margin: 30px auto 40px;
+}
+
+.prices__accent-word {
+  color: $violetDetails;
+  position: relative;
+  z-index: 2;
+  &::after {
+    content: '';
+    position: absolute;
+    width: 126px;
+    height: 12px;
+    right: 0;
+    bottom: 0;
+    background-color: $yellowDetails;
+    border-radius: 99px;
+    z-index: -1;
+  }
+}
+
+.prices__card-box {
+  @include base-flex(row, 30px);
+}
