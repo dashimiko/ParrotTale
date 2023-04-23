@@ -37,3 +37,11 @@
   display: flex;
   align-items: center;
 }
+
+.header__link {
+  opacity: 1;
+  @extend %button__transition;
+  &:hover {
+    opacity: 0.8;
+  }
+}

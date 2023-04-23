@@ -33,6 +33,7 @@
   text-decoration: none;
   opacity: 1;
   margin-bottom: 40px;
+  @extend %button__transition;
   &:hover {
     opacity: 0.8;
   }

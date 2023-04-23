@@ -27,6 +27,7 @@
   letter-spacing: 0.2px;
   color: $textColor;
   opacity: 1;
+  @extend %button__transition;
   &:hover {
     opacity: 0.8;
   }
@@ -37,6 +38,7 @@
   @extend %text__regular;
   @extend %links;
   opacity: 1;
+  @extend %button__transition;
   &:hover {
     opacity: 0.8;
   }

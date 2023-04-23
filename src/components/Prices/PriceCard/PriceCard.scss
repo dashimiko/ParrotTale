@@ -10,13 +10,19 @@
   justify-content: space-between;
   border-radius: 8px;
   background-color: white;
+  @extend %button__transition;
+  &:hover {
+    // position: relative;
+    filter: drop-shadow(0px 8px 8px rgba(38, 50, 56, 0.12))
+      drop-shadow(0px 16px 24px rgba(38, 50, 56, 0.08));
+  }
 }
 
-.priceCard_priority {
+/*.priceCard_priority {
   position: relative;
   filter: drop-shadow(0px 8px 8px rgba(38, 50, 56, 0.12))
     drop-shadow(0px 16px 24px rgba(38, 50, 56, 0.08));
-}
+}*/
 
 .priceCard__title {
   @extend %null__item;
@@ -79,9 +85,15 @@
   height: 64px;
   margin-top: 0;
   background: white;
+  @extend %text__button_small;
+  @extend %button__transition;
+  &:hover {
+    color: white;
+    background: $violetDetails;
+  }
 }
 
-.priceCard__button_priority {
+/*.priceCard__button_priority {
   color: white;
   background: $violetDetails;
   @extend %text__button_small;
@@ -89,4 +101,4 @@
   &:hover {
     opacity: 0.8;
   }
-}
+}*/

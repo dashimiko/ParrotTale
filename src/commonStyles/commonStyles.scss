@@ -111,6 +111,12 @@ $lightGray: #adadad;
   cursor: pointer;
 }
 
+// ui
+
+%button__transition {
+  transition: all 0.2s linear 0.1s;
+}
+
 //input mixin
 
 @mixin inputs($width, $height, $padding) {

@@ -22,6 +22,7 @@
   height: 40px;
   border-radius: 50%;
   background-color: transparent;
+  @extend %button__transition;
   &:hover {
     background: $yellowDetails;
   }

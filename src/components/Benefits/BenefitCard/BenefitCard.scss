@@ -81,6 +81,7 @@
   @include fonts(700, 18px, 32px);
   color: $violetDetails;
   @extend %links;
+  @extend %button__transition;
   &:hover {
     background: $violetDetails;
     color: white;

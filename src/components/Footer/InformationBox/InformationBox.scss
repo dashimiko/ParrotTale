@@ -18,6 +18,7 @@
   color: $textColor;
   min-width: 170px;
   display: block;
+  @extend %button__transition;
   &:hover {
     color: $violetDetails;
   }
