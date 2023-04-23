@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/rainbow/static/css/main.78c3ed2a.css",
-    "main.js": "/rainbow/static/js/main.c005f7ef.js",
+    "main.css": "/rainbow/static/css/main.0d10d44c.css",
+    "main.js": "/rainbow/static/js/main.7ad7f1fb.js",
     "static/media/secondParrotPic.jpg": "/rainbow/static/media/secondParrotPic.e3ae1ba7c3c337a30f58.jpg",
     "static/media/sixParrotPic.jpg": "/rainbow/static/media/sixParrotPic.0be66fa6881a006f6a64.jpg",
     "static/media/firstParrotPic.jpg": "/rainbow/static/media/firstParrotPic.1c5f32770a02be27da8a.jpg",
@@ -19,11 +19,11 @@
     "static/media/icon-twitter.svg": "/rainbow/static/media/icon-twitter.6b3c89b9788caec986aae89898581f16.svg",
     "index.html": "/rainbow/index.html",
     "static/media/icon-facebook.svg": "/rainbow/static/media/icon-facebook.87b988a8ce973102e467f03a37756ae9.svg",
-    "main.78c3ed2a.css.map": "/rainbow/static/css/main.78c3ed2a.css.map",
-    "main.c005f7ef.js.map": "/rainbow/static/js/main.c005f7ef.js.map"
+    "main.0d10d44c.css.map": "/rainbow/static/css/main.0d10d44c.css.map",
+    "main.7ad7f1fb.js.map": "/rainbow/static/js/main.7ad7f1fb.js.map"
   },
   "entrypoints": [
-    "static/css/main.78c3ed2a.css",
-    "static/js/main.c005f7ef.js"
+    "static/css/main.0d10d44c.css",
+    "static/js/main.7ad7f1fb.js"
   ]
 }
