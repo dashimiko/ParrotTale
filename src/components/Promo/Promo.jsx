@@ -6,6 +6,7 @@ function Promo() {
     <section className="promo">
       <div className="promo__box">
         <div className="promo__figure rotation" />
+        <div className="promo__figure_background" />
         <div className="promo__dots" />
         <div className="promo__title-box">
           <h1 className="promo__title">

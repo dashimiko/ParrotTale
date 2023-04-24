@@ -1,11 +1,19 @@
 // import { useState } from 'react';
 // eslint-disable-next-line import/no-extraneous-dependencies
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Navigation from '../Navigation/Navigation';
 import './Header.scss';
 import logo from '../../images/logo.svg';
 
 function Header() {
+  const [isBurgerOpen, setIsBurgerOpen] = useState(false);
+
+  const onBurgerClick = () => {
+    setIsBurgerOpen(!isBurgerOpen);
+    document.body.classList.toggle('body_lock');
+  };
+
   return (
     <header className="header">
       <div className="header__box">
@@ -15,7 +23,7 @@ function Header() {
           </Link>
           <p className="header__company-name">Name</p>
         </div>
-        <Navigation />
+        <Navigation isBurgerOpen={isBurgerOpen} onBurgerClick={onBurgerClick} />
       </div>
     </header>
   );
