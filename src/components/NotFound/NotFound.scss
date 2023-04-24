@@ -23,6 +23,7 @@
   text-align: center;
   color: $textColor;
   border: none;
+  @extend %button__transition;
   &:hover {
     color: $greenDetails;
   }

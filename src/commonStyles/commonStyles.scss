@@ -57,6 +57,10 @@ $lightGray: #adadad;
   @include fonts(800, 96px, 104px);
 }
 
+%title__main_mobile {
+  @include fonts(900, 64px, 77px);
+}
+
 %title__block_large {
   @include fonts(900, 64px, 77px);
 }
@@ -97,6 +101,10 @@ $lightGray: #adadad;
 
 %paddings__block_small {
   padding: 30px 135px;
+  box-sizing: border-box;
+}
+
+%paddings__block_mobile {
   box-sizing: border-box;
 }
 
