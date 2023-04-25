@@ -20,17 +20,29 @@ function ContactForm() {
 
   const onSubmit = (data, e) => {
     e.preventDefault();
-    emailjs.sendForm(
-      process.env.REACT_APP_SERVICE_ID,
-      process.env.REACT_APP_TEMPLATE_ID,
-      e.target,
-      process.env.REACT_APP_PUBLIC_KEY
-    );
-    setName('');
-    setEmail('');
-    setMessage('');
+    emailjs
+      .sendForm(
+        process.env.REACT_APP_SERVICE_ID,
+        process.env.REACT_APP_TEMPLATE_ID,
+        e.target,
+        process.env.REACT_APP_PUBLIC_KEY
+      )
+      .then(
+        (response) => {
+          console.log('SUCCESS!', response.status, response.text);
+          setName('');
+          setEmail('');
+          setMessage('');
+          // добавить какую то надпись или попап об успехе
+        },
+        (error) => {
+          console.log('FAILED...', error);
+          // добавить какую-то надпись или попап о неудаче
+        }
+      );
   };
 
+  // сюда добавить еще одно условие, чтобы конфетти появлялись только при успешной отправке формы
   const handleConfetti = () => (!isValid ? 'invalid' : null);
 
   return (
