@@ -7,11 +7,14 @@
   flex-direction: column;
   align-items: center;
   @extend %paddings__block;
+  margin: 0 auto;
+  max-width: 1440px;
 }
 
 .promo__box {
   max-width: 1440px;
   margin: 0 auto;
+  width: 100%;
 }
 
 .promo__text {

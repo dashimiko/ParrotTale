@@ -7,13 +7,15 @@
   position: relative;
   max-width: 1170px;
   //overflow: hidden;
-  @include base-flex(row, 30px);
+  @include base-flex(row, 2.5%);
+  width: 100%;
 }
 
 .pictureBox__fragment_left {
   display: flex;
   flex-direction: column;
   position: relative;
+  width: 23.6%;
 }
 
 .pictureBox__pic1-headline {
@@ -41,6 +43,7 @@
 
 .pictureBox__pic_1 {
   @include pictures(270px, 464px);
+  width: 100%;
 }
 
 .pictureBox__text {
@@ -60,28 +63,28 @@
 }
 
 .pictureBox__fragment_top {
-  @include base-flex(row, 30px);
+  @include base-flex(row, 3.5%);
   align-items: flex-end;
   position: relative;
 }
 
 .pictureBox__pic_2 {
-  flex-grow: 1;
   @include pictures(470px, 380px);
+  width: 54%;
 }
 
 .pictureBox__pic_3 {
-  flex-grow: 1;
   @include pictures(170px, 222px);
+  width: 46%;
 }
 
 .pictureBox__pic_4 {
-  flex-grow: 1;
   @include pictures(170px, 222px);
+  width: 46%;
 }
 
 .pictureBox__figure-box {
-  @include base-flex(row, 30px);
+  @include base-flex(row, 8%);
 }
 
 .pictureBox__text_top-figure {
@@ -91,6 +94,7 @@
 
 .pictureBox__fragment-container {
   @include base-flex(column, 30px);
+  width: 77%;
 }
 
 .pictureBox__figure {
@@ -98,13 +102,13 @@
 }
 
 .pictureBox__pic_5 {
-  flex-grow: 1;
   @include pictures(270px, 284px);
+  width: 31%;
 }
 
 .pictureBox__pic_6 {
-  flex-grow: 1;
   @include pictures(370px, 356px);
+  width: 42.5%;
 }
 
 .pictureBox__pic2-headline {
@@ -122,11 +126,12 @@
 }
 
 .pictureBox__pic_7 {
-  //flex-grow: 1;
   @include pictures(170px, 222px);
+  width: 20%;
 }
 
 .pictureBox__fragment_bottom {
-  @include base-flex(row, 30px);
+  @include base-flex(row, 3.5%);
   position: relative;
+  align-items: flex-start;
 }
