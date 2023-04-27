@@ -8,56 +8,78 @@ $color_active: white;
   color: $color_inactive;
 }
 
-.explore-button {
-  position: relative;
-  padding: 19px 22px;
-  transition: all 0.2s ease;
-  margin: auto;
-  &::before {
-    content: '';
-    position: absolute;
-    top: 18%;
-    left: 3px;
-    display: block;
-    border-radius: 28px;
-    background: rgba($violetDetails, 0.5);
-    width: 56px;
-    height: 56px;
-    transition: all 0.3s ease;
-  }
-  span {
+@media screen and (min-width: 768px) {
+  .explore-button {
     position: relative;
-    font-size: 32px;
-    line-height: 48px;
-    font-weight: 700;
-    letter-spacing: -0.5px;
-    vertical-align: middle;
-  }
-  svg {
-    position: relative;
-    top: 3px;
-    margin-left: 15px;
-    fill: none;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    stroke: $color_inactive;
-    stroke-width: 2;
-    transform: translateX(-5px);
-    transition: all 0.3s ease;
-  }
-
-  &:hover {
-    color: $color_active;
-    &:before {
-      width: 100%;
-      background: rgba($violetDetails, 1);
+    padding: 19px 22px;
+    transition: all 0.2s ease;
+    margin: auto;
+    &::before {
+      content: '';
+      position: absolute;
+      top: 18%;
+      left: 3px;
+      display: block;
+      border-radius: 28px;
+      background: rgba($violetDetails, 0.5);
+      width: 56px;
+      height: 56px;
+      transition: all 0.3s ease;
+    }
+    span {
+      position: relative;
+      font-size: 32px;
+      line-height: 48px;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+      vertical-align: middle;
     }
     svg {
-      transform: translateX(30px);
-      stroke: $color_active;
+      position: relative;
+      top: 3px;
+      margin-left: 15px;
+      fill: none;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke: $color_inactive;
+      stroke-width: 2;
+      transform: translateX(-5px);
+      transition: all 0.3s ease;
     }
-    &:active {
-      transform: scale(0.96);
+
+    &:hover {
+      color: $color_active;
+      &:before {
+        width: 100%;
+        background: rgba($violetDetails, 1);
+      }
+      svg {
+        transform: translateX(30px);
+        stroke: $color_active;
+      }
+      &:active {
+        transform: scale(0.96);
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .explore-button {
+    position: static;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    padding: 8px 16px;
+    background: $violetDetails;
+    color: white;
+    border-radius: 99px;
+    filter: drop-shadow(0px 4px 6px rgba(38, 50, 56, 0.16))
+      drop-shadow(0px 4px 16px rgba(38, 50, 56, 0.08));
+    svg {
+      display: none;
     }
   }
 }
