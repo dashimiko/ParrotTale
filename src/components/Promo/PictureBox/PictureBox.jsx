@@ -20,28 +20,44 @@ function PictureBox() {
             Use mixed grid with imagery, replace with your own photos and
             descriptions
           </p>
-          <img
-            className="pictureBox__pic_1"
-            src={parrotPicture}
-            alt="нужен осмысленный альт"
-          />
-          <p className="pictureBox__pic1-headline">
-            We aimed to deliver HQ templates for Figma
-          </p>
-          <span className="pictureBox__pic1-descripton">
-            Used by 123 people
-          </span>
+          <a
+            className="pictureBox__overlay"
+            href={buttonlink}
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              className="pictureBox__pic_1"
+              src={parrotPicture}
+              alt="нужен осмысленный альт"
+            />
+            <p className="pictureBox__pic1-headline">
+              We aimed to deliver HQ templates for Figma
+            </p>
+            <span className="pictureBox__pic1-descripton">
+              Used by 123 people
+            </span>
+          </a>
           <ExploreButton link={buttonlink} localStyleName={localstyle} />
         </div>
 
         <div className="pictureBox__fragment-container">
           <div className="pictureBox__fragment_top">
-            <img
-              className="pictureBox__pic_2"
-              src={parrotPicture2}
-              alt="нужен осмысленный альт"
-            />
-            <span className="pictureBox__pic2-headline">Consider it done!</span>
+            <a
+              className="pictureBox__overlay"
+              href={buttonlink}
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                className="pictureBox__pic_2"
+                src={parrotPicture2}
+                alt="нужен осмысленный альт"
+              />
+              <span className="pictureBox__pic2-headline">
+                Consider it done!
+              </span>
+            </a>
             <figure className="pictureBox__figure">
               <figcaption className="pictureBox__text pictureBox__text_top-figure">
                 This is multipurpose grid, it fits for portfolio, services or
@@ -67,12 +83,19 @@ function PictureBox() {
               src={parrotPicture5}
               alt="нужен осмысленный альт"
             />
-            <img
-              className="pictureBox__pic_6"
-              src={parrotPicture6}
-              alt="нужен осмысленный альт"
-            />
-            <span className="pictureBox__pic6-headline">See my goal?</span>
+            <a
+              className="pictureBox__overlay"
+              href={buttonlink}
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                className="pictureBox__pic_6"
+                src={parrotPicture6}
+                alt="нужен осмысленный альт"
+              />
+              <span className="pictureBox__pic6-headline">See my goal?</span>
+            </a>
             <img
               className="pictureBox__pic_7"
               src={parrotPicture7}
