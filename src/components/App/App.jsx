@@ -9,6 +9,7 @@ import Footer from '../Footer/Footer';
 import Benefits from '../Benefits/Benefits';
 import FAQ from '../FAQ/FAQ';
 import Prices from '../Prices/Prices';
+import HowItWorks from '../HowItWorks/HowItWorks';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
                 <main className="main">
                   <Promo />
                   <Benefits />
+                  <HowItWorks />
                   <Prices />
                   <FAQ />
                 </main>
