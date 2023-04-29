@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/rainbow/static/css/main.ed4955e0.css",
-    "main.js": "/rainbow/static/js/main.a291d432.js",
+    "main.css": "/rainbow/static/css/main.97ea011c.css",
+    "main.js": "/rainbow/static/js/main.66732c1a.js",
     "static/media/secondParrotPic.jpg": "/rainbow/static/media/secondParrotPic.e3ae1ba7c3c337a30f58.jpg",
     "static/media/sixParrotPic.jpg": "/rainbow/static/media/sixParrotPic.0be66fa6881a006f6a64.jpg",
+    "static/media/wiggle.svg": "/rainbow/static/media/wiggle.e564326910cf72f552c2.svg",
     "static/media/firstParrotPic.jpg": "/rainbow/static/media/firstParrotPic.1c5f32770a02be27da8a.jpg",
     "static/media/fiveParrotPic.jpg": "/rainbow/static/media/fiveParrotPic.906f66988804a339fc37.jpg",
     "static/media/dots.svg": "/rainbow/static/media/dots.56fa1fe596574e85aca4.svg",
@@ -21,11 +22,11 @@
     "index.html": "/rainbow/index.html",
     "static/media/wave.svg": "/rainbow/static/media/wave.3d08263383c66e7392bb.svg",
     "static/media/icon-facebook.svg": "/rainbow/static/media/icon-facebook.87b988a8ce973102e467f03a37756ae9.svg",
-    "main.ed4955e0.css.map": "/rainbow/static/css/main.ed4955e0.css.map",
-    "main.a291d432.js.map": "/rainbow/static/js/main.a291d432.js.map"
+    "main.97ea011c.css.map": "/rainbow/static/css/main.97ea011c.css.map",
+    "main.66732c1a.js.map": "/rainbow/static/js/main.66732c1a.js.map"
   },
   "entrypoints": [
-    "static/css/main.ed4955e0.css",
-    "static/js/main.a291d432.js"
+    "static/css/main.97ea011c.css",
+    "static/js/main.66732c1a.js"
   ]
 }
