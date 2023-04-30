@@ -1,5 +1,5 @@
 import './HowItWorks.scss';
-import ExploreButton from '../ExploreButton/ExploreButton';
+// import ExploreButton from '../ExploreButton/ExploreButton';
 import parrotPicture2 from '../../images/secondParrotPic.jpg';
 
 function HowItWorks() {
@@ -12,12 +12,18 @@ function HowItWorks() {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            aliquip ex ea commodo consequat. Ut enim ad minim veniam, quis
+            nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat.
           </p>
-          <ExploreButton
-            link="https://dribbble.com/shots/4397812-Click-Me#"
-            localStyleName="how-it-works__button"
-          />
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://github.com/"
+            className="benefits__link how-it-works__link"
+          >
+            Learn more
+          </a>
         </div>
         <div className="how-it-works__pic-box">
           <img

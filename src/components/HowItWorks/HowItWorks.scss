@@ -57,3 +57,13 @@
   @extend %text__regular;
   @extend %null__item;
 }
+
+.how-it-works__link {
+  margin-top: 0;
+  color: white;
+  background-color: $violetDetails;
+  opacity: 1;
+  &:hover {
+    opacity: 0.8;
+  }
+}
