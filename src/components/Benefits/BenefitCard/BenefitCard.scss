@@ -2,6 +2,8 @@
 
 .benefits__card {
   max-width: 270px;
+  display: flex;
+  flex-direction: column;
 }
 
 .benefits__card-icon {
@@ -86,5 +88,54 @@
     background: $violetDetails;
     color: white;
     border-color: $violetDetails;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .benefits__card {
+    //max-width: 150px;
+    max-width: 45.45%;
+    width: 45.45%;
+  }
+  .benefits__card-icon {
+    width: 52.5px;
+    height: 52.5px;
+    border-radius: 12px;
+  }
+  .benefits__card-pic {
+    width: 42px;
+    height: 42px;
+  }
+  .benefits__card-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.25px;
+    min-height: 27px;
+    margin: 18px 0 12px;
+    width: 100%;
+  }
+  .benefits__card-text {
+    min-height: auto;
+    width: 100%;
+    font-weight: 400;
+    font-size: 13.5px;
+    line-height: 24px;
+  }
+  .benefits__link {
+    border-radius: 12px;
+    padding: 6px 12px;
+    margin-top: 7.5px;
+  }
+}
+
+@media screen and (max-width: 359px) {
+  .benefits__card {
+    //max-width: 150px;
+    max-width: 100%;
+    width: 100%;
+  }
+  .benefits__card-text {
+    max-width: auto;
   }
 }

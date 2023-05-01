@@ -17,7 +17,7 @@ function Benefits() {
         </div>
         <div className="benefits__cardlist">
           <BenefitCard
-            title="Support"
+            title="Swap the icon"
             text="Delivering faster and more personalized support with shared
               screens and cool design systems for Figma"
             link="https://github.com/"
@@ -25,7 +25,7 @@ function Benefits() {
             iconPicture="benefits__card-pic_1"
           />
           <BenefitCard
-            title="Sales growth"
+            title="Detach if need"
             text="Identify qualified customers with easy-to-use live chat messaging
             and AI-based Sales Bot"
             link="https://github.com/"
@@ -33,7 +33,7 @@ function Benefits() {
             iconPicture="benefits__card-pic_2"
           />
           <BenefitCard
-            title="Coponents-driven"
+            title="Toggle icons"
             text="Delivering faster and more personalized support with shared
             screens and cool design systems for Figma"
             link="https://github.com/"
@@ -41,7 +41,7 @@ function Benefits() {
             iconPicture="benefits__card-pic_3"
           />
           <BenefitCard
-            title="Swap the icon"
+            title="Replace a title"
             text="You can toggle to any icon within Instances and customize outlined
             stroke to more bolder or lighter"
             link="https://github.com/"

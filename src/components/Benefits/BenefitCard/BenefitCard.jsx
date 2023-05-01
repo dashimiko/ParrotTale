@@ -1,6 +1,6 @@
 import './BenefitCard.scss';
 
-function BenefitCard({ title, text, link, iconColor, iconPicture }) {
+function BenefitCard({ title, text, /* link */ iconColor, iconPicture }) {
   return (
     <article className="benefits__card">
       <div className={`benefits__card-icon ${iconColor}`}>
@@ -8,14 +8,14 @@ function BenefitCard({ title, text, link, iconColor, iconPicture }) {
       </div>
       <h3 className="benefits__card-title">{title}</h3>
       <p className="benefits__card-text">{text}</p>
-      <a
+      {/* <a
         target="_blank"
         rel="noreferrer"
         href={link}
         className="benefits__link"
       >
         Learn more
-      </a>
+      </a> */}
     </article>
   );
 }

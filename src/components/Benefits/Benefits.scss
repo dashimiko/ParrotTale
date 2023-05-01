@@ -34,3 +34,29 @@
 .benefits__cardlist {
   @include base-flex(row, 30px);
 }
+
+@media screen and (max-width: 767px) {
+  .benefits__box {
+    padding: 40px 15px;
+    max-width: 100%;
+  }
+  .benefits__title-box {
+    gap: 8px;
+  }
+  .benefits__title {
+    letter-spacing: 0.25px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .benefits__description {
+    max-width: 100%;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+  }
+  .benefits__cardlist {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
