@@ -48,3 +48,39 @@
 .prices__card-box {
   @include base-flex(row, 30px);
 }
+
+@media screen and (max-width: 767px) {
+  .prices__box {
+    width: 100%;
+    max-width: 100%;
+    padding: 40px 15px;
+  }
+  .prices__title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: -0.5px;
+    @extend %null__item;
+    text-align: left;
+  }
+  .prices__subtitle {
+    text-align: left;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.25px;
+    margin: 8px auto 40px;
+  }
+  .prices__accent-word {
+    &::after {
+      width: 105%;
+    }
+  }
+  .prices__card-box {
+    flex-direction: row;
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}

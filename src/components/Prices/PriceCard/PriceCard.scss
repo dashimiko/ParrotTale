@@ -102,3 +102,57 @@
     opacity: 0.8;
   }
 }*/
+
+@media screen and (max-width: 767px) {
+  .priceCard {
+    padding: 24px;
+    width: 48%;
+    min-height: 392px;
+    //min-width: 330px;
+    min-width: 48%;
+    max-width: 48%;
+    border-radius: 12px;
+    filter: drop-shadow(0px 2px 4px rgba(38, 50, 56, 0.16))
+      drop-shadow(0px 4px 8px rgba(38, 50, 56, 0.08));
+  }
+  .priceCard__price-accent {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.25px;
+  }
+  .priceCard__condition {
+    margin-bottom: 24px;
+    margin-left: 32px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    &::after {
+      left: -32px;
+      width: 24px;
+      height: 24px;
+      background-size: contain;
+    }
+  }
+  .priceCard__button {
+    height: 48px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0.2;
+  }
+}
+
+@media screen and (max-width: 631px) {
+  .priceCard {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .priceCard {
+    min-width: 100%;
+  }
+}
