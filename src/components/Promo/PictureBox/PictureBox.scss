@@ -255,8 +255,9 @@
   }
 }
 
-@media screen and (max-width: 488px) {
+@media screen and (max-width: 400px) {
   .pictureBox__fragment_left {
-    display: none;
+    //display: none;
+    width: 70px;
   }
 }

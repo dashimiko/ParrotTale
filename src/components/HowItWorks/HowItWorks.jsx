@@ -16,6 +16,11 @@ function HowItWorks() {
             nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
             consequat.
           </p>
+          <img
+            className="how-it-works__pic_mobile"
+            src={parrotPicture2}
+            alt="осмысленный альт"
+          />
           <a
             target="_blank"
             rel="noreferrer"
