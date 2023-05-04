@@ -54,6 +54,10 @@
   }
 }
 
+summary::-webkit-details-marker {
+  display: none;
+}
+
 .FAQ__accordion-box[open] .FAQ__question {
   border-radius: 16px;
   margin-bottom: 0.5em;

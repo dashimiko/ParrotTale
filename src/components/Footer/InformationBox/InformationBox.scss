@@ -23,3 +23,9 @@
     color: $violetDetails;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .footer__informaiton-box {
+    display: none;
+  }
+}

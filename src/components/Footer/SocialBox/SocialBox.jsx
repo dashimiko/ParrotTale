@@ -38,6 +38,26 @@ function SocialBox() {
             <img alt="alt" src={twitterIcon} />
           </a>
         </li>
+        <li className="footer__social-item">
+          <a
+            className="footer__social-link"
+            href="https://github.com/dashimiko"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img alt="alt" src={twitterIcon} />
+          </a>
+        </li>
+        <li className="footer__social-item">
+          <a
+            className="footer__social-link"
+            href="https://github.com/dashimiko"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img alt="alt" src={twitterIcon} />
+          </a>
+        </li>
       </ul>
     </nav>
   );

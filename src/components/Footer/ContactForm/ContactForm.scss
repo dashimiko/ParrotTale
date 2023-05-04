@@ -63,3 +63,9 @@
 .contact-form__message-input {
   position: relative;
 }
+
+@media screen and (max-width: 767px) {
+  .contact-form {
+    display: none;
+  }
+}

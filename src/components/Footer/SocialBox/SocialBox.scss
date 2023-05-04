@@ -27,3 +27,20 @@
     background: $yellowDetails;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .footer__social-title {
+    display: none;
+  }
+  .footer__social-box {
+    position: absolute;
+    bottom: 40px;
+    justify-content: space-between;
+    margin-bottom: 0;
+    width: calc(100% - 30px);
+    gap: unset;
+  }
+  .footer__social-icon {
+    stroke: black;
+  }
+}

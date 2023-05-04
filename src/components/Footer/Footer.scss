@@ -13,7 +13,7 @@
 .footer__content {
   max-width: 1170px;
   margin: 0 auto;
-  padding: 80px 135px 200px;
+  padding: 80px 135px 100px;
   display: flex;
   width: 100%;
   justify-content: space-between;
@@ -37,6 +37,23 @@
   &:hover {
     opacity: 0.8;
   }
+}
+
+.footer__caption_company {
+  margin-top: 100px;
+  margin-bottom: 5px;
+  @extend %text__small;
+}
+
+.footer__caption_author {
+  @extend %text__small;
+  margin: 0;
+}
+
+.footer__figure-first_mobile,
+.footer__figure-second_mobile,
+.footer__figure-third_mobile {
+  display: none;
 }
 
 // wave
@@ -82,5 +99,96 @@
 
   100% {
     transform: translate(-50%, -75%) rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__wave {
+    display: none;
+  }
+  .footer__content {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 40px 15px 101px;
+    flex-direction: column;
+    position: relative;
+  }
+  .footer__content-box {
+    flex-direction: column;
+  }
+  .footer__caption_company {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    margin: 0 auto;
+    max-width: 330px;
+    min-height: 48;
+  }
+  .footer__caption_company-span {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .footer__caption_author {
+    margin: 10px auto;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: 0.3px;
+    color: $accentColorGreen;
+    min-height: 48px;
+    text-align: center;
+  }
+  .footer__caption_author-span {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .footer__email {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0.2px;
+    margin: 0 auto;
+    color: $textColor;
+    min-height: 38px;
+  }
+  .footer__figure-first_mobile {
+    display: block;
+    background: $violetDetails;
+    opacity: 0.24;
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    bottom: -75px;
+    left: -75px;
+    transform: matrix(0.71, 0.71, 0.71, -0.71, 0, 0);
+  }
+  .footer__figure-second_mobile {
+    display: block;
+    background: $yellowDetails;
+    opacity: 0.24;
+    width: 170px;
+    height: 150px;
+    border-radius: 45.4479px;
+    mix-blend-mode: multiply;
+    transform: matrix(0.71, 0.71, 0.71, -0.71, 0, 0);
+    bottom: -75px;
+    left: 10px;
+    position: absolute;
+  }
+  .footer__figure-third_mobile {
+    display: block;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(../../images/dots.svg);
+    position: absolute;
+    width: 80px;
+    height: 110px;
+    left: 80px;
+    bottom: -35.64px;
+    transform: rotate(90deg);
   }
 }
