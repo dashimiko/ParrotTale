@@ -12,6 +12,29 @@ import Prices from '../Prices/Prices';
 import HowItWorks from '../HowItWorks/HowItWorks';
 
 function App() {
+  const checkResponse = (res) => {
+    if (res) {
+      console.log(res);
+      return res.json();
+    }
+    return res.json().then((data) => {
+      throw new Error(data.message);
+    });
+  };
+
+  const getData = () =>
+    fetch(`https://api.realworld.io/api/articles`, {
+      method: 'GET',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+    })
+      .then(checkResponse)
+      .then((res) => console.log(res.articles))
+      .catch((err) => console.log(err));
+
+  getData();
+
   return (
     <div className="App">
       <div className="App__container">
