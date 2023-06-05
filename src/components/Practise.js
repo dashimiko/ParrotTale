@@ -8,23 +8,29 @@ import Modal from 'react-modal';
 import './Practise.scss';
 
 const tikets = [
-  { date: '1 января', price: 3000, from: 'moscow', to: 'tver' },
-  { date: '2 января', price: 3000, from: 'moscow', to: 'tver' },
-  { date: '3 января', price: 3000, from: 'moscow', to: 'tver' },
-  { date: '4 января', price: 4780, from: 'moscow', to: 'tver' },
-  { date: '5 января', price: 3890, from: 'moscow', to: 'tver' },
-  { date: '6 января', price: 3390, from: 'moscow', to: 'tver' },
-  { date: '7 января', price: 5490, from: 'moscow', to: 'tver' },
-  { date: '8 января', price: 4490, from: 'moscow', to: 'tver' },
-  { date: '9 января', price: 5590, from: 'moscow', to: 'tver' },
-  { date: '10 января', price: 6590, from: 'moscow', to: 'tver' },
-  { date: '11 января', price: 3590, from: 'moscow', to: 'tver' },
-  { date: '12 января', price: 4567, from: 'moscow', to: 'tver' },
-  { date: '13 января', price: 5000, from: 'moscow', to: 'tver' },
-  { date: '14 января', price: 3000, from: 'moscow', to: 'tver' },
+  { _id: 1346, date: '1 января', price: 3000, from: 'moscow', to: 'tver' },
+  { _id: 24555, date: '2 января', price: 3000, from: 'moscow', to: 'tver' },
+  { _id: 35666, date: '3 января', price: 3000, from: 'moscow', to: 'tver' },
+  { _id: 456666, date: '4 января', price: 4780, from: 'moscow', to: 'tver' },
+  { _id: 55543, date: '5 января', price: 3890, from: 'moscow', to: 'tver' },
+  { _id: 64444, date: '6 января', price: 3390, from: 'moscow', to: 'tver' },
+  { _id: 7344443, date: '7 января', price: 5490, from: 'moscow', to: 'tver' },
+  { _id: 83332, date: '8 января', price: 4490, from: 'moscow', to: 'tver' },
+  { _id: 934344, date: '9 января', price: 5590, from: 'moscow', to: 'tver' },
+  { _id: 1034243, date: '10 января', price: 6590, from: 'moscow', to: 'tver' },
+  { _id: 1124342, date: '11 января', price: 3590, from: 'moscow', to: 'tver' },
+  { _id: 124234, date: '12 января', price: 4567, from: 'moscow', to: 'tver' },
+  { _id: 13243324, date: '13 января', price: 5000, from: 'moscow', to: 'tver' },
+  { _id: 1442243, date: '14 января', price: 3000, from: 'moscow', to: 'tver' },
 ];
 
-const data = tikets.map(({ date, price }) => ({ name: date, uv: price }));
+const data = tikets.map(({ date, price, _id, from, to }) => ({
+  name: date,
+  uv: price,
+  id: _id,
+  destination: to,
+  departure: from,
+}));
 
 export default function App() {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -47,13 +53,12 @@ export default function App() {
         <BarChart data={data}>
           <XAxis dataKey="name" tickLine={false} axisLine={false} />
           <Bar dataKey="uv" onClick={handleClick}>
-            {data.map((entry, index) => (
+            {data.map((id) => (
               <Cell
                 radius={[5, 5, 0, 0]}
                 cursor="pointer"
-                fill={index === activeIndex ? '#82ca9d' : '#EBA534'}
-                // eslint-disable-next-line react/no-array-index-key
-                key={`cell-${index}`}
+                fill={id === activeIndex ? '#82ca9d' : '#EBA534'}
+                key={id}
               />
             ))}
           </Bar>
@@ -77,7 +82,7 @@ export default function App() {
           },
         }}
       >
-        <p>{`${activeItem.name}: ${activeItem.uv}`}</p>
+        <p>{`Дата: ${activeItem.name}, Цена: ${activeItem.uv},Куда: ${activeItem.destination},Откуда: ${activeItem.departure}`}</p>
         <button className="modal_button" type="button" onClick={closeModal}>
           Close
         </button>
