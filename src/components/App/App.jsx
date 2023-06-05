@@ -10,6 +10,7 @@ import Benefits from '../Benefits/Benefits';
 import FAQ from '../FAQ/FAQ';
 import Prices from '../Prices/Prices';
 import HowItWorks from '../HowItWorks/HowItWorks';
+import Practice from '../Practise';
 
 function App() {
   const checkResponse = (res) => {
@@ -66,7 +67,7 @@ function App() {
               </>
             }
           />
-          <Route path="/blog" element={<h2>Blog</h2>} />
+          <Route path="/blog" element={<Practice />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
