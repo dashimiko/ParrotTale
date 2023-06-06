@@ -5,3 +5,50 @@
 .bar {
   width: 100%;
 }
+
+.recharts-layer:hover {
+  /* Измените стили элементов графика при наведении */
+  //fill: #ff0000;
+  fill: #ff0000;
+  color: yellowgreen;
+  /* Добавьте свои собственные стили */
+}
+
+.recharts-tooltip-wrapper {
+  /* Измените стили обертки подсказки */
+  background-color: #fff;
+  border: 1px solid #ccc;
+  color: violet;
+  /* Добавьте свои собственные стили */
+}
+
+.recharts-tooltip {
+  /* Измените стили содержимого подсказки */
+  font-size: 14px;
+  color: yellow;
+  /* Добавьте свои собственные стили */
+}
+
+.recharts-tooltip-label {
+  /* Измените стили метки подсказки */
+  font-weight: bold;
+  color: blue;
+  /* Добавьте свои собственные стили */
+}
+
+.recharts-tooltip-item {
+  /* Измените стили каждого элемента подсказки */
+  color: #ff0000;
+  /* Добавьте свои собственные стили */
+}
+
+.custom-tooltip {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  /* Добавьте свои собственные стили */
+}
+
+.recharts-bar-rectangle {
+  fill: yellowgreen;
+}
