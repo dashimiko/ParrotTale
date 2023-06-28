@@ -39,19 +39,7 @@ function Navigation({ isBurgerOpen, onBurgerClick }) {
                   : 'navigation__link navigation__link_with-dot'
               }
             >
-              TicTacToe
-            </NavLink>
-          </li>
-          <li className="navigation__item">
-            <NavLink
-              to="/nothing"
-              className={(navData) =>
-                navData.isActive
-                  ? 'navigation__link_active navigation__link_with-dot'
-                  : 'navigation__link navigation__link_with-dot'
-              }
-            >
-              Nothing Here
+              About us
             </NavLink>
           </li>
           <li className="navigation__item">
@@ -63,7 +51,31 @@ function Navigation({ isBurgerOpen, onBurgerClick }) {
                   : 'navigation__link navigation__link_with-dot'
               }
             >
-              blog
+              Blog
+            </NavLink>
+          </li>
+          <li className="navigation__item">
+            <NavLink
+              to="/nothing"
+              className={(navData) =>
+                navData.isActive
+                  ? 'navigation__link_active navigation__link_with-dot'
+                  : 'navigation__link navigation__link_with-dot'
+              }
+            >
+              FAQ
+            </NavLink>
+          </li>
+          <li className="navigation__item">
+            <NavLink
+              to="/nothing"
+              className={(navData) =>
+                navData.isActive
+                  ? 'navigation__link_active navigation__link_with-dot'
+                  : 'navigation__link navigation__link_with-dot'
+              }
+            >
+              Contacts
             </NavLink>
           </li>
         </ul>

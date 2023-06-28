@@ -17,8 +17,8 @@ function PictureBox() {
       <div className="pictureBox pictureBox__desktop">
         <div className="pictureBox__fragment_left">
           <p className="pictureBox__text pictureBox__text_left-figure">
-            Use mixed grid with imagery, replace with your own photos and
-            descriptions
+            This is a fan site about parrots, extraordinary creatures deserving
+            of our awe.
           </p>
           <a
             className="pictureBox__overlay"
@@ -32,10 +32,10 @@ function PictureBox() {
               alt="нужен осмысленный альт"
             />
             <p className="pictureBox__pic1-headline">
-              We aimed to deliver HQ templates for Figma
+              That is why these birds are so fabulous and gorgeous
             </p>
             <span className="pictureBox__pic1-descripton">
-              Used by 123 people
+              10 interesting facts
             </span>
           </a>
           <ExploreButton link={buttonlink} localStyleName={localstyle} />
@@ -55,13 +55,13 @@ function PictureBox() {
                 alt="нужен осмысленный альт"
               />
               <span className="pictureBox__pic2-headline">
-                Consider it done!
+                What parrot am I? Test
               </span>
             </a>
             <figure className="pictureBox__figure">
               <figcaption className="pictureBox__text pictureBox__text_top-figure">
-                This is multipurpose grid, it fits for portfolio, services or
-                agency web site
+                Immerse yourself in the world of parrots through our blog
+                articles and fall in love.
               </figcaption>
               <div className="pictureBox__figure-box">
                 <img
@@ -94,7 +94,7 @@ function PictureBox() {
                 src={parrotPicture6}
                 alt="нужен осмысленный альт"
               />
-              <span className="pictureBox__pic6-headline">See my goal?</span>
+              <span className="pictureBox__pic6-headline">About smartness</span>
             </a>
             <img
               className="pictureBox__pic_7"

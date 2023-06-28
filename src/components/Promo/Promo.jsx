@@ -10,17 +10,19 @@ function Promo() {
         <div className="promo__dots" />
         <div className="promo__title-box">
           <h1 className="promo__title">
-            Combine
+            Discover
             <span className="promo__strong-word_desktop">
-              <span className="promo__strong-word"> fine</span> pictures
+              <span className="promo__strong-word"> cute</span> parrots
             </span>
             <span className="promo__strong-word_mobile">
-              <span className="promo__strong-word"> cool</span> images
+              <span className="promo__strong-word"> cool</span> birds
             </span>
           </h1>
-          <h2 className="promo__subtitle_desktop">To represent a rainbow</h2>
+          <h2 className="promo__subtitle_desktop">
+            to explore the beauty of the world
+          </h2>
           <h2 className="promo__subtitle_mobile">
-            To create any grid by scaling and resizing
+            to explore the beauty of the world
           </h2>
         </div>
         <PictureBox />

@@ -7,7 +7,7 @@ function Benefits() {
       <div className="benefits__box">
         <div className="benefits__title-box">
           <h2 className="benefits__title">
-            Delivering good designs since 1954 🚚💨
+            Delivering good designs since 1954 🦜
           </h2>
           <p className="benefits__description">
             We’re the first multi-purpose design kit solutions for businesses.
