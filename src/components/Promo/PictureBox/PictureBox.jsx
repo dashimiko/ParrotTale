@@ -18,7 +18,7 @@ function PictureBox() {
         <div className="pictureBox__fragment_left">
           <p className="pictureBox__text pictureBox__text_left-figure">
             This is a fan site about parrots, extraordinary creatures deserving
-            of our awe.
+            of our awe
           </p>
           <a
             className="pictureBox__overlay"
@@ -61,7 +61,7 @@ function PictureBox() {
             <figure className="pictureBox__figure">
               <figcaption className="pictureBox__text pictureBox__text_top-figure">
                 Immerse yourself in the world of parrots through our blog
-                articles and fall in love.
+                articles
               </figcaption>
               <div className="pictureBox__figure-box">
                 <img

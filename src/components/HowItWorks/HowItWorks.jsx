@@ -7,7 +7,7 @@ function HowItWorks() {
     <section className="how-it-works">
       <div className="how-it-works__box">
         <div className="how-it-works__text-box">
-          <h2 className="how-it-works__title">How It Works</h2>
+          <h2 className="how-it-works__title">About us</h2>
           <p className="how-it-works__text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
