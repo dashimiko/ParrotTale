@@ -32,7 +32,7 @@ function Navigation({ isBurgerOpen, onBurgerClick }) {
           </li>
           <li className="navigation__item">
             <NavLink
-              to="/tictactoe"
+              to="/about-us"
               className={(navData) =>
                 navData.isActive
                   ? 'navigation__link_active navigation__link_with-dot'
