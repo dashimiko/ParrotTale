@@ -6,7 +6,7 @@ function Prices() {
   return (
     <section className="prices">
       <div className="prices__box">
-        <h2 className="prices__title">Affordable pricing</h2>
+        <h2 className="prices__title">Parrot&apos; profiles</h2>
         <p className="prices__subtitle">
           Bill me <span className="prices__accent-word">monthly</span> • yearly
         </p>

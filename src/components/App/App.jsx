@@ -4,7 +4,6 @@ import './App.scss';
 import TicTacToe from '../TicTacToe/TicТacToe';
 import NotFound from '../NotFound/NotFound';
 import Header from '../Header/Header';
-import Practice from '../Practise';
 import HomePage from '../../pages/HomePage';
 import AboutUsPage from '../../pages/AboutUsPage';
 
@@ -25,7 +24,7 @@ function App() {
               </>
             }
           />
-          <Route path="/blog" element={<Practice />} />
+          <Route path="/blog" element={<NotFound />} />
           <Route path="/about-us" element={<AboutUsPage />} />
           <Route path="*" element={<NotFound />} />
         </Routes>

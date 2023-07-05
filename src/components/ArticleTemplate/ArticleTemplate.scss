@@ -30,11 +30,11 @@
   width: 33%;
   max-width: 370px;
   border-radius: 20px;
+  object-fit: cover;
 }
 
 .article-template__picture-box {
   display: flex;
   width: 100%;
-  justify-content: space-between;
   gap: 20px;
 }
