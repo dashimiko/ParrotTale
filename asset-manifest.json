@@ -1,32 +1,37 @@
 {
   "files": {
-    "main.css": "/rainbow/static/css/main.b9e4d5a7.css",
-    "main.js": "/rainbow/static/js/main.95c59e3d.js",
+    "main.css": "/rainbow/static/css/main.a0e2ff36.css",
+    "main.js": "/rainbow/static/js/main.c1203839.js",
+    "static/media/about-us-picture-kira-and-me.jpg": "/rainbow/static/media/about-us-picture-kira-and-me.d80277c3fe2e56d3e344.jpg",
+    "static/media/about-us-pic-kira3.jpg": "/rainbow/static/media/about-us-pic-kira3.a226d701bf0fba80c272.jpg",
+    "static/media/about-us-pic-kira2.jpg": "/rainbow/static/media/about-us-pic-kira2.0cf7359b802d8ae44d26.jpg",
     "static/media/secondParrotPic.jpg": "/rainbow/static/media/secondParrotPic.e3ae1ba7c3c337a30f58.jpg",
     "static/media/sixParrotPic.jpg": "/rainbow/static/media/sixParrotPic.0be66fa6881a006f6a64.jpg",
     "static/media/wiggle.svg": "/rainbow/static/media/wiggle.e564326910cf72f552c2.svg",
     "static/media/firstParrotPic.jpg": "/rainbow/static/media/firstParrotPic.1c5f32770a02be27da8a.jpg",
     "static/media/fiveParrotPic.jpg": "/rainbow/static/media/fiveParrotPic.906f66988804a339fc37.jpg",
     "static/media/dots.svg": "/rainbow/static/media/dots.c43ec37da025267ad2b0.svg",
-    "static/media/icon-phone-call.svg": "/rainbow/static/media/icon-phone-call.a45a5369a46960813d8a.svg",
-    "static/media/icon-pie-chart.svg": "/rainbow/static/media/icon-pie-chart.7f8bfa97bc2a45ec2a0e.svg",
-    "static/media/icon-good-job.svg": "/rainbow/static/media/icon-good-job.985d63237c43611c8bfa.svg",
-    "static/media/icon-zap.svg": "/rainbow/static/media/icon-zap.81acb6bf4f660cf71d7b.svg",
+    "static/media/icon-bird-3.svg": "/rainbow/static/media/icon-bird-3.cb8df9b003cf5df6869d.svg",
+    "static/media/icon-bird-4.svg": "/rainbow/static/media/icon-bird-4.430fa51eb7cdbc98730d.svg",
+    "static/media/icon-bird-5.svg": "/rainbow/static/media/icon-bird-5.08a4a6b9328b6ae9708d.svg",
+    "static/media/icon-bird-6.svg": "/rainbow/static/media/icon-bird-6.2d5634f2e910e85f3ee0.svg",
     "static/media/Rectangle.svg": "/rainbow/static/media/Rectangle.03e05504553e9c109344.svg",
     "static/media/icon-instagram.svg": "/rainbow/static/media/icon-instagram.fef4c4ebf301356b9f91fc8d804aa044.svg",
-    "static/media/logo.svg": "/rainbow/static/media/logo.33ef57214fc9e7e731d668d792c7cf45.svg",
     "static/media/Icon-list-gray.svg": "/rainbow/static/media/Icon-list-gray.65950a737d566ab3c325.svg",
     "static/media/Icon-list-green.svg": "/rainbow/static/media/Icon-list-green.0c260ef9a972f638e0f2.svg",
     "static/media/Icon-list-yellow.svg": "/rainbow/static/media/Icon-list-yellow.d71ef8d6c8e7777c0264.svg",
     "static/media/icon-twitter.svg": "/rainbow/static/media/icon-twitter.6b3c89b9788caec986aae89898581f16.svg",
+    "static/media/icon-logo-feather.svg": "/rainbow/static/media/icon-logo-feather.55a13b66ffa4c0b5d43779a76cc74ac5.svg",
     "index.html": "/rainbow/index.html",
     "static/media/wave.svg": "/rainbow/static/media/wave.3d08263383c66e7392bb.svg",
     "static/media/icon-facebook.svg": "/rainbow/static/media/icon-facebook.87b988a8ce973102e467f03a37756ae9.svg",
-    "main.b9e4d5a7.css.map": "/rainbow/static/css/main.b9e4d5a7.css.map",
-    "main.95c59e3d.js.map": "/rainbow/static/js/main.95c59e3d.js.map"
+    "static/media/icon-chevron-left.svg": "/rainbow/static/media/icon-chevron-left.05e1c44d0c0acffa82e3.svg",
+    "static/media/icon-chevron-right.svg": "/rainbow/static/media/icon-chevron-right.4c5aec347bfbf2a6ac43.svg",
+    "main.a0e2ff36.css.map": "/rainbow/static/css/main.a0e2ff36.css.map",
+    "main.c1203839.js.map": "/rainbow/static/js/main.c1203839.js.map"
   },
   "entrypoints": [
-    "static/css/main.b9e4d5a7.css",
-    "static/js/main.95c59e3d.js"
+    "static/css/main.a0e2ff36.css",
+    "static/js/main.c1203839.js"
   ]
 }
