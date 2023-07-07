@@ -1,10 +1,10 @@
 @import '../../../commonStyles/commonStyles.scss';
 
-.priceCard {
+.parrot-card {
   box-sizing: border-box;
   padding: 32px;
   max-width: 370px;
-  min-height: 536px;
+  // min-height: 536px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -12,19 +12,21 @@
   background-color: #ffffff;
   @extend %button__transition;
   &:hover {
-    // position: relative;
     filter: drop-shadow(0px 8px 8px rgba(38, 50, 56, 0.12))
       drop-shadow(0px 16px 24px rgba(38, 50, 56, 0.08));
   }
+  height: 700px;
 }
 
-/*.priceCard_priority {
-  position: relative;
-  filter: drop-shadow(0px 8px 8px rgba(38, 50, 56, 0.12))
-    drop-shadow(0px 16px 24px rgba(38, 50, 56, 0.08));
-}*/
+.parrot-card__picture {
+  width: 100%;
+  object-fit: cover;
+  margin: 20px 0;
+  border-radius: 20px;
+  height: 200px;
+}
 
-.priceCard__title {
+.parrot-card__title {
   @extend %null__item;
   letter-spacing: 0.2px;
   color: $violetDetails;
@@ -32,27 +34,18 @@
   font-weight: 700;
 }
 
-.priceCard__price {
-  margin: 16px 0 24px;
-  @extend %text__caption;
-  letter-spacing: 2.5px;
-  text-transform: uppercase;
-}
-
-.priceCard__price-accent {
-  @extend %big__capture;
-  letter-spacing: -1px;
-  text-transform: lowercase;
-}
-
-.priceCard__condition-list {
+.parrot-card__condition-list {
   @extend %null__item;
   list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
 }
 
-.priceCard__condition {
+.parrot-card__condition {
   @extend %null__item;
-  margin-bottom: 16px;
+  margin-bottom: 0;
   margin-left: 48px;
   @extend %text__regular;
   position: relative;
@@ -67,24 +60,25 @@
   }
 }
 
-.priceCard__condition_priority {
+.parrot-card__condition_yellow {
   &::after {
     background-image: url(../../../images/icons/Icon-list-yellow.svg);
   }
 }
 
-.priceCard__condition_standart {
+.parrot-card__condition_green {
   &::after {
     background-image: url(../../../images/icons/Icon-list-green.svg);
   }
 }
 
-.priceCard__button {
+.parrot-card__button {
   width: 100%;
   max-width: 306px;
   height: 64px;
   margin-top: 0;
   background: white;
+  margin-top: 20px;
   @extend %text__button_small;
   @extend %button__transition;
   &:hover {
@@ -93,18 +87,8 @@
   }
 }
 
-/*.priceCard__button_priority {
-  color: white;
-  background: $violetDetails;
-  @extend %text__button_small;
-  opacity: 1;
-  &:hover {
-    opacity: 0.8;
-  }
-}*/
-
 @media screen and (max-width: 767px) {
-  .priceCard {
+  .parrot-card {
     padding: 24px;
     width: 48%;
     min-height: 392px;
@@ -115,13 +99,8 @@
     filter: drop-shadow(0px 2px 4px rgba(38, 50, 56, 0.16))
       drop-shadow(0px 4px 8px rgba(38, 50, 56, 0.08));
   }
-  .priceCard__price-accent {
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 36px;
-    letter-spacing: 0.25px;
-  }
-  .priceCard__condition {
+
+  .parrot-card__condition {
     margin-bottom: 24px;
     margin-left: 32px;
     font-weight: 500;
@@ -135,7 +114,7 @@
       background-size: contain;
     }
   }
-  .priceCard__button {
+  .parrot-card__button {
     height: 48px;
     font-weight: 700;
     font-size: 18px;
@@ -145,14 +124,14 @@
 }
 
 @media screen and (max-width: 631px) {
-  .priceCard {
+  .parrot-card {
     max-width: 100%;
     width: 100%;
   }
 }
 
 @media screen and (max-width: 360px) {
-  .priceCard {
+  .parrot-card {
     min-width: 100%;
   }
 }
