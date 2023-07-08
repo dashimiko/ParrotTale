@@ -79,6 +79,9 @@
   margin-top: 0;
   background: white;
   margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   @extend %text__button_small;
   @extend %button__transition;
   &:hover {

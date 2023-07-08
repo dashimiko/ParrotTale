@@ -1,4 +1,5 @@
 /* eslint-disable no-nested-ternary */
+import { Link } from 'react-router-dom';
 import './ParrotCard.scss';
 
 function ParrotCard({ card }) {
@@ -28,9 +29,9 @@ function ParrotCard({ card }) {
           ))}
         </ul>
       </div>
-      <button type="button" className="benefits__link parrot-card__button">
+      <Link to={card.link} className="benefits__link parrot-card__button">
         Learn more
-      </button>
+      </Link>
     </article>
   );
 }
