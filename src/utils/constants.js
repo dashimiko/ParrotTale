@@ -16,7 +16,7 @@ const ARTICLE_ABOUT_US = {
 const ARTICLES = [
   {
     id: 'сockatiel_profile',
-    tags: ['profiles', 'breeds'],
+    tags: ['breeds'],
     title: 'Cockatiel',
     pictures: [
       'https://facts.net/wp-content/uploads/2021/04/Adult-male-cockatiel-730x487.jpg',
@@ -39,7 +39,7 @@ const ARTICLES = [
   },
   {
     id: 'kakapo_profile',
-    tags: ['profiles', 'breeds'],
+    tags: ['breeds'],
     title: 'Kakapo',
     pictures: ['https://zooclub.org.ua/uploads/2021/04/20/kakapo4.webp'],
     text: [
@@ -60,7 +60,7 @@ const ARTICLES = [
   },
   {
     id: 'Budgie_profile',
-    tags: ['profiles', 'breeds'],
+    tags: ['breeds'],
     title: 'Budgie',
     pictures: [
       'https://www.omlet.us/images/originals/blue_and_green_budgie_pair.jpg',
@@ -106,7 +106,7 @@ const ARTICLES = [
   },
   {
     id: 'African_grey_parrot_profile',
-    tags: ['profiles', 'breeds'],
+    tags: ['profiles'],
     title: 'African grey parrot',
     pictures: [
       'https://cdn.pixabay.com/photo/2022/10/17/08/44/parrot-7527071_1280.jpg',
@@ -127,7 +127,7 @@ const ARTICLES = [
   },
   {
     id: 'Cockatoo_profile',
-    tags: ['profiles', 'breeds'],
+    tags: ['profiles'],
     title: 'Cockatoo',
     pictures: [
       'https://media.cnn.com/api/v1/images/stellar/prod/230615072150-yellow-crested-cockatoo-yuen-po-bird-market.jpg?c=original',
@@ -149,4 +149,9 @@ const ARTICLES = [
   },
 ];
 
-export { ARTICLES, ARTICLE_ABOUT_US };
+const TAG_COLORS = {
+  profiles: 'green',
+  breeds: 'blue',
+};
+
+export { ARTICLES, ARTICLE_ABOUT_US, TAG_COLORS };

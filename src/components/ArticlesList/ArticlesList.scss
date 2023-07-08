@@ -1,0 +1,20 @@
+@import '../../commonStyles/commonStyles.scss';
+
+.articles-list {
+  width: 100%;
+}
+
+.articles-list__box {
+  padding: 80px 135px;
+  box-sizing: border-box;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.articles-list__list {
+  @extend %null__item;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  flex-wrap: wrap;
+}
