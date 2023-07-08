@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/rainbow/static/css/main.a0e2ff36.css",
-    "main.js": "/rainbow/static/js/main.c1203839.js",
+    "main.css": "/rainbow/static/css/main.cc94b40c.css",
+    "main.js": "/rainbow/static/js/main.3becd996.js",
     "static/media/about-us-picture-kira-and-me.jpg": "/rainbow/static/media/about-us-picture-kira-and-me.d80277c3fe2e56d3e344.jpg",
     "static/media/about-us-pic-kira3.jpg": "/rainbow/static/media/about-us-pic-kira3.a226d701bf0fba80c272.jpg",
     "static/media/about-us-pic-kira2.jpg": "/rainbow/static/media/about-us-pic-kira2.0cf7359b802d8ae44d26.jpg",
@@ -20,18 +20,17 @@
     "static/media/Icon-list-gray.svg": "/rainbow/static/media/Icon-list-gray.65950a737d566ab3c325.svg",
     "static/media/Icon-list-green.svg": "/rainbow/static/media/Icon-list-green.0c260ef9a972f638e0f2.svg",
     "static/media/Icon-list-yellow.svg": "/rainbow/static/media/Icon-list-yellow.d71ef8d6c8e7777c0264.svg",
-    "static/media/icon-twitter.svg": "/rainbow/static/media/icon-twitter.6b3c89b9788caec986aae89898581f16.svg",
     "static/media/icon-logo-feather.svg": "/rainbow/static/media/icon-logo-feather.55a13b66ffa4c0b5d43779a76cc74ac5.svg",
     "index.html": "/rainbow/index.html",
     "static/media/wave.svg": "/rainbow/static/media/wave.3d08263383c66e7392bb.svg",
-    "static/media/icon-facebook.svg": "/rainbow/static/media/icon-facebook.87b988a8ce973102e467f03a37756ae9.svg",
+    "static/media/icon-link-arrow.svg": "/rainbow/static/media/icon-link-arrow.d10b2573e4202fd3b48e.svg",
     "static/media/icon-chevron-left.svg": "/rainbow/static/media/icon-chevron-left.05e1c44d0c0acffa82e3.svg",
     "static/media/icon-chevron-right.svg": "/rainbow/static/media/icon-chevron-right.4c5aec347bfbf2a6ac43.svg",
-    "main.a0e2ff36.css.map": "/rainbow/static/css/main.a0e2ff36.css.map",
-    "main.c1203839.js.map": "/rainbow/static/js/main.c1203839.js.map"
+    "main.cc94b40c.css.map": "/rainbow/static/css/main.cc94b40c.css.map",
+    "main.3becd996.js.map": "/rainbow/static/js/main.3becd996.js.map"
   },
   "entrypoints": [
-    "static/css/main.a0e2ff36.css",
-    "static/js/main.c1203839.js"
+    "static/css/main.cc94b40c.css",
+    "static/js/main.3becd996.js"
   ]
 }
