@@ -29,7 +29,10 @@ function ParrotCard({ card }) {
           ))}
         </ul>
       </div>
-      <Link to={card.link} className="benefits__link parrot-card__button">
+      <Link
+        to={`/blog/${card.id}`}
+        className="benefits__link parrot-card__button"
+      >
         Learn more
       </Link>
     </article>

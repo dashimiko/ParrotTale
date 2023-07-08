@@ -10,12 +10,16 @@ import {
 } from 'pure-react-carousel';
 import 'pure-react-carousel/dist/react-carousel.es.css';
 import ParrotCard from '../ParrotCard/ParrotCard';
-import { PARROTS_PROFILES } from '../../../utils/constants';
+import { ARTICLES } from '../../../utils/constants';
 import './Carousel.scss';
+
+const filteredArticles = ARTICLES.filter((article) =>
+  article.tags.includes('profiles')
+);
 
 function Carousel() {
   // const slideCount = 3; // Количество отображаемых слайдов
-  const totalSlides = PARROTS_PROFILES.length;
+  const totalSlides = filteredArticles.length;
 
   const [visibleSlides, setVisibleSlides] = useState(3);
 
@@ -48,7 +52,7 @@ function Carousel() {
     >
       <Slider className="carousel">
         <div className="parrots-profiles__card-box">
-          {PARROTS_PROFILES.map((card, index) => (
+          {filteredArticles.map((card, index) => (
             <Slide index={index} key={card.id}>
               <div
                 style={{

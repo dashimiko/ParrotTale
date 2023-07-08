@@ -6,6 +6,8 @@ import NotFound from '../NotFound/NotFound';
 import Header from '../Header/Header';
 import HomePage from '../../pages/HomePage';
 import AboutUsPage from '../../pages/AboutUsPage';
+import BlogPostPage from '../../pages/BlogPostPage';
+import BlogPage from '../../pages/BlogPage';
 
 function App() {
   return (
@@ -24,8 +26,9 @@ function App() {
               </>
             }
           />
-          <Route path="/blog" element={<NotFound />} />
+          <Route path="/blog" element={<BlogPage />} />
           <Route path="/about-us" element={<AboutUsPage />} />
+          <Route path="/blog/:postId" element={<BlogPostPage />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
