@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/rainbow/static/css/main.cc94b40c.css",
-    "main.js": "/rainbow/static/js/main.3becd996.js",
+    "main.js": "/rainbow/static/js/main.e87f0d76.js",
     "static/media/about-us-picture-kira-and-me.jpg": "/rainbow/static/media/about-us-picture-kira-and-me.d80277c3fe2e56d3e344.jpg",
     "static/media/about-us-pic-kira3.jpg": "/rainbow/static/media/about-us-pic-kira3.a226d701bf0fba80c272.jpg",
     "static/media/about-us-pic-kira2.jpg": "/rainbow/static/media/about-us-pic-kira2.0cf7359b802d8ae44d26.jpg",
@@ -27,10 +27,10 @@
     "static/media/icon-chevron-left.svg": "/rainbow/static/media/icon-chevron-left.05e1c44d0c0acffa82e3.svg",
     "static/media/icon-chevron-right.svg": "/rainbow/static/media/icon-chevron-right.4c5aec347bfbf2a6ac43.svg",
     "main.cc94b40c.css.map": "/rainbow/static/css/main.cc94b40c.css.map",
-    "main.3becd996.js.map": "/rainbow/static/js/main.3becd996.js.map"
+    "main.e87f0d76.js.map": "/rainbow/static/js/main.e87f0d76.js.map"
   },
   "entrypoints": [
     "static/css/main.cc94b40c.css",
-    "static/js/main.3becd996.js"
+    "static/js/main.e87f0d76.js"
   ]
 }
