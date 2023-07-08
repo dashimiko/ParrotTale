@@ -16,7 +16,7 @@ const ARTICLE_ABOUT_US = {
 const ARTICLES = [
   {
     id: 'сockatiel_profile',
-    tags: ['breeds'],
+    tags: ['breeds', 'profiles'],
     title: 'Cockatiel',
     pictures: [
       'https://facts.net/wp-content/uploads/2021/04/Adult-male-cockatiel-730x487.jpg',
@@ -39,7 +39,7 @@ const ARTICLES = [
   },
   {
     id: 'kakapo_profile',
-    tags: ['breeds'],
+    tags: ['breeds', 'profiles'],
     title: 'Kakapo',
     pictures: ['https://zooclub.org.ua/uploads/2021/04/20/kakapo4.webp'],
     text: [
@@ -60,7 +60,7 @@ const ARTICLES = [
   },
   {
     id: 'Budgie_profile',
-    tags: ['breeds'],
+    tags: ['breeds', 'profiles'],
     title: 'Budgie',
     pictures: [
       'https://www.omlet.us/images/originals/blue_and_green_budgie_pair.jpg',
