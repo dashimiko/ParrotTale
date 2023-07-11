@@ -154,4 +154,255 @@ const TAG_COLORS = {
   breeds: 'blue',
 };
 
-export { ARTICLES, ARTICLE_ABOUT_US, TAG_COLORS };
+const QUIZ_QUESTIONS = [
+  {
+    question: 'How would you describe your personality?',
+    answers: [
+      {
+        type: 'Blue Macaw',
+        content: 'Calm, confident, tricky',
+      },
+      {
+        type: 'Kakapo',
+        content: 'Cute, friendly, charming',
+      },
+      {
+        type: 'Black Cockatoo',
+        content: 'Bold, temperamental, refined',
+      },
+      {
+        type: 'Kea',
+        content: 'Curious, smart, playful',
+      },
+      {
+        type: 'Grey parrot',
+        content: 'Intelligent, loyal, independent',
+      },
+      {
+        type: 'Cockatiel',
+        content: 'Gentle, sensitive, outgoing',
+      },
+      {
+        type: 'Caique',
+        content: 'Energetic, creative, emotional',
+      },
+    ],
+  },
+  {
+    question: 'What is your favorite way to spend your free time?',
+    answers: [
+      {
+        type: 'Blue Macaw',
+        content: 'Exploring new places and trying interesting food ',
+      },
+      {
+        type: 'Kakapo',
+        content:
+          "Sleeping! I don't like leaving the house. The best rest is on the couch!",
+      },
+      {
+        type: 'Black Cockatoo',
+        content: 'Crafting, wandering around IKEA, and decorating the house',
+      },
+      {
+        type: 'Kea',
+        content:
+          "I can't imagine life without active days, sports, adventures, and thrills",
+      },
+      {
+        type: 'Grey parrot',
+        content:
+          'I enjoy exercising my brain. Studying, reading books, and, at worst, playing board games or having intellectual conversations',
+      },
+      {
+        type: 'Cockatiel',
+        content: 'I like calm activities such as walks, movies, or sunbathing',
+      },
+      {
+        type: 'Caique',
+        content:
+          "It doesn't matter what precisely, as long as I'm doing something. I find everything interesting!",
+      },
+    ],
+  },
+  {
+    question: 'How would you describe your social life?',
+    answers: [
+      {
+        type: 'Blue Macaw',
+        content:
+          'I often get out of the house but enjoy solitude. Balance is needed in everything!',
+      },
+      {
+        type: 'Kakapo',
+        content:
+          "I'm generally an introvert, but I love dates. Just need people to come to my house, and it should be someone new each time",
+      },
+      {
+        type: 'Black Cockatoo',
+        content: "I spend all my time with family. I don't need anyone else",
+      },
+      {
+        type: 'Kea',
+        content: 'I hang out with a small circle of old friends',
+      },
+      {
+        type: 'Grey parrot',
+        content:
+          "I enjoy social activities, but only if I'm accompanied by a partner or best friend",
+      },
+      {
+        type: 'Cockatiel',
+        content: "I have a significant other, and that's enough for me",
+      },
+      {
+        type: 'Caique',
+        content:
+          'I love big, noisy companies. I always become the life of the party',
+      },
+    ],
+  },
+  {
+    question: 'Choose an ideal habitat',
+    answers: [
+      {
+        type: 'Blue Macaw',
+        content: 'Dense tropical rainforest',
+      },
+      {
+        type: 'Kakapo',
+        content: 'Rocky deserted island in the ocean',
+      },
+      {
+        type: 'Black Cockatoo',
+        content: 'Tropical savannas and eucalyptus groves',
+      },
+      {
+        type: 'Kea',
+        content: 'Mountains and alpine meadows',
+      },
+      {
+        type: 'Grey parrot',
+        content: 'Thick trees growing in water',
+      },
+      {
+        type: 'Cockatiel',
+        content: 'Grasslands near rivers and lakes',
+      },
+      {
+        type: 'Caique',
+        content: 'Vast cornfields in rural areas',
+      },
+    ],
+  },
+  {
+    question: 'What is your favorite color?',
+    answers: [
+      {
+        type: 'Blue Macaw',
+        content: 'Blue',
+      },
+      {
+        type: 'Kakapo',
+        content: 'Green',
+      },
+      {
+        type: 'Black Cockatoo',
+        content: 'Black',
+      },
+      {
+        type: 'Kea',
+        content: 'Orange',
+      },
+      {
+        type: 'Grey parrot',
+        content: 'Red',
+      },
+      {
+        type: 'Cockatiel',
+        content: 'Yellow',
+      },
+      {
+        type: 'Caique',
+        content:
+          "It's impossible to choose just one—I love all the colors of the rainbow!",
+      },
+    ],
+  },
+];
+
+const QUIZ_RESULTS = [
+  {
+    type: 'Blue Macaw',
+    content: [
+      'The Blue (or hyacinth)  Macaw is an endangered vibrant parrot from Brazil. It is one of the most giant parrots in the world. The macaw is very strong due to its powerful beak, which makes it almost invulnerable in the wild (except for humans, of course).',
+      "Although the macaw leads a peaceful lifestyle, it is also cunning and can show its temper. For example, it can sneak onto a farm and bite and scatter all the fruits from the harvest, even if the macaw doesn't like them.",
+      'Macaws enjoy spending time in the company of each other and gathering in small flocks of 6-12 individuals, but they also appreciate solitude. For instance, if a macaw discovers a tree with fruits, it starts behaving silently to avoid sharing with other parrots.',
+    ],
+    picture:
+      'https://cff2.earth.com/uploads/2020/12/07120045/shutterstock_752619508.jpg',
+  },
+  {
+    type: 'Kakapo',
+    content: [
+      'Kakapo from New Zealand is the heaviest, longest-living, and most pleasantly scented parrot in the world. These birds emit a fragrance of flowers and honey. They can weigh up to four kilograms and live up to 60 years! In 2019, there were only 147 individuals, but conservationists managed to slightly increase their population to 213 within a year.',
+      "Kakapo leads a nocturnal lifestyle and lives a tranquil existence, becoming more active mainly during the breeding season. Unlike other parrots, male kakapos are true ladies' men, striving to attract multiple mates during the breeding season. The males stay in one place, emitting low-frequency sounds, waiting for the females to find them.",
+      'The qualities that make kakapo such endearing and unique animals also put their lives at risk. Kakapos are highly trusting, reproduce slowly, nest on the ground, and their main defense mechanism is to blend in with the foliage.',
+    ],
+    picture:
+      "https://2.bp.blogspot.com/-bj5sLA9LqXg/U7oDDaQkaJI/AAAAAAAAGfc/MdeYET-EETQ/s16000/Kakapo_is_the_world's_rarest_and_strangest_parrot_ritebook.in_002.jpg",
+  },
+  {
+    type: 'Black Cockatoo',
+    content: [
+      'The Black (or palm) Cockatoo is considered the oldest and largest parrot on the Australian continent. Its entire body is covered in black feathers, except for the cheeks. It is precisely these areas that have made the cockatoos famous, as their color intensifies when their mood changes (when excited).',
+      'The bird has a complex and capricious personality. It struggles to get along with other pets, tends to bite, and sometimes shows aggression even towards its owner. However, the Palm Cockatoo can be described as the most tender and caring parent and spouse among parrots.',
+      'The Palm Cockatoo reaches sexual maturity very late. Male birds form relationships with females in their mature age, typically after the age of 6, but these relationships last a lifetime. To win over a female, the male builds a nest and demonstrates its durability by tapping on it with a stick. After courtship, the male actively participates in incubating, feeding, and raising the offspring.',
+    ],
+    picture:
+      'https://sdzwildlifeexplorers.org/sites/default/files/2017-12/animal-hero-palm-cockatoo.jpg',
+  },
+  {
+    type: 'Kea',
+    content: [
+      'These parrots from New Zealand are known for their intelligence and cleverness. Keas resemble falcons or small eagles with large heads and a predatory, downward-curved beak. Despite their relatively small size, keas possess remarkable strength and are excellent flyers. They inhabit both mountainous areas and urban environments.',
+      "Accustomed to humans and extremely curious, these birds can cause quite a bit of trouble. They are renowned for their exploratory behavior and their adeptness at using their beaks, which, combined with their developed curiosity, makes them a nuisance for locals and a source of entertainment for tourists. Dubbed the 'clowns of the mountains,' they seize every opportunity to investigate the contents of backpacks or cars that catch their interest.",
+      'The Birds are very sociable and playful. they like to tumble in the snow or swim in freshly thawed puddles.',
+    ],
+    picture:
+      'https://i.pinimg.com/originals/7d/d4/3c/7dd43cb68fe2c8023dd07294a8775429.jpg',
+  },
+  {
+    type: 'Caique',
+    content: [
+      "Your totem parrot is the Caique - a Brazilian bird that can't sit still and is constantly busy. It's a lively and playful bird, a celebration bird that always brings joy. Caiques are highly energetic and curious, they love to dance and mimic sounds (like your alarm clock). They want to be involved in everything that happens in the house. However, this species is known for its sharp mood swings. Bursts of activity can easily be followed by melancholy.",
+      'In the wild, Caiques live in pairs or small families. During feeding times, they can gather in large groups and even join forces with other species for mutual assistance. During raids on cornfields, while most of them are eating, a few sentries keep watch to signal any danger.',
+      'In captivity, Caiques often choose only one person from the family to have the closest and warmest relationship with. The bird will treat other family members in a friendly manner, but it will reserve special attention for its favorite person.',
+    ],
+    picture:
+      'https://www.psittacology.com/wp-content/uploads/2020/12/White-bellied-caique-1.jpg',
+  },
+  {
+    type: 'Grey parrot',
+    content: [
+      'These parrots are intelligent, independent, and moderately egocentric. Among parrots capable of mimicry, the Jaco is considered the most talented. On average, the bird can memorize over 150 words. Extensive studies with a grey parrot named Alex, conducted by Dr. Irene Pepperberg, showed that these birds can associate human language words with the objects they represent. They are also capable of perceiving concepts such as shape, color, ordinal numbers, and even the concept of zero.',
+      'Scientific research has shown that the brain of adult grey parrots functions similarly to that of a five-year-old child.',
+      "Grey parrots love to spend time on their owner's shoulder or in their hands. They are social birds that form strong attachments to their owners and require constant attention. You can read magazines, watch movies, prepare meals, or simply work on the computer with a parrot by your side. Over time, the parrot may start to mimic the owner's behavior, expressing joy, care, irritation, and so on in a similar manner.",
+      'Interestingly, young grey parrots demonstrate respectful behavior towards older birds. And the young offspring learn from adult birds how to behave in various situations.',
+    ],
+    picture:
+      'https://a-z-animals.com/media/2021/12/Emotional-Support-Animals-African-grey-parrot.jpg',
+  },
+  {
+    type: 'Cockatiel',
+    content: [
+      'Cockatiels, also known as nymphs, are graceful and incredibly adorable medium-sized parrots from Australia. They quickly become tame and can learn individual words and even melodies. Male cockatiels are skilled singers, imitating street birds such as bluetits, magpies, and nightingales.',
+      'Cockatiels are excellent flyers and very resilient. Like many other parrot species, they can cover vast distances in search of food and water. This is why they can sometimes be found in the most unlikely corners of Australia. Cockatiels spend their entire lives in flocks, making them highly social birds.',
+      'As a pet, a cockatiel is very sweet and affectionate, much like a cat. If a cockatiel trusts its owner, it will offer its head, neck, and cheeks for scratching, rub against its fingers, and blissfully close its eyes. It enjoys being held and petted. Some cockatiels become so attached to humans that they start to fear their own kind and even their reflection in the mirror.',
+    ],
+    picture:
+      'https://wereallaboutpets.com/wp-content/uploads/2019/12/Cute-and-Adorable-Cockatiel-Names-1.jpg',
+  },
+];
+
+export { ARTICLES, ARTICLE_ABOUT_US, TAG_COLORS, QUIZ_QUESTIONS, QUIZ_RESULTS };

@@ -8,6 +8,7 @@ import HomePage from '../../pages/HomePage';
 import AboutUsPage from '../../pages/AboutUsPage';
 import BlogPostPage from '../../pages/BlogPostPage';
 import BlogPage from '../../pages/BlogPage';
+import QuizPage from '../../pages/QuizPage';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
             }
           />
           <Route path="/blog" element={<BlogPage />} />
+          <Route path="/quiz" element={<QuizPage />} />
           <Route path="/about-us" element={<AboutUsPage />} />
           <Route path="/blog/:postId" element={<BlogPostPage />} />
           <Route path="*" element={<NotFound />} />
