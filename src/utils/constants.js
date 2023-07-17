@@ -403,6 +403,16 @@ const QUIZ_RESULTS = [
     picture:
       'https://wereallaboutpets.com/wp-content/uploads/2019/12/Cute-and-Adorable-Cockatiel-Names-1.jpg',
   },
+  {
+    type: 'Budgerigar',
+    content: [
+      'The Budgerigar, also known as the budgie or parakeet, is a small and sociable parrot native to Australia. Budgerigars are popular pets due to their playful and friendly nature. They have a wide range of vibrant feather colors, including green, blue, yellow, and white.',
+      'Budgerigars are highly intelligent and can be taught to perform tricks and mimic human speech. They enjoy interacting with their owners and can form strong bonds with them. Budgerigars are active birds and require regular mental stimulation and physical exercise.',
+      'In the wild, budgerigars live in large flocks and are known for their acrobatic flight displays. They feed on a variety of seeds, grains, and vegetation. Budgerigars are excellent flyers and can cover long distances in search of food and water.',
+    ],
+    picture:
+      'https://opis-cdn.tinkoffjournal.ru/ip/C7g_vjEX93kEKMg7h9Fgxl8VEBMUj7c3_9XblSfHkUY/w:1200/aHR0cHM6Ly9vcGlz/LWNkbi50aW5rb2Zm/am91cm5hbC5ydS9t/ZXJjdXJ5L21haW5f/aG93LW11Y2gtcGFy/cm90LnhvZTlxMWY1/YTYzbS5qcGc',
+  },
 ];
 
 export { ARTICLES, ARTICLE_ABOUT_US, TAG_COLORS, QUIZ_QUESTIONS, QUIZ_RESULTS };

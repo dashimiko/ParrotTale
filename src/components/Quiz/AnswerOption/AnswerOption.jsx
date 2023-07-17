@@ -1,3 +1,5 @@
+import './AnswerOption.scss';
+
 function AnswerOption({ answerType, answer, answerContent, onAnswerSelected }) {
   return (
     <li className="answerOption">

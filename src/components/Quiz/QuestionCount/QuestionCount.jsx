@@ -1,3 +1,5 @@
+import './QuestionCount.scss';
+
 function QuestionCount({ counter, total }) {
   return (
     <div className="questionCount">

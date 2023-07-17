@@ -47,7 +47,7 @@ function Quiz() {
     if (reslt.length === 1) {
       setResult(reslt[0]);
     } else {
-      setResult('Undetermined');
+      setResult('Budgerigar');
     }
   }
 
