@@ -47,12 +47,14 @@
   //top: 27%;
   top: 110px;
   z-index: 2;
-  left: 26%;
+  // left: 26%;
+  left: 22%;
 }
 
 .pictureBox__pic_1 {
   @include pictures(270px, 464px);
   width: 100%;
+  transform: scale(-1, 1);
 }
 
 .pictureBox__text {

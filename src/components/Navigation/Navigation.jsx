@@ -54,6 +54,18 @@ function Navigation({ isBurgerOpen, onBurgerClick }) {
               Blog
             </NavLink>
           </li>
+          <li className="navigation__item">
+            <NavLink
+              to="/quiz"
+              className={(navData) =>
+                navData.isActive
+                  ? 'navigation__link_active navigation__link_with-dot'
+                  : 'navigation__link navigation__link_with-dot'
+              }
+            >
+              Quiz
+            </NavLink>
+          </li>
         </ul>
       </nav>
       <button

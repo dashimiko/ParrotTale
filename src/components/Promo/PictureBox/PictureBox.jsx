@@ -1,11 +1,10 @@
 import { NavLink } from 'react-router-dom';
 import ExploreButton from '../../ExploreButton/ExploreButton';
 import './PictureBox.scss';
-import parrotPicture from '../../../images/firstParrotPic.jpg';
-// import parrotPicture2 from '../../../images/secondParrotPic.jpg';
+// import parrotPicture from '../../../images/firstParrotPic.jpg';
+import parrotPicture from '../../../images/masscult_picture2.jpg';
 import parrotPicture2 from '../../../images/quiz_picture3.jpg';
 import parrotPicture3 from '../../../images/thirdParrotPic.jpg';
-// import parrotPicture4 from '../../../images/fourthParrotPic.jpg';
 import parrotPicture4 from '../../../images/whitebird_picture.jpg';
 import parrotPicture5 from '../../../images/fiveParrotPic.jpg';
 import parrotPicture6 from '../../../images/sixParrotPic.jpg';
@@ -34,11 +33,17 @@ function PictureBox() {
               src={parrotPicture}
               alt="нужен осмысленный альт"
             />
-            <p className="pictureBox__pic1-headline">
+            {/* <p className="pictureBox__pic1-headline">
               That is why these birds are so fabulous and gorgeous
+            </p> */}
+            <p className="pictureBox__pic1-headline">
+              Collaboration with the Masscult podcast
             </p>
-            <span className="pictureBox__pic1-descripton">
+            {/* <span className="pictureBox__pic1-descripton">
               10 interesting facts
+            </span> */}
+            <span className="pictureBox__pic1-descripton">
+              Parrots in pop culture
             </span>
           </a>
           <ExploreButton link={buttonlink} localStyleName={localstyle} />
