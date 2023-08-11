@@ -11,7 +11,7 @@ import parrotPicture5 from '../../../images/fiveParrotPic.jpg';
 import parrotPicture6 from '../../../images/sixParrotPic.jpg';
 import parrotPicture7 from '../../../images/sevenParrotPic.jpg';
 
-const buttonlink = 'https://dribbble.com/shots/4397812-Click-Me#';
+const buttonlink = '/blog';
 const localstyle = 'pictureBox__button';
 
 function PictureBox() {

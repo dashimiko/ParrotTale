@@ -8,6 +8,7 @@ import AnswerOption from './AnswerOption/AnswerOption';
 import Result from './Result/Result';
 import { QUIZ_QUESTIONS } from '../../utils/constants';
 import './Quiz.scss';
+import ScrollToTopOnMount from '../ScrollToTopMount/ScrollToTopMount';
 
 function Quiz() {
   const [counter, setCounter] = useState(0);
@@ -103,22 +104,25 @@ function Quiz() {
 
   function renderQuiz() {
     return (
-      <div key={questionId}>
-        <QuestionCount counter={questionId} total={QUIZ_QUESTIONS.length} />
-        <Question content={question} />
-        <ul className="answerOptions">
-          {answerOptions.map((answerOption) => (
-            <AnswerOption
-              key={answerOption.content}
-              answerContent={answerOption.content}
-              answerType={answerOption.type}
-              answer={answer}
-              questionId={questionId}
-              onAnswerSelected={handleAnswerSelected}
-            />
-          ))}
-        </ul>
-      </div>
+      <>
+        <ScrollToTopOnMount />
+        <div key={questionId}>
+          <QuestionCount counter={questionId} total={QUIZ_QUESTIONS.length} />
+          <Question content={question} />
+          <ul className="answerOptions">
+            {answerOptions.map((answerOption) => (
+              <AnswerOption
+                key={answerOption.content}
+                answerContent={answerOption.content}
+                answerType={answerOption.type}
+                answer={answer}
+                questionId={questionId}
+                onAnswerSelected={handleAnswerSelected}
+              />
+            ))}
+          </ul>
+        </div>
+      </>
     );
   }
 
