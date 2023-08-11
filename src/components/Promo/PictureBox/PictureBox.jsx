@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import ExploreButton from '../../ExploreButton/ExploreButton';
 import './PictureBox.scss';
 import parrotPicture from '../../../images/firstParrotPic.jpg';
@@ -46,11 +46,11 @@ function PictureBox() {
 
         <div className="pictureBox__fragment-container">
           <div className="pictureBox__fragment_top">
-            <Link
+            <NavLink
               className="pictureBox__overlay"
               href={buttonlink}
-              target="_blank"
-              rel="noreferrer"
+              // target="_blank"
+              // rel="noreferrer"
               to="/quiz"
             >
               <img
@@ -61,7 +61,7 @@ function PictureBox() {
               <span className="pictureBox__pic2-headline">
                 What parrot am I? Test
               </span>
-            </Link>
+            </NavLink>
             <figure className="pictureBox__figure">
               <figcaption className="pictureBox__text pictureBox__text_top-figure">
                 Immerse yourself in the world of parrots through our blog
