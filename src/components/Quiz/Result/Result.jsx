@@ -11,11 +11,19 @@ function Result({ quizResult }) {
 
   return (
     <div className="result">
-      <h3>You are {resultObject.type}</h3>
-      <img src={resultObject.picture} alt={resultObject.type} />
-      {resultObject.content.map((paragraph) => (
-        <p key={paragraph}>{paragraph}</p>
-      ))}
+      <h3 className="result__title">You are {resultObject.type}</h3>
+      <img
+        className="result__picture"
+        src={resultObject.picture}
+        alt={resultObject.type}
+      />
+      <div className="article-template__text">
+        {resultObject.content.map((paragraph) => (
+          <p className="result__text" key={paragraph}>
+            {paragraph}
+          </p>
+        ))}
+      </div>
     </div>
   );
 }

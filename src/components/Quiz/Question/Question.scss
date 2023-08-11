@@ -1,0 +1,8 @@
+@import '../../../commonStyles/commonStyles.scss';
+
+.question {
+  @extend %title__small;
+  letter-spacing: -0.5px;
+  color: $violetDetails;
+  margin: 0;
+}

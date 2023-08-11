@@ -1,5 +1,7 @@
+/* eslint-disable import/no-extraneous-dependencies */
 /* eslint-disable react/jsx-no-bind */
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useCallback } from 'react';
+import confetti from 'canvas-confetti';
 import Question from './Question/Question';
 import QuestionCount from './QuestionCount/QuestionCount';
 import AnswerOption from './AnswerOption/AnswerOption';
@@ -15,6 +17,14 @@ function Quiz() {
   const [answer, setAnswer] = useState('');
   const [answersCount, setAnswersCount] = useState({});
   const [result, setResult] = useState('');
+
+  const addedConfetti = useCallback(() => {
+    confetti({
+      particleCount: 100,
+      spread: 70,
+      origin: { y: 0.6 },
+    });
+  }, []);
 
   function shuffleArray(array) {
     const shuffledArray = [...array];
@@ -81,7 +91,9 @@ function Quiz() {
 
   function handleAnswerSelected(event) {
     setUserAnswer(event.currentTarget.value);
-
+    if (counter === 4) {
+      addedConfetti();
+    }
     if (questionId < QUIZ_QUESTIONS.length) {
       setTimeout(() => setNextQuestion(), 300);
     } else {

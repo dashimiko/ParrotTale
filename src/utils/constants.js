@@ -156,7 +156,7 @@ const TAG_COLORS = {
 
 const QUIZ_QUESTIONS = [
   {
-    question: 'How would you describe your personality?',
+    question: 'How would you describe your personality? 🧚‍♂️',
     answers: [
       {
         type: 'Blue Macaw',
@@ -189,7 +189,7 @@ const QUIZ_QUESTIONS = [
     ],
   },
   {
-    question: 'What is your favorite way to spend your free time?',
+    question: 'What is your favorite way to spend your free time? 🧘🏼',
     answers: [
       {
         type: 'Blue Macaw',
@@ -226,7 +226,7 @@ const QUIZ_QUESTIONS = [
     ],
   },
   {
-    question: 'How would you describe your social life?',
+    question: 'How would you describe your social life? 👯‍♀️',
     answers: [
       {
         type: 'Blue Macaw',
@@ -263,7 +263,7 @@ const QUIZ_QUESTIONS = [
     ],
   },
   {
-    question: 'Choose an ideal habitat',
+    question: 'Choose an ideal habitat 🌎',
     answers: [
       {
         type: 'Blue Macaw',
@@ -296,7 +296,7 @@ const QUIZ_QUESTIONS = [
     ],
   },
   {
-    question: 'What is your favorite color?',
+    question: 'What is your favorite color? 🌈',
     answers: [
       {
         type: 'Blue Macaw',

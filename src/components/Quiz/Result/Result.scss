@@ -1,0 +1,20 @@
+@import '../../../commonStyles/commonStyles.scss';
+
+.result__title {
+  letter-spacing: -0.5px;
+  @extend %title__small;
+  @extend %null__item;
+  margin: 40px 0;
+}
+
+.result__picture {
+  width: 33%;
+  max-width: 370px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.result__text {
+  @extend %text__regular;
+  @extend %null__item;
+}
