@@ -11,7 +11,7 @@ function Result({ quizResult }) {
 
   return (
     <div className="result">
-      <h3 className="result__title">You are {resultObject.type}</h3>
+      <h3 className="result__title">You are {resultObject.type} 💛</h3>
       <img
         className="result__picture"
         src={resultObject.picture}

@@ -2,7 +2,7 @@ import './FAQ.scss';
 
 function FAQ() {
   return (
-    <section className="FAQ__container">
+    <section className="FAQ__container" id="faq">
       <div className="FAQ__box">
         <h2 className="FAQ__title">Frequently Asked Questions</h2>
         <details className="FAQ__accordion-box">

@@ -16,7 +16,7 @@ function Footer() {
           <span className="footer__social-title">information</span>
           <InformationBox />
           <p className="footer__caption_company">
-            Copyright © 2023 • Your Company • {}
+            Copyright © 2023 • ParrotTales • {}
             <span className="footer__caption_company-span">
               All rights reserved
             </span>
