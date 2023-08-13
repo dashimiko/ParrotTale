@@ -17,7 +17,7 @@ function BlogPostPage() {
     <>
       <Header />
       <main className="main">
-        <ArticleTemplate article={blogArticle} />
+        <ArticleTemplate article={blogArticle} type={blogArticle.type} />
       </main>
       <Footer />
     </>

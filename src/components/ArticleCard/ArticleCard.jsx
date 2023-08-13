@@ -14,7 +14,11 @@ function ArticleCard({ card, tagColors }) {
         />
         <h3 className="article-card__title">{card.title}</h3>
         <div className="article-card__text-box">
-          <p className="article-card__text">{card.text[0]}</p>
+          <p className="article-card__text">
+            {card.leadParagraph
+              ? card.leadParagraph
+              : card.content[0].paragraph[0]}
+          </p>
         </div>
       </div>
       <div className="article-card__bottom-box">

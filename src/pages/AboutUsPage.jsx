@@ -8,7 +8,7 @@ function AboutUsPage() {
     <>
       <Header />
       <main className="main">
-        <ArticleTemplate article={ARTICLE_ABOUT_US} />
+        <ArticleTemplate article={ARTICLE_ABOUT_US} type="default" />
       </main>
       <Footer />
     </>
