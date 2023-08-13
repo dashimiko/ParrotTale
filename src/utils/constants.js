@@ -88,7 +88,7 @@ const POP_CULTURE_ARTICLE = {
       id: 5,
       headline: "Cotton's Parrot",
       picture:
-        'https://www.reddit.com/media?url=https%3A%2F%2Fexternal-preview.redd.it%2FuG9c4ArK_kmEeORVpITN5HnMb-qUo2a6WdaqIF4Mh-E.jpg%3Fwidth%3D640%26crop%3Dsmart%26auto%3Dwebp%26s%3Dfbbd47a4baa232c25f42b174c6791df50ad7c07a',
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWVAJfLGYV51WIpGtttEzosUj2TFAKI4mKCvdmMmysDZ3qFSfTJS17eMgiM65mwWpvM7w&usqp=CAU',
       paragraph: [
         "Cotton's Parrot is a character in the Pirates of the Caribbean film series. He serves as the sidekick of his owner Cotton who helps him talk ever since he was unable to talk. Cotton's parrot shows loyalty to his master, Cotton. Like parrots in real life, he is seen on his shoulder. He is also known to use various nautical catchphrases such as 'Shiver me timbers' or 'Dead men tell no tales'. Whenever he says, 'Wind in your sails,' it indicates he agrees. The parrot appeared to be more intelligent than many other crew members of the Black Pearl.",
       ],

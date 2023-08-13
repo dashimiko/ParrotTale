@@ -22,11 +22,12 @@ function PictureBox() {
             This is a fan site about parrots, extraordinary creatures deserving
             of our awe
           </p>
-          <a
+          <NavLink
             className="pictureBox__overlay"
-            href={buttonlink}
-            target="_blank"
-            rel="noreferrer"
+            // href={buttonlink}
+            // target="_blank"
+            // rel="noreferrer"
+            to="/blog/parrots_pop_culture"
           >
             <img
               className="pictureBox__pic_1"
@@ -45,7 +46,7 @@ function PictureBox() {
             <span className="pictureBox__pic1-descripton">
               Parrots in pop culture
             </span>
-          </a>
+          </NavLink>
           <ExploreButton link={buttonlink} localStyleName={localstyle} />
         </div>
 
