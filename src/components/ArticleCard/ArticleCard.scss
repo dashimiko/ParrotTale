@@ -22,6 +22,9 @@
   text-transform: uppercase;
   padding: 0;
   margin: 16px 0 16px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .article-card__text {

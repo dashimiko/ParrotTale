@@ -34,7 +34,113 @@ const ARTICLE_ABOUT_US = {
   type: 'default',
 };
 
+const POP_CULTURE_ARTICLE = {
+  id: 'parrots_pop_culture',
+  type: 'extended',
+  tags: ['top10'],
+  title:
+    'Parrots in Popular Culture: 10 Most Famous birds In Media, Movies, Cartoons + Books ',
+  subTitle:
+    'This article is presented in partnership with the "MassCult" Podcast ',
+  leadParagraph:
+    'We will delve into the captivating world of parrots in mass media, exploring the artistic expressions and literary tales that have elevated these feathered wonders to cultural icons.',
+  pictures: [
+    'https://static.toiimg.com/thumb/msid-99791574,imgsize-45974,width-800,height-600,resizemode-75/99791574.jpg',
+  ],
+  content: [
+    {
+      id: 1,
+      headline: 'Paulie',
+      picture:
+        'https://m.media-amazon.com/images/M/MV5BMTYwMzIwNTYxMV5BMl5BanBnXkFtZTcwMzc4MzA3NA@@._V1_.jpg',
+      paragraph: [
+        "In the heartwarming film 'Paulie' (1998), a chatty parrot, recounts his extraordinary voyage while seeking his beloved owner. Paulie is a rare case of a live-action movie headlined by a parrot. Released in 1998, Paulie spins the yarn of a talking parrot that goes on a globe-trotting journey, touching the lives of everybody he meets. Through his witty quips and resourceful escapades, Paulie showcases the profound companionship between humans and animals.",
+      ],
+    },
+    {
+      id: 2,
+      headline: 'Dead Parrot',
+      picture:
+        'https://i0.wp.com/hwfielding.com/wp-content/uploads/2022/01/AndNowForSomethingCompletelyDifferent-uhpfENeh-subtitled.jpeg?fit=700%2C394&ssl=1',
+      paragraph: [
+        "Dead Parrot Sketch (Monty Python's Flying Circus) is one of the most popular Monty Python sketches and in general in the history of British television humor. The comedic masterpiece features a customer attempting to return a deceased parrot to a pet shop. The sketch's absurdity and wordplay have made it an iconic moment in comedy history.",
+      ],
+    },
+    {
+      id: 3,
+      headline: 'Iago',
+      picture:
+        'https://static1.cbrimages.com/wordpress/wp-content/uploads/2021/04/SNL-Cast-Voices-Gilbert-Gottfried-1.jpg',
+      paragraph: [
+        'Is any fictional parrot more beloved and celebrated than Iago, the mischievous red lory from Disney’s animated classic Aladdin? The incarnation of the character voiced by Gilbert Gottfried is firmly ingrained in the fabric of pop culture. Iago is a veritable treasure trove of memorable moments and quotable lines from his numerous appearances in movies, cartoons, and video games. He’s arguably the most famous parrot of all time.',
+      ],
+    },
+    {
+      id: 4,
+      headline: 'Blu and Jewel',
+      picture:
+        'https://c4.wallpaperflare.com/wallpaper/357/258/340/blu-jewel-in-rio-2-wallpaper-preview.jpg',
+      paragraph: [
+        'Rio was a 2011 animated movie that revolves around Blu and Jewel, a pair of Spix’s macaws voiced by Jesse Eisenberg and Anne Hathaway, that must escape being smuggled out of Brazil as part of an illegal bird trade. A sequel followed in 2014 that investigated the fundamental differences between life in the wild and captivity for parrots. Both movies make interesting viewing for youngsters, highlighting serious avian issues among the bright colors and catchy songs.',
+      ],
+    },
+    {
+      id: 5,
+      headline: "Cotton's Parrot",
+      picture:
+        'https://www.reddit.com/media?url=https%3A%2F%2Fexternal-preview.redd.it%2FuG9c4ArK_kmEeORVpITN5HnMb-qUo2a6WdaqIF4Mh-E.jpg%3Fwidth%3D640%26crop%3Dsmart%26auto%3Dwebp%26s%3Dfbbd47a4baa232c25f42b174c6791df50ad7c07a',
+      paragraph: [
+        "Cotton's Parrot is a character in the Pirates of the Caribbean film series. He serves as the sidekick of his owner Cotton who helps him talk ever since he was unable to talk. Cotton's parrot shows loyalty to his master, Cotton. Like parrots in real life, he is seen on his shoulder. He is also known to use various nautical catchphrases such as 'Shiver me timbers' or 'Dead men tell no tales'. Whenever he says, 'Wind in your sails,' it indicates he agrees. The parrot appeared to be more intelligent than many other crew members of the Black Pearl.",
+      ],
+    },
+    {
+      id: 6,
+      headline: 'Bonito',
+      picture:
+        'https://www.fridakahlo.org/images/paintings/self-portrait-with-bonito.jpg',
+      paragraph: [
+        "Frida Kahlo once said, 'I never paint dreams or nightmares. I paint my own reality'. At the age of 6 she battled polio causing her to endure complications with her right leg. Shortly after Frida was involved in a life threatening trolley crash which would lead her to be in a constant state of physical pain for the rest of her life. She couldn’t have children due to her chronic medical conditions. She decided to take care of her many pets instead. Frida had monkeys, dogs, a deer, and a variety of birds. Some of these birds included parakeets, macaws, hens, and sparrows. However, the bird she often painted was her parrot named Bonito.",
+      ],
+    },
+    {
+      id: 7,
+      headline: 'Captain Flint',
+      paragraph: [
+        'If Iago is the most famous parrot in the movies, Captain Flint is the most iconic bird in literature. Caption Flint perches on the shoulder of the infamous pirate Long John Silver in Robert Louis Stevenson’s adventure classic Treasure Island. Claimed to be 200 years old by Silver, Captain Flint only utters a handful of phrases in the novel, but they have become firmly associated with parrots.Sentences like “pieces of eight” are linked to parrots, thanks to Captain Flint.',
+      ],
+    },
+    {
+      id: 8,
+      headline: 'Poll',
+      picture: '',
+      paragraph: [
+        'Daniel Defoe’s famous 18th Century castaway befriends a small parrot named Poll in Robinson Crusoe as part of his life on an abandoned island. Poll doesn’t speak but offers Crusoe the essential comfort of companionship while he is shipwrecked and alone.',
+      ],
+    },
+    {
+      id: 9,
+      headline: 'Alex',
+      picture:
+        'https://allthatsinteresting.com/wordpress/wp-content/uploads/2018/06/pepperberg_alex.jpg',
+      paragraph: [
+        'The final parrot is known as Alex and is the subject of the book Alex and Me by Irene M. Pepperberg. Alex was an African grey that was inseparable from its owner for three decades.',
+        "Alex entered history as he demonstrated the intense intelligence of parrots, forming a vast vocabulary and speaking in complex sentences – including his final words, 'I love you, be good.'",
+        'As per Biological Theory, Alex is still held up as a landmark test case in animal cognition, and arguably, the popularity of Pepperberg’s book dealing with their relationship sowed seeds for the popularity of pet parrots today.',
+      ],
+    },
+    {
+      id: 10,
+      headline: 'Charlie the Curser',
+      paragraph: [
+        'Charlie was a macaw that allegedly lived with Winston Churchill throughout the second world war, remaining a beloved pet until the politician died in 1965. Charlie lived with new owners for many years after Churchill’s passing.',
+        "The name 'Charlie the Curser' comes from the legend that Churchill taught the bird numerous profane words and insults directed at Adolf Hitler, which Charlie continued to use in front of its new owners.",
+      ],
+    },
+  ],
+};
+
 const ARTICLES = [
+  POP_CULTURE_ARTICLE,
   {
     id: 'сockatiel_profile',
     tags: ['breeds', 'profiles'],
@@ -374,6 +480,7 @@ const ARTICLES = [
 const TAG_COLORS = {
   profiles: 'green',
   breeds: 'blue',
+  top10: 'pink',
 };
 
 const QUIZ_QUESTIONS = [
