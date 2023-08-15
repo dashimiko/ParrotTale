@@ -8,6 +8,8 @@ ParrotTales is a blog about parrots. It's a pet project in the truest sense of t
 
 - Home Page - a gallery featuring the most interesting articles, a slider describing different parrot breeds, FAQ, a feedback form, and several animations.
 
+https://github.com/dashimiko/rainbow/assets/94624781/4f7c56d2-b155-4816-a431-ac1e24e5e5d7
+
 - Blog Page - a list of articles and tags for filtering.
 
 - Quiz page - a "What Parrot Are You?" quiz.
@@ -16,7 +18,7 @@ ParrotTales is a blog about parrots. It's a pet project in the truest sense of t
 
 - 404 Page - a piece of CSS art, an animation of a parrot screaming "Aaaaaaa".
 
-## Tech Stack
+## Tech Stack:
 
 - React
 
@@ -24,7 +26,7 @@ ParrotTales is a blog about parrots. It's a pet project in the truest sense of t
 
 - SASS
 
-## Libraries
+## Libraries:
 
 - react-hook-form for form validation;
 
@@ -36,6 +38,6 @@ ParrotTales is a blog about parrots. It's a pet project in the truest sense of t
 
 - eslint, husky and prettier for code formatting, code linting, and quality control.
 
-## Project Status
+## Project Status:
 
 The website is still under development. Some elements of the site may not be functional. Additionally, an adaptive layout is missing for certain screens.
