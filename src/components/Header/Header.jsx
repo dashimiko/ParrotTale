@@ -18,7 +18,7 @@ function Header() {
     <header className="header">
       <div className="header__box">
         <div className="logo__group">
-          <Link to="/rainbow" className="header__link">
+          <Link to="/ParrotTale" className="header__link">
             <div className="header__logo-background">
               <img className="header__logo" src={logo} alt="Лого проекта" />
             </div>
