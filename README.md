@@ -1,4 +1,4 @@
-# ParrotTale
+# ParrotTale 🦜✏️💜
 
 _The website is under development_
 
@@ -14,9 +14,13 @@ https://github.com/dashimiko/rainbow/assets/94624781/4f7c56d2-b155-4816-a431-ac1
 
 - Quiz page - a "What Parrot Are You?" quiz.
 
+https://github.com/dashimiko/rainbow/assets/94624781/7157ddd7-5348-432a-8b5f-3629745f78e9
+
 - About Us Page - information about my parrot named Kira and me.
 
 - 404 Page - a piece of CSS art, an animation of a parrot screaming "Aaaaaaa".
+
+https://github.com/dashimiko/rainbow/assets/94624781/5f929f0a-68bc-4e2f-b490-c5e516ca3e89
 
 ## Tech Stack:
 
