@@ -1,0 +1,26 @@
+.carousel {
+  width: 100%;
+  position: relative;
+  padding: 10px;
+}
+
+.carousel__arrow {
+  position: absolute;
+  top: 50%;
+  width: 100px;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  border: none;
+  background-size: contain;
+}
+
+.carousel__arrow_left {
+  left: -75px;
+  background-image: url(../../../images/icons/icon-chevron-left.svg);
+}
+
+.carousel__arrow_right {
+  right: -65px;
+  background-image: url(../../../images/icons/icon-chevron-right.svg);
+}

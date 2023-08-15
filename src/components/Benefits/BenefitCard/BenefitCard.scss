@@ -13,6 +13,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 5px;
 }
 
 .benefits__card-icon_1 {
@@ -36,24 +37,28 @@
   background-color: transparent;
   background-size: contain;
   border: none;
-  width: 56px;
-  height: 56px;
+  width: 40px;
+  height: 40px;
 }
 
 .benefits__card-pic_1 {
-  background-image: url(../../../images/icons/icon-phone-call.svg);
+  background-image: url(../../../images/icons/icon-bird-5.svg);
+  width: 35px;
+  height: 35px;
 }
 
 .benefits__card-pic_2 {
-  background-image: url(../../../images/icons/icon-pie-chart.svg);
+  background-image: url(../../../images/icons/icon-bird-3.svg);
 }
 
 .benefits__card-pic_3 {
-  background-image: url(../../../images/icons/icon-zap.svg);
+  //cbackground-image: url(../../../images/icons/icon-bird-2.svg);
+  background-image: url(../../../images/icons/icon-bird-6.svg);
+  // transform: scale(-1, 1);
 }
 
 .benefits__card-pic_4 {
-  background-image: url(../../../images/icons/icon-good-job.svg);
+  background-image: url(../../../images/icons/icon-bird-4.svg);
 }
 
 .benefits__card-title {

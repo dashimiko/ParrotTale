@@ -1,0 +1,122 @@
+@import '../../commonStyles/commonStyles.scss';
+
+.about-us {
+  width: 100%;
+  background-color: $mainBackgroundColor;
+}
+
+.about-us__box {
+  width: 100%;
+  box-sizing: border-box;
+  max-width: 1440px;
+  padding: 80px 135px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-us__pic {
+  border-radius: 20px;
+  max-width: 470px;
+  max-height: 380px;
+  border-radius: 20px;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.about-us__pic-box {
+  position: relative;
+  z-index: 0;
+  &::after {
+    position: absolute;
+    content: '';
+    bottom: -30px;
+    left: -30px;
+    width: 200px;
+    height: 126px;
+    background-image: url(../../images/wiggle.svg);
+    z-index: -1;
+  }
+}
+
+.about-us__text-box {
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.about-us__title {
+  letter-spacing: -0.5px;
+  @extend %title__small;
+  @extend %null__item;
+}
+
+.about-us__text {
+  @extend %text__regular;
+  @extend %null__item;
+}
+
+.about-us__link {
+  margin-top: 0;
+  color: white;
+  background-color: $violetDetails;
+  opacity: 1;
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.about-us__pic_mobile {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .about-us__box {
+    max-width: 100%;
+    padding: 40px 15px;
+  }
+  .about-us__pic {
+    border-radius: 12px;
+  }
+  .about-us__pic-box {
+    flex-shrink: 2;
+    max-width: 50%;
+  }
+  .about-us__text-box {
+    max-width: 40%;
+  }
+  .about-us__text {
+    font-weight: 400;
+    font-size: 13.5px;
+    line-height: 24px;
+    margin-bottom: 24px;
+  }
+  .about-us__title {
+    letter-spacing: 0.25px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 8px;
+  }
+}
+
+@media screen and (max-width: 524px) {
+  .about-us__pic-box {
+    display: none;
+  }
+  .about-us__pic_mobile {
+    display: block;
+  }
+  .about-us__text-box {
+    max-width: 100%;
+  }
+  .about-us__pic_mobile {
+    border-radius: 12px;
+    width: 224px;
+    height: 183px;
+    object-fit: cover;
+    margin-bottom: 24px;
+  }
+}

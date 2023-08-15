@@ -11,6 +11,7 @@ function ContactForm() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
+  const [isSending, setIsSending] = useState(false);
 
   const {
     register,
@@ -20,6 +21,13 @@ function ContactForm() {
 
   const onSubmit = (data, e) => {
     e.preventDefault();
+
+    if (isSending) {
+      return;
+    }
+
+    setIsSending(true);
+
     emailjs
       .sendForm(
         process.env.REACT_APP_SERVICE_ID,
@@ -33,10 +41,12 @@ function ContactForm() {
           setName('');
           setEmail('');
           setMessage('');
+          setIsSending(false);
           // добавить какую то надпись или попап об успехе
         },
         (error) => {
           console.log('FAILED...', error);
+          setIsSending(false);
           // добавить какую-то надпись или попап о неудаче
         }
       );
@@ -140,7 +150,8 @@ function ContactForm() {
           )}
         </label>
         <CelebrationButton
-          isDisabled={false}
+          isDisabled={isSending}
+          // isDisabled={isSending || !isValid}
           buttonText="SEND"
           coordinateX={0.75}
           coordinateY={0.7}

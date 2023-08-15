@@ -1,0 +1,13 @@
+@import '../../../commonStyles/commonStyles.scss';
+
+.questionCount {
+  @extend %null__item;
+  letter-spacing: 0.2px;
+  color: $lightGray;
+  @extend %text__regular;
+  font-weight: 700;
+}
+
+.questionCount__counter {
+  // color: $yellowDetails;
+}

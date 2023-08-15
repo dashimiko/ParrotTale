@@ -1,0 +1,29 @@
+@import '../../commonStyles/commonStyles.scss';
+
+.quiz {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 80px 135px;
+  box-sizing: border-box;
+}
+
+.quiz__box {
+  // max-width: 800px;
+  margin: 0 0 40px 0;
+}
+
+.quiz__title {
+  margin: 0;
+  @extend %title__block_large;
+  letter-spacing: -1px;
+  @extend %null__item;
+}
+
+.answerOptions {
+  list-style: none;
+  margin: 40px 0 0 0;
+  padding: 0;
+  // max-width: 500px;
+  max-width: 60%;
+}

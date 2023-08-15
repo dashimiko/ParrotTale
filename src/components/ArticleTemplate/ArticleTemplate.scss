@@ -1,0 +1,40 @@
+@import '../../commonStyles/commonStyles.scss';
+
+.article-template {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 16px 135px;
+  box-sizing: border-box;
+}
+
+.article-template__title {
+  @extend %title__block_large;
+  letter-spacing: -1px;
+  @extend %null__item;
+  margin: 40px 0;
+}
+
+.article-template__paragraph {
+  @extend %text__regular;
+  @extend %null__item;
+}
+
+.article-template__text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.article-template__picture {
+  width: 33%;
+  max-width: 370px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.article-template__picture-box {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+}

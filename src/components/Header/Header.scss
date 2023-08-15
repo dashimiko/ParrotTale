@@ -17,13 +17,23 @@
   align-items: center;
   box-sizing: border-box;
   max-width: 1440px;
-  padding: 0 135px;
+  padding: 16px 135px;
   margin: 0 auto;
 }
 
 .header__logo {
-  height: 68px;
-  width: 68px;
+  height: 40px;
+  width: 40px;
+}
+
+.header__logo-background {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: $yellowDetails;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .header__company-name {
@@ -51,10 +61,14 @@
     max-height: 72px;
   }
   .header__box {
-    padding: 0 15px;
+    padding: 16px 15px;
     max-width: 100%;
   }
   .header__logo {
+    width: 30px;
+    height: 30px;
+  }
+  .header__logo-background {
     width: 40px;
     height: 40px;
   }

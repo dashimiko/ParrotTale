@@ -32,6 +32,8 @@
   top: 40px;
   //left: 7%;
   z-index: 2;
+  max-width: 250px;
+  left: 3%;
 }
 
 .pictureBox__pic1-descripton {
@@ -45,12 +47,14 @@
   //top: 27%;
   top: 110px;
   z-index: 2;
-  left: 26%;
+  // left: 26%;
+  left: 22%;
 }
 
 .pictureBox__pic_1 {
   @include pictures(270px, 464px);
   width: 100%;
+  transform: scale(-1, 1);
 }
 
 .pictureBox__text {
@@ -128,14 +132,16 @@
   position: absolute;
   bottom: 20px;
   // left: 5%;
-  left: 10%;
+  // left: 10%;
+  left: 0;
   z-index: 2;
 }
 
 .pictureBox__pic6-headline {
   position: absolute;
   top: 20px;
-  left: 10%;
+  // left: 10%;
+  left: 0;
   @extend %title__pic-headline;
   z-index: 2;
 }

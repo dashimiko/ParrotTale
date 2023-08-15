@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom';
 import './InformationBox.scss';
 
 function InformationBox() {
@@ -5,34 +6,34 @@ function InformationBox() {
     <nav className="footer__informaiton-box">
       <ul className="footer__informaiton-list">
         <li className="footer__informaiton-item">
-          <a
-            href="https://github.com/dashimiko"
-            target="_blank"
-            rel="noreferrer"
+          <NavLink
+            to="/blog"
+            // target="_blank"
+            // rel="noreferrer"
             className="footer__informaiton-link"
           >
-            Fapster app
-          </a>
+            Blog
+          </NavLink>
         </li>
         <li className="footer__informaiton-item">
-          <a
-            href="https://github.com/dashimiko"
-            target="_blank"
-            rel="noreferrer"
+          <NavLink
+            to="/quiz"
+            // target="_blank"
+            // rel="noreferrer"
             className="footer__informaiton-link"
           >
-            Get in Touch
-          </a>
+            Quiz
+          </NavLink>
         </li>
         <li className="footer__informaiton-item">
-          <a
-            href="https://github.com/dashimiko"
-            target="_blank"
-            rel="noreferrer"
+          <NavLink
+            to="/about-us"
+            // target="_blank"
+            // rel="noreferrer"
             className="footer__informaiton-link"
           >
-            Things We Like
-          </a>
+            About us
+          </NavLink>
         </li>
       </ul>
       <ul className="footer__informaiton-list">
@@ -43,9 +44,33 @@ function InformationBox() {
             rel="noreferrer"
             className="footer__informaiton-link"
           >
-            Onhovered / Active
+            Collaboration with the Masscult podcast
           </a>
         </li>
+        <li className="footer__informaiton-item">
+          <a
+            href="#profiles"
+            // target="_blank"
+            // rel="noreferrer"
+            className="footer__informaiton-link"
+          >
+            Parrot&apos; profiles
+          </a>
+        </li>
+        <li className="footer__informaiton-item">
+          <a
+            href="#faq"
+            // target="_blank"
+            // rel="noreferrer"
+            className="footer__informaiton-link"
+          >
+            FAQ
+          </a>
+        </li>
+      </ul>
+
+      {/*
+        <ul className="footer__informaiton-list">
         <li className="footer__informaiton-item">
           <a
             href="https://github.com/dashimiko"
@@ -56,39 +81,17 @@ function InformationBox() {
             Privacy Policy
           </a>
         </li>
-        <li className="footer__informaiton-item">
+         <li className="footer__informaiton-item">
           <a
             href="https://github.com/dashimiko"
             target="_blank"
             rel="noreferrer"
             className="footer__informaiton-link"
           >
-            Terms of Service
+
           </a>
         </li>
-      </ul>
-      <ul className="footer__informaiton-list">
-        <li className="footer__informaiton-item">
-          <a
-            href="https://github.com/dashimiko"
-            target="_blank"
-            rel="noreferrer"
-            className="footer__informaiton-link"
-          >
-            We are hiring!
-          </a>
-        </li>
-        <li className="footer__informaiton-item">
-          <a
-            href="https://github.com/dashimiko"
-            target="_blank"
-            rel="noreferrer"
-            className="footer__informaiton-link"
-          >
-            Resources
-          </a>
-        </li>
-      </ul>
+        </ul> */}
     </nav>
   );
 }

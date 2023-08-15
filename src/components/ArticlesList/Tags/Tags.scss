@@ -1,0 +1,50 @@
+@import '../../../commonStyles/commonStyles.scss';
+
+.tag-container {
+  margin: 0 0 40px;
+}
+
+.tag-container__list {
+  list-style: none;
+  @extend %null__item;
+  display: flex;
+  gap: 10px;
+}
+
+.tag-container__tag {
+  @extend %text__small;
+  letter-spacing: 0.25px;
+  @extend %null__item;
+  padding: 5px 10px;
+  border-radius: 20px;
+  display: inline-block;
+  margin-right: 0.5rem;
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+.tag-container__tag--active {
+  background-color: blue;
+  color: white;
+}
+
+.tag-container__tag--inactive {
+  background-color: lightgray;
+  color: gray;
+  opacity: 0.5;
+}
+
+.tag-container__tag_green {
+  background-color: $accentColorGreen;
+  color: white;
+}
+
+.tag-container__tag_blue {
+  background-color: $accentColorBlue;
+  color: white;
+}
+
+.tag-container__tag_pink {
+  background-color: $accentColorPink;
+  color: white;
+}

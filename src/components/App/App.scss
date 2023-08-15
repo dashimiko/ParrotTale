@@ -1,5 +1,9 @@
 @import '../../commonStyles/commonStyles.scss';
 
+html {
+  scroll-behavior: smooth;
+}
+
 .App {
   //min-height: 100vh;
   width: 100%;

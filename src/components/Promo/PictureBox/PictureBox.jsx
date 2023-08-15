@@ -1,14 +1,16 @@
+import { NavLink } from 'react-router-dom';
 import ExploreButton from '../../ExploreButton/ExploreButton';
 import './PictureBox.scss';
-import parrotPicture from '../../../images/firstParrotPic.jpg';
-import parrotPicture2 from '../../../images/secondParrotPic.jpg';
+// import parrotPicture from '../../../images/firstParrotPic.jpg';
+import parrotPicture from '../../../images/masscult_picture2.jpg';
+import parrotPicture2 from '../../../images/quiz_picture3.jpg';
 import parrotPicture3 from '../../../images/thirdParrotPic.jpg';
-import parrotPicture4 from '../../../images/fourthParrotPic.jpg';
+import parrotPicture4 from '../../../images/whitebird_picture.jpg';
 import parrotPicture5 from '../../../images/fiveParrotPic.jpg';
 import parrotPicture6 from '../../../images/sixParrotPic.jpg';
 import parrotPicture7 from '../../../images/sevenParrotPic.jpg';
 
-const buttonlink = 'https://dribbble.com/shots/4397812-Click-Me#';
+const buttonlink = '/blog';
 const localstyle = 'pictureBox__button';
 
 function PictureBox() {
@@ -17,37 +19,45 @@ function PictureBox() {
       <div className="pictureBox pictureBox__desktop">
         <div className="pictureBox__fragment_left">
           <p className="pictureBox__text pictureBox__text_left-figure">
-            Use mixed grid with imagery, replace with your own photos and
-            descriptions
+            This is a fan site about parrots, extraordinary creatures deserving
+            of our awe
           </p>
-          <a
+          <NavLink
             className="pictureBox__overlay"
-            href={buttonlink}
-            target="_blank"
-            rel="noreferrer"
+            // href={buttonlink}
+            // target="_blank"
+            // rel="noreferrer"
+            to="/blog/parrots_pop_culture"
           >
             <img
               className="pictureBox__pic_1"
               src={parrotPicture}
               alt="нужен осмысленный альт"
             />
+            {/* <p className="pictureBox__pic1-headline">
+              That is why these birds are so fabulous and gorgeous
+            </p> */}
             <p className="pictureBox__pic1-headline">
-              We aimed to deliver HQ templates for Figma
+              Collaboration with the Masscult podcast
             </p>
+            {/* <span className="pictureBox__pic1-descripton">
+              10 interesting facts
+            </span> */}
             <span className="pictureBox__pic1-descripton">
-              Used by 123 people
+              Parrots in pop culture
             </span>
-          </a>
+          </NavLink>
           <ExploreButton link={buttonlink} localStyleName={localstyle} />
         </div>
 
         <div className="pictureBox__fragment-container">
           <div className="pictureBox__fragment_top">
-            <a
+            <NavLink
               className="pictureBox__overlay"
               href={buttonlink}
-              target="_blank"
-              rel="noreferrer"
+              // target="_blank"
+              // rel="noreferrer"
+              to="/quiz"
             >
               <img
                 className="pictureBox__pic_2"
@@ -55,13 +65,13 @@ function PictureBox() {
                 alt="нужен осмысленный альт"
               />
               <span className="pictureBox__pic2-headline">
-                Consider it done!
+                What parrot am I? Test
               </span>
-            </a>
+            </NavLink>
             <figure className="pictureBox__figure">
               <figcaption className="pictureBox__text pictureBox__text_top-figure">
-                This is multipurpose grid, it fits for portfolio, services or
-                agency web site
+                Immerse yourself in the world of parrots through our blog
+                articles
               </figcaption>
               <div className="pictureBox__figure-box">
                 <img
@@ -94,7 +104,7 @@ function PictureBox() {
                 src={parrotPicture6}
                 alt="нужен осмысленный альт"
               />
-              <span className="pictureBox__pic6-headline">See my goal?</span>
+              <span className="pictureBox__pic6-headline">About smartness</span>
             </a>
             <img
               className="pictureBox__pic_7"

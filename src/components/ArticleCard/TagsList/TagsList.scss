@@ -1,0 +1,31 @@
+@import '../../../commonStyles/commonStyles.scss';
+
+.taglist__tag {
+  @extend %text__small;
+  letter-spacing: 0.25px;
+  @extend %null__item;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+
+.taglist {
+  list-style: none;
+  @extend %null__item;
+  display: flex;
+  gap: 10px;
+}
+
+.taglist__tag_green {
+  background-color: $accentColorGreen;
+  color: white;
+}
+
+.taglist__tag_blue {
+  background-color: $accentColorBlue;
+  color: white;
+}
+
+.taglist__tag_pink {
+  background-color: $accentColorPink;
+  color: white;
+}
