@@ -34,7 +34,7 @@ https://github.com/dashimiko/rainbow/assets/94624781/5f929f0a-68bc-4e2f-b490-c5e
 
 - react-hook-form for form validation;
 
-- emailjs backend-as-a-service for sending emails from the feedback form;
+- emailjs - backend-as-a-service for sending emails from the feedback form;
 
 - pure-react-carousel for the slider;
 
