@@ -1,4 +1,4 @@
-# ParrotTale 🦜✏️💜
+# ParrotTale 🦜💜
 
 _The website is under development_
 

@@ -1,4 +1,6 @@
+/* eslint-disable import/no-extraneous-dependencies */
 import { NavLink } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 import './InformationBox.scss';
 
 function InformationBox() {
@@ -38,34 +40,38 @@ function InformationBox() {
       </ul>
       <ul className="footer__informaiton-list">
         <li className="footer__informaiton-item">
-          <a
-            href="https://github.com/dashimiko"
-            target="_blank"
-            rel="noreferrer"
+          <NavLink
+            to="/blog/parrots_pop_culture"
+            // target="_blank"
+            // rel="noreferrer"
             className="footer__informaiton-link"
           >
             Collaboration with the Masscult podcast
-          </a>
+          </NavLink>
         </li>
         <li className="footer__informaiton-item">
-          <a
-            href="#profiles"
+          <HashLink
+            smooth
+            to="/ParrotTale/#profiles"
+            // href="#profiles"
             // target="_blank"
             // rel="noreferrer"
             className="footer__informaiton-link"
           >
             Parrot&apos; profiles
-          </a>
+          </HashLink>
         </li>
         <li className="footer__informaiton-item">
-          <a
-            href="#faq"
+          <HashLink
+            // href="#faq"
+            smooth
+            to="/ParrotTale/#faq"
             // target="_blank"
             // rel="noreferrer"
             className="footer__informaiton-link"
           >
             FAQ
-          </a>
+          </HashLink>
         </li>
       </ul>
 
