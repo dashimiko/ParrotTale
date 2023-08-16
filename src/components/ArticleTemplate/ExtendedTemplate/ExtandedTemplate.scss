@@ -1,0 +1,28 @@
+@import '../../../commonStyles/commonStyles.scss';
+
+.extended-article-template_picture {
+  margin: 40px 0 0 0;
+  width: 70%;
+  max-width: 670px;
+}
+
+.extended-article-template__subtitle {
+  font-style: italic;
+  color: $violetDetails;
+  margin-bottom: 20px;
+}
+
+.extended-article-template__lead {
+  @extend %text__benefits;
+  @extend %null__item;
+  max-width: 800px;
+}
+
+.extended-article-template__block-title {
+  @extend %text__button_small;
+  min-height: 36px;
+}
+
+.extanded-article-template__paragraph {
+  max-width: 700px;
+}
