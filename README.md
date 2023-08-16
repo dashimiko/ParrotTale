@@ -2,6 +2,8 @@
 
 _The website is under development_
 
+[Project link](https://dashimiko.github.io/ParrotTale/)
+
 ParrotTales is a blog about parrots. It's a pet project in the truest sense of the word! As a web developer with a journalism background and a love for parrots, I've combined my skills to practice coding, share my knowledge about parrots, and simply have fun. I'm also actively involved in designing this project. For the design foundation, I took inspiration from a [Figma layout](https://www.figma.com/file/rBW1MkB8NrAauPoezuL1Rn/%F0%9F%8E%A8-Creative-Website-Template-for-Figma-Community?is-community-duplicate=1&fuid=954281859369484479), but I've had to refine and adapt many elements to suit my project's needs.
 
 ## What's Inside:
