@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ParrotTale/static/css/main.8ad9b531.css",
-    "main.js": "/ParrotTale/static/js/main.9b644386.js",
-    "static/media/whitebird_picture.jpg": "/ParrotTale/static/media/whitebird_picture.693cc79125b4ff119572.jpg",
-    "static/media/quiz_picture3.jpg": "/ParrotTale/static/media/quiz_picture3.24e9b892eaf691510cff.jpg",
-    "static/media/about-us-picture-kira-and-me.jpg": "/ParrotTale/static/media/about-us-picture-kira-and-me.d80277c3fe2e56d3e344.jpg",
-    "static/media/masscult_picture2.jpg": "/ParrotTale/static/media/masscult_picture2.539c11deb252fccd3e68.jpg",
+    "main.js": "/ParrotTale/static/js/main.5df0a90e.js",
+    "static/media/whitebird_picture.jpg": "/ParrotTale/static/media/whitebird_picture.d3acbbebcf1477d5be29.jpg",
+    "static/media/about-us-picture-kira-and-me.jpg": "/ParrotTale/static/media/about-us-picture-kira-and-me.25045f9c8d18c24a344e.jpg",
+    "static/media/quiz_picture3.jpg": "/ParrotTale/static/media/quiz_picture3.65ba8879c0130cb41d0a.jpg",
     "static/media/about-us-pic-kira3.jpg": "/ParrotTale/static/media/about-us-pic-kira3.a226d701bf0fba80c272.jpg",
-    "static/media/about-us-pic-kira2.jpg": "/ParrotTale/static/media/about-us-pic-kira2.0cf7359b802d8ae44d26.jpg",
-    "static/media/sixParrotPic.jpg": "/ParrotTale/static/media/sixParrotPic.0be66fa6881a006f6a64.jpg",
+    "static/media/about-us-pic-kira2.jpg": "/ParrotTale/static/media/about-us-pic-kira2.2dee4b2eb5aa064c3a4f.jpg",
+    "static/media/masscult_picture2.jpg": "/ParrotTale/static/media/masscult_picture2.31364f46ec4a7f7fcf46.jpg",
     "static/media/wiggle.svg": "/ParrotTale/static/media/wiggle.e564326910cf72f552c2.svg",
+    "static/media/sixParrotPic.jpg": "/ParrotTale/static/media/sixParrotPic.ba78b9a282159bcba3f9.jpg",
     "static/media/fiveParrotPic.jpg": "/ParrotTale/static/media/fiveParrotPic.906f66988804a339fc37.jpg",
     "static/media/dots.svg": "/ParrotTale/static/media/dots.c43ec37da025267ad2b0.svg",
     "static/media/icon-bird-3.svg": "/ParrotTale/static/media/icon-bird-3.cb8df9b003cf5df6869d.svg",
@@ -28,10 +28,10 @@
     "static/media/icon-chevron-left.svg": "/ParrotTale/static/media/icon-chevron-left.05e1c44d0c0acffa82e3.svg",
     "static/media/icon-chevron-right.svg": "/ParrotTale/static/media/icon-chevron-right.4c5aec347bfbf2a6ac43.svg",
     "main.8ad9b531.css.map": "/ParrotTale/static/css/main.8ad9b531.css.map",
-    "main.9b644386.js.map": "/ParrotTale/static/js/main.9b644386.js.map"
+    "main.5df0a90e.js.map": "/ParrotTale/static/js/main.5df0a90e.js.map"
   },
   "entrypoints": [
     "static/css/main.8ad9b531.css",
-    "static/js/main.9b644386.js"
+    "static/js/main.5df0a90e.js"
   ]
 }
