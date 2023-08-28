@@ -24,3 +24,12 @@
   right: -65px;
   background-image: url(../../../images/icons/icon-chevron-right.svg);
 }
+
+@media screen and (max-width: 767px) {
+  .carousel {
+    position: static;
+  }
+  .carousel__arrow {
+    display: none;
+  }
+}
