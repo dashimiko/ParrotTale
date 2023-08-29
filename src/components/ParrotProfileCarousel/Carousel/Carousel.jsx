@@ -100,10 +100,10 @@ function Carousel() {
     const handleResize = () => {
       const windowWidth = window.innerWidth;
 
-      if (windowWidth < 500) {
+      if (windowWidth < 800) {
         setVisibleSlides(1);
-      } else if (windowWidth < 800) {
-        setVisibleSlides(1);
+      } else if (windowWidth > 800 && windowWidth < 1150) {
+        setVisibleSlides(2);
       } else {
         setVisibleSlides(3);
       }

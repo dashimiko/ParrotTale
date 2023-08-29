@@ -227,6 +227,7 @@
     width: 224px;
     height: 183px;
     border-radius: 16px;
+    object-position: left;
   }
   .pictureBox__pic_3 {
     width: 84px;
@@ -265,5 +266,20 @@
   .pictureBox__fragment_left {
     display: none;
     width: 70px;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .pictureBox__pic_3 {
+    display: none;
+  }
+  .pictureBox__fragment_top {
+    justify-content: center;
+  }
+  .pictureBox__fragment_bottom {
+    justify-content: center;
+  }
+  .pictureBox__pic_6 {
+    width: 139px;
   }
 }
