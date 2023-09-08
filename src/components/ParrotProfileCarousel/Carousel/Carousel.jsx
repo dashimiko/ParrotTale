@@ -135,15 +135,16 @@ function Carousel() {
         <div className="parrots-profiles__card-box">
           {filteredArticles.map((card, index) => (
             <Slide index={index} key={card.id}>
-              <div
+              <ParrotCard card={card} />
+              {/* <div
                 style={{
                   width: '100%',
                   display: 'flex',
                   justifyContent: 'center',
                 }}
               >
-                <ParrotCard card={card} />
-              </div>
+
+              </div> */}
             </Slide>
           ))}
         </div>
