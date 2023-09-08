@@ -54,9 +54,15 @@
 }
 
 @media screen and (max-width: 1280px) {
-  .parrots-profiles__box{
+  .parrots-profiles__box {
     padding-right: 65px;
     padding-left: 65px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .parrots-profiles__box {
+    padding: 40px 25px;
   }
 }
 

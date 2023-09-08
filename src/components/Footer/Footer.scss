@@ -104,16 +104,25 @@
 }
 
 @media screen and (max-width: 1280px) {
-  .footer__content{
+  .footer__content {
     padding-right: 65px;
     padding-left: 65px;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1024px) {
+  .footer__content {
+    padding: 40px 25px;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    gap: 40px;
+  }
   .footer__wave {
     display: none;
   }
+}
+
+@media screen and (max-width: 767px) {
   .footer__content {
     max-width: 100%;
     margin: 0 auto;

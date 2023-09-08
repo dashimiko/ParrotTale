@@ -36,9 +36,19 @@
 }
 
 @media screen and (max-width: 1280px) {
-  .benefits__box{
+  .benefits__box {
     padding-right: 65px;
     padding-left: 65px;
+  }
+  .benefits__cardlist {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .benefits__box {
+    padding: 40px 25px;
   }
 }
 

@@ -107,22 +107,21 @@
 }
 
 @media screen and (min-width: 1441px) {
-  .promo__dots{
+  .promo__dots {
     display: none;
   }
 }
 
 @media screen and (max-width: 1280px) {
-  .promo{
+  .promo {
     padding-right: 65px;
     padding-left: 65px;
   }
 }
 
 @media screen and (max-width: 1024px) {
-  .promo{
-    padding-right: 25px;
-    padding-left: 25px;
+  .promo {
+    padding: 40px 25px;
   }
   .promo__dots {
     width: 123px;

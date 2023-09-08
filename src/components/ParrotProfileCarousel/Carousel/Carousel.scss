@@ -25,12 +25,15 @@
   background-image: url(../../../images/icons/icon-chevron-right.svg);
 }
 
+@media screen and (max-width: 1024px) {
+  .carousel__arrow {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .carousel {
     position: static;
     height: 600px;
-  }
-  .carousel__arrow {
-    display: none;
   }
 }
