@@ -35,6 +35,13 @@
   @include base-flex(row, 30px);
 }
 
+@media screen and (max-width: 1280px) {
+  .benefits__box{
+    padding-right: 65px;
+    padding-left: 65px;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .benefits__box {
     padding: 40px 15px;

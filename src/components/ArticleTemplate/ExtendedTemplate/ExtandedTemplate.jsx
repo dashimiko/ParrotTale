@@ -5,7 +5,7 @@ function ExtandedTemplate({ article }) {
     <section className="article-template">
       <h1 className="article-template__title">{article.title}</h1>
       <p className="article-template__paragraph extended-article-template__subtitle">
-        *{article.subTitle}
+        {article.subTitle}
       </p>
       <p className="article-template__paragraph extended-article-template__lead">
         {article.leadParagraph}

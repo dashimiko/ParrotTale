@@ -53,6 +53,13 @@
   margin-right: 30px;
 }
 
+@media screen and (max-width: 1280px) {
+  .parrots-profiles__box{
+    padding-right: 65px;
+    padding-left: 65px;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .parrots-profiles__box {
     width: 100%;
