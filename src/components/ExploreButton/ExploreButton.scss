@@ -64,6 +64,12 @@ $color_active: white;
   }
 }
 
+@media screen and (max-width: 1024px) {
+  .explore-button span{
+    font-size: 24px;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .explore-button {
     position: static;
@@ -82,4 +88,7 @@ $color_active: white;
       display: none;
     }
   }
+  .explore-button span {
+    font-size: 14px;
+}
 }

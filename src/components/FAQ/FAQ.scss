@@ -78,6 +78,19 @@ summary::-webkit-details-marker {
   transition: all 0.5s ease;
 }
 
+@media screen and (max-width: 1280px) {
+  .FAQ__box {
+    padding-right: 65px;
+    padding-left: 65px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .FAQ__box {
+    padding: 40px 25px;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .FAQ__box {
     max-width: 100%;

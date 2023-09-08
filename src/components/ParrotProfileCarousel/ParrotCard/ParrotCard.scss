@@ -92,6 +92,7 @@
 
 @media screen and (max-width: 767px) {
   .parrot-card {
+    height: 600px;
     padding: 24px;
     width: 48%;
     min-height: 392px;
@@ -104,7 +105,7 @@
   }
 
   .parrot-card__condition {
-    margin-bottom: 24px;
+    //margin-bottom: 24px;
     margin-left: 32px;
     font-weight: 500;
     font-size: 14px;
@@ -123,6 +124,7 @@
     font-size: 18px;
     line-height: 32px;
     letter-spacing: 0.2px;
+    margin: 0 auto;
   }
 }
 

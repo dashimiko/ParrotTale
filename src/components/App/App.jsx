@@ -15,7 +15,7 @@ function App() {
     <div className="App">
       <div className="App__container">
         <Routes>
-          <Route path="/rainbow" element={<HomePage />} />
+          <Route path="/ParrotTale" element={<HomePage />} />
           <Route
             path="/ticTacToe"
             element={

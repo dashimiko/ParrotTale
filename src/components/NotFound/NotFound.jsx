@@ -24,7 +24,7 @@ function NotFound() {
         </div>
         <div />
       </div>
-      <Link to="/rainbow" className="notfound__link link">
+      <Link to="/ParrotTale" className="notfound__link link">
         home
       </Link>
     </section>

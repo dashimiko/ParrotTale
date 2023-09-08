@@ -1,7 +1,7 @@
 {
-  "name": "rainbow",
+  "name": "ParrotTale",
   "version": "0.1.0",
-  "homepage": "https://dashimiko.github.io/rainbow",
+  "homepage": "https://dashimiko.github.io/ParrotTale",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
@@ -10,6 +10,7 @@
     "react-dom": "18.2.0",
     "react-hook-form": "^7.43.9",
     "react-router-dom": "^6.9.0",
+    "react-router-hash-link": "^2.4.3",
     "react-scripts": "5.0.1"
   },
   "scripts": {

@@ -20,7 +20,7 @@ function Navigation({ isBurgerOpen, onBurgerClick }) {
         >
           <li className="navigation__item">
             <NavLink
-              to="/rainbow"
+              to="/ParrotTale"
               className={(navData) =>
                 navData.isActive
                   ? 'navigation__link_active'
