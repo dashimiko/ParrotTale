@@ -18,3 +18,18 @@
   @extend %text__regular;
   @extend %null__item;
 }
+
+@media screen and (max-width: 767px) {
+  .result__title {
+    margin: 20px 0;
+    @include fonts(700, 18px, 32px);
+    letter-spacing: 0.25px;
+  }
+  .result__picture {
+    width: 100%;
+    max-width: 100%;
+  }
+  .result__text {
+    @include fonts(400, 14px, 24px);
+  }
+}

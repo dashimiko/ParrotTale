@@ -27,3 +27,30 @@
   // max-width: 500px;
   max-width: 60%;
 }
+
+@media screen and (max-width: 1280px) {
+  .quiz {
+    padding-right: 65px;
+    padding-left: 65px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .quiz {
+    padding: 40px 25px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .quiz__title {
+    @include fonts(700, 24px, 36px);
+    letter-spacing: 0.25px;
+  }
+  .answerOptions {
+    max-width: 100%;
+    margin: 20px 0 0 0;
+  }
+  .quiz__box {
+    margin: 0 0 20px 0;
+  }
+}
