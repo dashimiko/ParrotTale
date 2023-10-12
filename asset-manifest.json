@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ParrotTale/static/css/main.3d6c058d.css",
+    "main.css": "/ParrotTale/static/css/main.0e66ed0c.css",
     "main.js": "/ParrotTale/static/js/main.1e7f3717.js",
     "static/media/whitebird_picture.jpg": "/ParrotTale/static/media/whitebird_picture.d3acbbebcf1477d5be29.jpg",
     "static/media/about-us-picture-kira-and-me.jpg": "/ParrotTale/static/media/about-us-picture-kira-and-me.25045f9c8d18c24a344e.jpg",
@@ -27,11 +27,11 @@
     "static/media/icon-link-arrow.svg": "/ParrotTale/static/media/icon-link-arrow.d10b2573e4202fd3b48e.svg",
     "static/media/icon-chevron-left.svg": "/ParrotTale/static/media/icon-chevron-left.05e1c44d0c0acffa82e3.svg",
     "static/media/icon-chevron-right.svg": "/ParrotTale/static/media/icon-chevron-right.4c5aec347bfbf2a6ac43.svg",
-    "main.3d6c058d.css.map": "/ParrotTale/static/css/main.3d6c058d.css.map",
+    "main.0e66ed0c.css.map": "/ParrotTale/static/css/main.0e66ed0c.css.map",
     "main.1e7f3717.js.map": "/ParrotTale/static/js/main.1e7f3717.js.map"
   },
   "entrypoints": [
-    "static/css/main.3d6c058d.css",
+    "static/css/main.0e66ed0c.css",
     "static/js/main.1e7f3717.js"
   ]
 }
