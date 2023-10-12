@@ -69,7 +69,9 @@
     max-width: 100%;
   }
   .article-template__picture-box {
-    flex-direction: column;
+    flex-direction: row;
+    overflow: scroll;
+    flex-wrap: nowrap;
   }
   .article-template__text {
     margin-top: 20px;

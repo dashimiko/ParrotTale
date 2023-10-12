@@ -17,4 +17,18 @@
   flex-direction: row;
   gap: 30px;
   flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1280px) {
+  .articles-list__box {
+    padding-right: 65px;
+    padding-left: 65px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .articles-list__box {
+    padding: 40px 25px;
+  }
 }
