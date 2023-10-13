@@ -26,3 +26,22 @@
 .extanded-article-template__paragraph {
   max-width: 700px;
 }
+
+@media screen and (max-width: 767px) {
+  .extended-article-template__lead {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .extended-article-template__block-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    margin-top: 0;
+  }
+  .extended-article-template_picture {
+    margin: 20px 0 0 0;
+    width: 100%;
+    max-width: 100%;
+  }
+}

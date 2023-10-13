@@ -6,3 +6,10 @@
   color: $violetDetails;
   margin: 0;
 }
+
+@media screen and (max-width: 767px) {
+  .question {
+    @include fonts(700, 18px, 32px);
+    letter-spacing: 0.25px;
+  }
+}

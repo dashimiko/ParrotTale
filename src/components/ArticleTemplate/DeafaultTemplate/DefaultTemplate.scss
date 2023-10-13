@@ -38,3 +38,42 @@
   width: 100%;
   gap: 20px;
 }
+
+@media screen and (max-width: 1280px) {
+  .article-template {
+    padding-right: 65px;
+    padding-left: 65px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .article-template {
+    padding: 40px 25px;
+  }
+  .article-template__picture-box {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .article-template__title {
+    margin: 20px 0;
+    @include fonts(700, 18px, 32px);
+    letter-spacing: 0.25px;
+  }
+  .article-template__paragraph {
+    @include fonts(400, 14px, 24px);
+  }
+  .article-template__picture {
+    width: 100%;
+    max-width: 100%;
+  }
+  .article-template__picture-box {
+    flex-direction: row;
+    overflow: scroll;
+    flex-wrap: nowrap;
+  }
+  .article-template__text {
+    margin-top: 20px;
+  }
+}

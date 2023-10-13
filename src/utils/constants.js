@@ -321,7 +321,7 @@ const ARTICLES = [
     tags: ['profiles', 'breeds'],
     title: 'Lovebird',
     pictures: [
-      'https://betterpetslife.com/wp-content/uploads/2022/12/Love-birds.webp',
+      'https://birdsittingtoronto.ca/wp-content/uploads/2023/02/Love-birds5-jpg.webp',
     ],
     content: [
       {
@@ -473,6 +473,41 @@ const ARTICLES = [
       'There Are 21 Different Cockatoo Species',
     ],
     listType: 'grey',
+    type: 'default',
+  },
+  {
+    id: 'blue_macaw_profile',
+    tags: ['breeds', 'profiles'],
+    title: 'Blue Macaw',
+    pictures: [
+      'https://cff2.earth.com/uploads/2020/12/07120045/shutterstock_752619508.jpg',
+    ],
+    content: [
+      {
+        id: 44,
+        paragraph: [
+          'The Blue (or hyacinth) Macaw is an endangered vibrant parrot from Brazil. It is one of the largest parrots in the world. The macaw is very strong due to its powerful beak, making it almost invulnerable in the wild (except for humans, of course).',
+        ],
+      },
+      {
+        id: 45,
+        paragraph: [
+          "Although the macaw leads a peaceful lifestyle, it is also cunning and can show its temper. For example, it can sneak onto a farm and bite, scattering all the fruits from the harvest, even if the macaw doesn't like them.",
+        ],
+      },
+      {
+        id: 46,
+        paragraph: [
+          'Macaws enjoy spending time in the company of each other and gathering in small flocks of 6-12 individuals, but they also appreciate solitude. For instance, if a macaw discovers a tree with fruits, it starts behaving silently to avoid sharing with other parrots.',
+        ],
+      },
+    ],
+    listItems: [
+      'Largest parrot species in the world',
+      'Endangered species native to Brazil',
+      'Prefers solitude but forms small flocks',
+    ],
+    listType: 'green',
     type: 'default',
   },
 ];

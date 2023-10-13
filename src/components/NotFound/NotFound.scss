@@ -141,6 +141,26 @@
   border-bottom: 12px solid transparent;
 }
 
+@media screen and (max-width: 430px) {
+  .container {
+    margin-right: 60%;
+  }
+  .text-figure {
+    width: 100px;
+    height: 75px;
+    margin: 85px 310px;
+  }
+  .notfound__subtitle,
+  .aaaa {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+  }
+  .detail {
+    margin: 115px 291px;
+  }
+}
+
 @keyframes aaaa {
   0% {
     transform: translateX(0);

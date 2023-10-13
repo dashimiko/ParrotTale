@@ -3,9 +3,12 @@
 .article-card {
   display: flex;
   flex-direction: column;
-  max-width: 370px;
+  //max-width: 370px;
   min-height: 127px;
   animation: fadeIn 0.5s ease-in-out;
+  //flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 370px;
 }
 
 .article-card__picture {
@@ -25,6 +28,7 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
+  max-width: 320px;
 }
 
 .article-card__text {
@@ -67,6 +71,12 @@
   @extend %button__transition;
   &:hover {
     transform: translate(5px, 0);
+  }
+}
+
+@media screen and (max-width: 567px) {
+  .article-card {
+    max-width: 100%;
   }
 }
 
