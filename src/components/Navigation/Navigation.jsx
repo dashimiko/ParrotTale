@@ -71,9 +71,7 @@ function Navigation({ isBurgerOpen, onBurgerClick }) {
       <button
         type="button"
         className={`navigation__hamburger-menu ${
-          isBurgerOpen
-            ? 'navigation__hamburger-menu_fixed navigation_active'
-            : ''
+          isBurgerOpen ? 'navigation_active' : ''
         }`}
         onClick={onBurgerClick}
       >

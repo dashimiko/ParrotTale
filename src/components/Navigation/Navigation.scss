@@ -53,13 +53,15 @@
   .navigation__hamburger-menu {
     display: block;
     z-index: 5;
-    position: absolute;
+    //position: absolute;
+    position: relative;
     width: 20px;
     height: 20px;
     cursor: pointer;
     transition-duration: 0.25s;
     -webkit-tap-highlight-color: transparent;
-    left: calc(100% - 50px);
+    //left: calc(100% - 50px);
+    right: 0;
     border: none;
     background-color: transparent;
     margin: 10px;
@@ -105,7 +107,8 @@
 
   .navigation__hamburger-menu_fixed {
     position: fixed;
-    left: calc(100% - 50px);
+    //left: calc(100% - 50px);
+    right: 0;
     display: block;
     z-index: 5;
     width: 20px;
