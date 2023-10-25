@@ -2,7 +2,7 @@ import './ExtandedTemplate.scss';
 
 function ExtandedTemplate({ article }) {
   return (
-    <section className="article-template">
+    <>
       <h1 className="article-template__title">{article.title}</h1>
       <p className="article-template__paragraph extended-article-template__subtitle">
         {article.subTitle}
@@ -42,7 +42,7 @@ function ExtandedTemplate({ article }) {
           </div>
         ))}
       </div>
-    </section>
+    </>
   );
 }
 

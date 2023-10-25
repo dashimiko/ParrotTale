@@ -47,7 +47,11 @@ function PictureBox() {
               Parrots in pop culture
             </span>
           </NavLink>
-          <ExploreButton link={buttonlink} localStyleName={localstyle} />
+          <ExploreButton
+            link={buttonlink}
+            localStyleName={localstyle}
+            text="Learn more"
+          />
         </div>
 
         <div className="pictureBox__fragment-container">
@@ -160,7 +164,11 @@ function PictureBox() {
                 alt="нужен осмысленный альт"
               />
 
-              <ExploreButton link={buttonlink} localStyleName={localstyle} />
+              <ExploreButton
+                link={buttonlink}
+                localStyleName={localstyle}
+                text="Learn more"
+              />
             </div>
           </div>
         </div>

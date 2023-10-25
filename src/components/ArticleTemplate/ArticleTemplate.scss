@@ -1,6 +1,8 @@
 @import '../../commonStyles/commonStyles.scss';
 
 .article-template {
+  display: flex;
+  flex-direction: column;
   max-width: 1440px;
   margin: 0 auto;
   padding: 16px 135px;
@@ -37,4 +39,9 @@
   display: flex;
   width: 100%;
   gap: 20px;
+}
+
+.back-button {
+  max-width: 224px;
+  width: 100%;
 }
