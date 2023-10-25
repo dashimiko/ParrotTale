@@ -2,7 +2,7 @@ import './DefaultTemplate.scss';
 
 function DefaultTemplate({ article }) {
   return (
-    <section className="article-template">
+    <>
       <h1 className="article-template__title">{article.title}</h1>
       <div className="article-template__picture-box">
         {article.pictures.map((picture) => (
@@ -21,7 +21,7 @@ function DefaultTemplate({ article }) {
           </p>
         ))}
       </div>
-    </section>
+    </>
   );
 }
 

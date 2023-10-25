@@ -3,6 +3,11 @@
 .FAQ__container {
   background-color: $mainBackgroundColor;
   width: 100%;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: all 0.5s ease 0s;
 }
 
 .FAQ__box {
@@ -11,12 +16,14 @@
   max-width: 1440px;
   padding: 80px 135px;
   margin: 0 auto;
+  transition: all 0.5s ease 0s;
 }
 
 .FAQ__title {
   @extend %title__small;
   @extend %null__item;
   margin-bottom: 30px;
+  transition: all 0.5s ease 0s;
 }
 
 .FAQ__accordion-box {
@@ -28,6 +35,7 @@
   font-size: 1.5rem;
   margin-bottom: 15px;
   box-sizing: border-box;
+  transition: all 0.5s ease 0s;
 }
 
 .FAQ__question {
@@ -42,12 +50,14 @@
   transition: all 0.5s ease;
   &::-webkit-details-marker {
     display: none;
+    transition: all 0.5s ease 0s;
   }
   &::after {
     content: '\002B';
     font-size: 36px;
     font-weight: 300;
     transition: all 0.5s ease;
+    transform: rotate(0);
   }
   &:hover {
     color: $violetDetails;
@@ -56,6 +66,7 @@
 
 summary::-webkit-details-marker {
   display: none;
+  transition: all 0.5s ease 0s;
 }
 
 .FAQ__accordion-box[open] .FAQ__question {
@@ -65,10 +76,16 @@ summary::-webkit-details-marker {
 }
 
 .FAQ__accordion-box[open] .FAQ__question:after {
+  -webkit-transform: rotate(45deg);
+  will-change: transform;
+  content: '\002B';
+  -webkit-transform-origin: center;
+  transform-origin: center;
   transform: rotate(45deg);
   font-size: 36px;
   font-weight: 300;
-  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.3s ease;
 }
 
 .FAQ__accordion-box[open] .FAQ__answer {

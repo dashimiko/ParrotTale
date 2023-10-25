@@ -27,8 +27,9 @@
   width: 868px;
   height: 768px;
   border-radius: 99px;
-  //transform: rotate(-45deg);
   //если не хочется крутить фигуру, ее положение может быть таким
+  //если не хочется, надо закомментировать
+  transform: rotate(-45deg);
   opacity: 0.5;
   top: -20%;
   right: -10%;
@@ -90,7 +91,7 @@
   display: none;
 }
 
-@keyframes rotation {
+/* @keyframes rotation {
   from {
     transform: rotate(0deg);
   }
@@ -104,7 +105,7 @@
   animation-duration: 20s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-}
+} */
 
 @media screen and (min-width: 1441px) {
   .promo__dots {
@@ -139,6 +140,8 @@
     background-size: contain;
   }
   .promo__figure {
+    //если фигура крутится,transform надо убрать
+    transform: none;
     animation: none;
     background-color: transparent;
     opacity: 1;
