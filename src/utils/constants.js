@@ -139,8 +139,43 @@ const POP_CULTURE_ARTICLE = {
   ],
 };
 
+const ABOUT_SMARTNESS = {
+  id: 'about-smartness',
+  type: 'default',
+  tags: ['smartness'],
+  title: 'Jacquot Prove Their Cognitive Abilities',
+  pictures: ['https://nonfiction.ru/media/news/2023.10/popugai_love.jpg'],
+  content: [
+    {
+      id: 47,
+      paragraph: [
+        'African grey parrots, also known as Jacquot parrots, have astounded scientists with their cognitive and communicative abilities, which are comparable to those of seven-year-old children. Research conducted at St. Petersburg State University (SPbU) and Harvard University has revealed the remarkable mental capacities of these parrots. They can vocally encode their responses, assess the probability of events, and establish connections between objects and their symbols.',
+      ],
+    },
+    {
+      id: 48,
+      paragraph: [
+        'Professor Irene Pepperberg, a renowned behavioral neurobiologist and recipient of numerous scientific awards, presented the findings of her research at a lecture at SPbU. She explained that Jacquot parrots can memorize and use the names of objects, differentiate colors and shapes, and operate the concepts of categories. They are capable of judging the likelihood of events and utilizing the process of elimination, making them intellectual entities in the world of living beings.',
+      ],
+    },
+    {
+      id: 49,
+      paragraph: [
+        'Interestingly, Jacquot parrots possess a brain region functionally equivalent to the neocortex in primates, responsible for complex mental functions. This area in their brains contains, on average, twice the number of neurons as primates of similar body mass. These discoveries underscore the extraordinary abilities of Jacquot parrots and have piqued the interest of the scientific community.',
+      ],
+    },
+    {
+      id: 50,
+      paragraph: [
+        'Professor Pepperberg emphasized that their research not only expands the understanding of the intellectual capabilities of parrots but also highlights the importance of intuition and courage in scientific research. Her work with a parrot named Alex, who learned hundreds of English words, along with other parrots, continues to make a significant contribution to the understanding of animal capabilities and advance the field of behavioral neurobiology.',
+      ],
+    },
+  ],
+};
+
 const ARTICLES = [
   POP_CULTURE_ARTICLE,
+  ABOUT_SMARTNESS,
   {
     id: 'сockatiel_profile',
     tags: ['breeds', 'profiles'],
@@ -516,6 +551,7 @@ const TAG_COLORS = {
   profiles: 'green',
   breeds: 'blue',
   top10: 'pink',
+  smartness: 'violet',
 };
 
 const QUIZ_QUESTIONS = [

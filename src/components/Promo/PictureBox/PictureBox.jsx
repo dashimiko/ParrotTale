@@ -97,11 +97,12 @@ function PictureBox() {
               src={parrotPicture5}
               alt="нужен осмысленный альт"
             />
-            <a
+            <NavLink
               className="pictureBox__overlay"
               href={buttonlink}
-              target="_blank"
-              rel="noreferrer"
+              to="/blog/about-smartness"
+              // target="_blank"
+              // rel="noreferrer"
             >
               <img
                 className="pictureBox__pic_6"
@@ -109,7 +110,7 @@ function PictureBox() {
                 alt="нужен осмысленный альт"
               />
               <span className="pictureBox__pic6-headline">About smartness</span>
-            </a>
+            </NavLink>
             <img
               className="pictureBox__pic_7"
               src={parrotPicture7}
