@@ -6,9 +6,6 @@ function Result({ quizResult }) {
     (result) => result.type === quizResult
   );
 
-  console.log(quizResult);
-  console.log(resultObject);
-
   return (
     <div className="result">
       <h3 className="result__title">You are {resultObject.type} 💛</h3>
@@ -16,6 +13,7 @@ function Result({ quizResult }) {
         className="result__picture"
         src={resultObject.picture}
         alt={resultObject.type}
+        loading="lazy"
       />
       <div className="article-template__text">
         {resultObject.content.map((paragraph) => (

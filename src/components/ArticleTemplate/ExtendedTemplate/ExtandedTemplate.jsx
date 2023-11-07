@@ -17,6 +17,7 @@ function ExtandedTemplate({ article }) {
             src={picture}
             alt={picture}
             key={picture}
+            loading="lazy"
           />
         ))}
       </div>
@@ -38,6 +39,7 @@ function ExtandedTemplate({ article }) {
               className="article-template__picture extended-article-template_picture"
               src={block.picture}
               alt={block.picture}
+              loading="lazy"
             />
           </div>
         ))}
