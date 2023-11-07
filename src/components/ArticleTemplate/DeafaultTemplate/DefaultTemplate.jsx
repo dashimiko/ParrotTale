@@ -11,6 +11,7 @@ function DefaultTemplate({ article }) {
             src={picture}
             alt={picture}
             key={picture}
+            loading="lazy"
           />
         ))}
       </div>
