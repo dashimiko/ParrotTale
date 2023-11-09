@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import './TicTacToe.scss';
 import Square from './Square/Square';
-import CelebrationButton from '../CelebrationButton/СelebrationButton';
+import CelebrationButton from '../UI/CelebrationButton/СelebrationButton';
 
 function calculateWinner(squares) {
   const lines = [

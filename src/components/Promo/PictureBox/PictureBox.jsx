@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom';
-import ExploreButton from '../../ExploreButton/ExploreButton';
+import ExploreButton from '../../UI/ExploreButton/ExploreButton';
 import './PictureBox.scss';
 // import parrotPicture from '../../../images/firstParrotPic.jpg';
 import parrotPicture from '../../../images/masscult_picture2.jpg';

@@ -4,7 +4,7 @@ import { useState } from 'react';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import { useForm } from 'react-hook-form';
 import emailjs from '@emailjs/browser';
-import CelebrationButton from '../../CelebrationButton/СelebrationButton';
+import CelebrationButton from '../../UI/CelebrationButton/СelebrationButton';
 import './ContactForm.scss';
 
 function ContactForm() {

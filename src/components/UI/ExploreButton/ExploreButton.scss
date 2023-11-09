@@ -1,4 +1,4 @@
-@import '../../commonStyles/commonStyles.scss';
+@import '../../../commonStyles/commonStyles.scss';
 
 $color_inactive: #111;
 $color_active: white;
@@ -65,7 +65,7 @@ $color_active: white;
 }
 
 @media screen and (max-width: 1024px) {
-  .explore-button span{
+  .explore-button span {
     font-size: 24px;
   }
 }
@@ -90,5 +90,5 @@ $color_active: white;
   }
   .explore-button span {
     font-size: 14px;
-}
+  }
 }

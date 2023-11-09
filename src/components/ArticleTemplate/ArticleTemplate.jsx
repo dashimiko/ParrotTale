@@ -3,11 +3,10 @@ import { useLocation } from 'react-router-dom';
 import ScrollToTopOnMount from '../ScrollToTopMount/ScrollToTopMount';
 import DefaultTemplate from './DeafaultTemplate/DefaultTemplate';
 import ExtandedTemplate from './ExtendedTemplate/ExtandedTemplate';
-import ExploreButton from '../ExploreButton/ExploreButton';
+import ReturnButton from '../UI/ReturnButton/ReturnButton';
 
 function ArticleTemplate({ article, type }) {
   const Location = useLocation();
-  console.log(Location);
   return (
     <>
       <ScrollToTopOnMount />
@@ -17,13 +16,7 @@ function ArticleTemplate({ article, type }) {
         ) : (
           <ExtandedTemplate article={article} />
         )}
-        {Location.pathname !== '/about-us' && (
-          <ExploreButton
-            link="/blog"
-            text="Back to List"
-            localStyleName="back-button"
-          />
-        )}
+        {Location.pathname !== '/about-us' && <ReturnButton link="/blog" />}
       </section>
     </>
   );

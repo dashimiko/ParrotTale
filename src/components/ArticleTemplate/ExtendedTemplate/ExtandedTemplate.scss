@@ -1,5 +1,11 @@
 @import '../../../commonStyles/commonStyles.scss';
 
+.article-template__block-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
 .extended-article-template_picture {
   margin: 40px 0 0 0;
   width: 70%;
@@ -20,6 +26,7 @@
 
 .extended-article-template__block-title {
   @extend %text__button_small;
+  //@extend %null__item;
   min-height: 36px;
 }
 

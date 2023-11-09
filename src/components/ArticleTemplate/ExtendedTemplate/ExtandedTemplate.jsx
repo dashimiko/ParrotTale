@@ -23,7 +23,7 @@ function ExtandedTemplate({ article }) {
       </div>
       <div className="article-template__text">
         {article.content.map((block) => (
-          <div key={block.id}>
+          <div key={block.id} className="article-template__block-text">
             <p className="article-template__headline extended-article-template__block-title">
               {block.headline}
             </p>
@@ -35,12 +35,14 @@ function ExtandedTemplate({ article }) {
                 {paragraph}
               </p>
             ))}
-            <img
-              className="article-template__picture extended-article-template_picture"
-              src={block.picture}
-              alt={block.picture}
-              loading="lazy"
-            />
+            {block.picture && (
+              <img
+                className="article-template__picture extended-article-template_picture"
+                src={block.picture}
+                alt={block.picture}
+                loading="lazy"
+              />
+            )}
           </div>
         ))}
       </div>
